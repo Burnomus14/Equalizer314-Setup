@@ -1,0 +1,87 @@
+{
+	"name": "PoPiano🪘 MDMonax..Envelope 36hz",
+	"preamp": -0.0016687011811882257,
+	"parametric": true,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 2.9648313522338867,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 165,
+			"q": 0.6971009969711304,
+			"gain": -5.0456624031066895,
+			"color": 0
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 45,
+			"q": 3.517162322998047,
+			"gain": -8.039026260375977,
+			"color": 0
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 165,
+			"q": 0.5013934373855591,
+			"gain": 7.009132385253906,
+			"color": 0
+		},
+		{
+			"type": 4,
+			"channels": 0,
+			"frequency": 36,
+			"q": 6.023921489715576,
+			"gain": 4.954337120056152,
+			"color": 0
+		},
+		{
+			"type": 4,
+			"channels": 0,
+			"frequency": 50,
+			"q": 4.753856658935547,
+			"gain": -5.091324329376221,
+			"color": 0
+		},
+		{
+			"type": 4,
+			"channels": 0,
+			"frequency": 70,
+			"q": 12.0,
+			"gain": 8.01369857788086,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 55,
+			"q": 0.4508134722709656,
+			"gain": -7.968036651611328,
+			"color": 0
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 250,
+			"q": 0.8019993901252747,
+			"gain": 5.0456624031066895,
+			"color": 0
+		}
+	]
+}

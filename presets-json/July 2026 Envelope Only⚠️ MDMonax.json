@@ -1,0 +1,135 @@
+{
+	"name": "July 2026 Envelope Only⚠️ MDMonax",
+	"preamp": 0.0,
+	"parametric": true,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 7.428269863128662,
+			"color": 0
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 50,
+			"q": 0.12831485271453857,
+			"gain": -9.977168083190918,
+			"color": -7859968
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 50,
+			"q": 1.4975322484970093,
+			"gain": 10.032953262329102,
+			"color": -7859968
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 170,
+			"q": 1.498813271522522,
+			"gain": 5.036530494689941,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 142,
+			"q": 1.0039000511169434,
+			"gain": 5.103945255279541,
+			"color": 0
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 45,
+			"q": 0.2564537525177002,
+			"gain": -11.027397155761719,
+			"color": 0
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 85,
+			"q": 0.9852234721183777,
+			"gain": 9.977168083190918,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 30,
+			"q": 0.20177198946475983,
+			"gain": -15.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 60,
+			"q": 0.20177198946475983,
+			"gain": 4.977168083190918,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 125,
+			"q": 0.20177198946475983,
+			"gain": -6.255707263946533,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 4601,
+			"q": 0.20177198946475983,
+			"gain": 4.962006092071533,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 12966,
+			"q": 1.4266372919082642,
+			"gain": 5.022831439971924,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 6321,
+			"q": 7.205772399902344,
+			"gain": -4.9543375968933105,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 5737,
+			"q": 0.3618873655796051,
+			"gain": -5.9360737800598145,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 11909,
+			"q": 0.3618873655796051,
+			"gain": 9.817351341247559,
+			"color": 0
+		}
+	]
+}

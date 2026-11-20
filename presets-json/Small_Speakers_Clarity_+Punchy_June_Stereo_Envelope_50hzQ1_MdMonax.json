@@ -1,0 +1,79 @@
+{
+	"name": "[Small Speakers] Clarity +Punchy June Stereo Envelope 50hzQ1 MdMonax",
+	"preamp": -0.0016687011811882257,
+	"parametric": true,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 2.943568229675293,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 2.9986038208007812,
+			"color": 0
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 2.059060573577881,
+			"gain": 10.02283000946045,
+			"color": -6710989
+		},
+		{
+			"type": 4,
+			"channels": 0,
+			"frequency": 60,
+			"q": 0.9972909688949585,
+			"gain": -15.0,
+			"color": -7829368
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 142,
+			"q": 0.6031950116157532,
+			"gain": 4.969498634338379,
+			"color": -7829368
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 127,
+			"q": 2.1991562843322754,
+			"gain": -15.0,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 10626,
+			"q": 1.4936950206756592,
+			"gain": 1.976180076599121,
+			"color": -7859968
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 315,
+			"q": 0.7114031910896301,
+			"gain": 2.968035936355591,
+			"color": -15649895
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 630,
+			"q": 1.4971541166305542,
+			"gain": 3.0365288257598877,
+			"color": -15623885
+		}
+	]
+}

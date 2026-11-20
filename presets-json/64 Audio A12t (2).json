@@ -1,0 +1,103 @@
+{
+	"name": "64 Audio A12t (2)",
+	"preamp": -7.199999809265137,
+	"parametric": false,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 15.0,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 9.778639793395996,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 31,
+			"q": 0.0,
+			"gain": -15.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 62,
+			"q": 0.0,
+			"gain": 11.915924072265625,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 124,
+			"q": 0.0,
+			"gain": 3.9150471687316895,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 249,
+			"q": 0.0,
+			"gain": -15.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 498,
+			"q": 0.0,
+			"gain": -0.16966938972473145,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 996,
+			"q": 0.0,
+			"gain": 0.03251910209655762,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1995,
+			"q": 0.0,
+			"gain": 0.018768310546875,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 3993,
+			"q": 0.0,
+			"gain": 6.787734031677246,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 7993,
+			"q": 0.0,
+			"gain": 12.144893646240234,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 16000,
+			"q": 0.0,
+			"gain": 0.2743309736251831,
+			"color": 0
+		}
+	]
+}

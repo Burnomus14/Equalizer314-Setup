@@ -1,0 +1,143 @@
+{
+	"name": "Headphones FUNKI-Nude MDMonax",
+	"preamp": 0.0,
+	"parametric": true,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 125,
+			"q": 1.0499999523162842,
+			"gain": -4.9543375968933105,
+			"color": 0
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 153,
+			"q": 0.7200000286102295,
+			"gain": -7.599999904632568,
+			"color": -15649895
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 625,
+			"q": 0.8500000238418579,
+			"gain": 1.5559405088424683,
+			"color": -15623885
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 3612,
+			"q": 4.820000171661377,
+			"gain": -4.0,
+			"color": -6710989
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 398,
+			"q": 2.180000066757202,
+			"gain": 1.0148513317108154,
+			"color": -7829368
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 8000,
+			"q": 0.8284737467765808,
+			"gain": 4.499999046325684,
+			"color": -6750055
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 2525,
+			"q": 3.009999990463257,
+			"gain": 2.5514869689941406,
+			"color": -7859968
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 1373,
+			"q": 2.5199999809265137,
+			"gain": -1.5,
+			"color": -16772728
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 1953,
+			"q": 3.2300000190734863,
+			"gain": 1.0,
+			"color": -15628237
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 3166,
+			"q": 5.420000076293945,
+			"gain": -1.7999999523162842,
+			"color": -7829453
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 18836,
+			"q": 0.8567261099815369,
+			"gain": 9.454143524169922,
+			"color": -7829368
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 56,
+			"q": 0.60590660572052,
+			"gain": 15.0,
+			"color": -6750055
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 42,
+			"q": 0.60590660572052,
+			"gain": 15.0,
+			"color": -7859968
+		},
+		{
+			"type": 4,
+			"channels": 0,
+			"frequency": 108,
+			"q": 3.2047646045684814,
+			"gain": 15.0,
+			"color": -15649895
+		},
+		{
+			"type": 4,
+			"channels": 0,
+			"frequency": 170,
+			"q": 2.0269463062286377,
+			"gain": 10.022831916809082,
+			"color": -15623885
+		}
+	]
+}

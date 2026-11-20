@@ -1,0 +1,55 @@
+{
+	"name": "Front💤Punchy 50hz",
+	"preamp": -0.0016687011811882257,
+	"parametric": true,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 7.5096755027771,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 5.346285343170166,
+			"color": 0
+		},
+		{
+			"type": 4,
+			"channels": 0,
+			"frequency": 44,
+			"q": 12.0,
+			"gain": -9.931506156921387,
+			"color": -15649895
+		},
+		{
+			"type": 5,
+			"channels": 0,
+			"frequency": 518,
+			"q": 0.3250291347503662,
+			"gain": 1.1288434267044067,
+			"color": -15623885
+		},
+		{
+			"type": 4,
+			"channels": 0,
+			"frequency": 57,
+			"q": 6.550394058227539,
+			"gain": 3.039339780807495,
+			"color": -7829368
+		},
+		{
+			"type": 4,
+			"channels": 0,
+			"frequency": 106,
+			"q": 4.064358234405518,
+			"gain": 15.0,
+			"color": -6750055
+		}
+	]
+}

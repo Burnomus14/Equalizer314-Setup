@@ -1,0 +1,88 @@
+[{
+	"name": "Punchy Bass vijay",
+	"preamp": 3.0,
+	"parametric": true,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 3.976802349090576,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 7.531396865844727,
+			"color": 0
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 165,
+			"q": 2.0,
+			"gain": 5.999999523162842,
+			"color": -16764160
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 334,
+			"q": 1.5045000314712524,
+			"gain": 2.7000010013580322,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 400,
+			"q": 1.0,
+			"gain": 1.9999998807907104,
+			"color": -6750055
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 334,
+			"q": 1.5042999982833862,
+			"gain": 2.712435722351074,
+			"color": -7829453
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 400,
+			"q": 1.0,
+			"gain": -1.9999998807907104,
+			"color": -7859968
+		},
+		{
+			"type": 4,
+			"channels": 2,
+			"frequency": 275,
+			"q": 0.8578382730484009,
+			"gain": 0.0,
+			"color": -16772728
+		},
+		{
+			"type": 5,
+			"channels": 1,
+			"frequency": 275,
+			"q": 0.8600000143051147,
+			"gain": 0.0,
+			"color": -15628237
+		},
+		{
+			"type": 0,
+			"channels": 2,
+			"frequency": 167,
+			"q": 1.4390500783920288,
+			"gain": 0.0,
+			"color": -8947849
+		}
+	]
+}
+]
