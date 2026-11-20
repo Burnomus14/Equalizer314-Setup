@@ -1,18 +1,15 @@
 # Equalizer314 Audio Setup, Presets & Virtual Surround
 
-A curated collection of converted Poweramp parametric EQ presets, a privacy-cleaned Equalizer314 master restore backup, and HeSuVi Virtual Surround HRIR files. Click any link below to download individual presets directly or restore the full pack in one tap.
+A curated collection of converted Poweramp parametric EQ presets, a privacy-cleaned Equalizer314 master restore backup, and HeSuVi Virtual Surround HRIR files.
 
-## Download Equalizer314 App
+## One-Click Download Portal (Instant File Downloads)
 
-Don't have Equalizer314 installed yet? Grab the latest APK (such as Equalizer314-v0.0.23-beta or newer) directly from the releases page:
+Because GitHub opens raw .txt and .json files in a browser preview tab, use the **One-Click Download Page** below for instant file downloads with search filtering:
 
-* **Equalizer314 Releases (APKs):** [https://github.com/bearinmindcat/Equalizer314/releases](https://github.com/bearinmindcat/Equalizer314/releases)
-
-## Direct Downloads (Full Pack & Master Backup)
-
-* **Download All Presets in One File (Equalizer314 Master Restore):** [Equalizer314-RESTORE.json](https://githubusercontent.com/backups/Equalizer314-RESTORE.json)
-* **Download Entire Repository as ZIP:** [Equalizer314-Setup-main.zip](https://github.com)
-* **Browse Folders:** [presets-apo/](presets-apo/) | [presets-json/](presets-json/) | [hrir-surround/](hrir-surround/)
+* **Open Instant Download Page:** [https://github.io](https://github.io) *(Enable GitHub Pages in repo Settings -> Pages -> Deploy from main branch)*
+* **Download Equalizer314 App (APKs):** [https://github.com/bearinmindcat/Equalizer314/releases](https://github.com/bearinmindcat/Equalizer314/releases)
+* **Download Master Restore Backup:** [Equalizer314-RESTORE.json](https://githubusercontent.com/backups/Equalizer314-RESTORE.json) *(Right-click -> **Save link as...** or press Ctrl+S)*
+* **Download Full Pack as ZIP:** [Equalizer314-Setup-main.zip](https://github.com)
 
 ## Quick Restore & Setup Commands (ADB)
 
@@ -29,91 +26,91 @@ Get-ChildItem "hrir-surround/*.wav" | ForEach-Object { adb push $_.FullName "/sd
 
 ## Parametric EQ Presets (79 Profiles)
 
-| # | Preset Name | Recommended Device | Preamp | Active Bands | Direct Download |
+> **Tip:** Clicking a .txt link on GitHub opens the raw preset text—press **Ctrl+S** (or tap **Share / Download** on mobile) to save it, or use the [Instant Download Page](https://github.io) for one-tap downloads.
+
+| # | Preset Name | Recommended Device | Preamp | Active Bands | Raw File |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | **15 inch 36hz  MdMonax stereo Envelope** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 bands | [Download .txt](https://githubusercontent.com/presets-apo/15%20inch%2036hz%20%20MdMonax%20stereo%20Envelope.txt) |
-| 2 | **64 Audio A12t 2** | Earbuds / TWS / IEMs | -7.20 dB | 12 bands | [Download .txt](https://githubusercontent.com/presets-apo/64%20Audio%20A12t%202.txt) |
-| 3 | **70hzBasstoneSlow Woofer bass No kick stereo Mdmonax** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 34 bands | [Download .txt](https://githubusercontent.com/presets-apo/70hzBasstoneSlow%20Woofer%20bass%20No%20kick%20stereo%20Mdmonax.txt) |
-| 4 | **80hzGroot Bass Stereo Cascade MdMonax** | General / Multi-Device | 0.00 dB | 32 bands | [Download .txt](https://githubusercontent.com/presets-apo/80hzGroot%20Bass%20Stereo%20Cascade%20MdMonax.txt) |
-| 5 | **Air** | General / Multi-Device | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Air.txt) |
-| 6 | **Apex** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Apex.txt) |
-| 7 | **Apple AirPods 4 ANC on** | Earbuds / TWS / IEMs | 2.40 dB | 20 bands | [Download .txt](https://githubusercontent.com/presets-apo/Apple%20AirPods%204%20ANC%20on.txt) |
-| 8 | **Aura** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Aura.txt) |
-| 9 | **Balance** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Balance.txt) |
-| 10 | **Behringer 2 smooth 36hz MdMonax stereo** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 bands | [Download .txt](https://githubusercontent.com/presets-apo/Behringer%202%20smooth%2036hz%20MdMonax%20stereo.txt) |
-| 11 | **Behringer My best  Outdoor Md Monax 50hzQ050 Trebbe 6463 Q090** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 8 bands | [Download .txt](https://githubusercontent.com/presets-apo/Behringer%20My%20best%20%20Outdoor%20Md%20Monax%2050hzQ050%20Trebbe%206463%20Q090.txt) |
-| 12 | **BoomBass Djsound MdMonax 50hz** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 32 bands | [Download .txt](https://githubusercontent.com/presets-apo/BoomBass%20Djsound%20MdMonax%2050hz.txt) |
-| 13 | **CarBass  BSpider MDMonax** | Car Audio / Subwoofer | 0.00 dB | 20 bands | [Download .txt](https://githubusercontent.com/presets-apo/CarBass%20%20BSpider%20MDMonax.txt) |
-| 14 | **Carsound outdoor MDMonax** | Car Audio / Subwoofer | 0.00 dB | 14 bands | [Download .txt](https://githubusercontent.com/presets-apo/Carsound%20outdoor%20MDMonax.txt) |
-| 15 | **Carsound outdoor V2 MdMonax** | Car Audio / Subwoofer | 0.00 dB | 18 bands | [Download .txt](https://githubusercontent.com/presets-apo/Carsound%20outdoor%20V2%20MdMonax.txt) |
-| 16 | **Carsub on HomeAVCReciever MdMonax2** | Car Audio / Subwoofer | 0.00 dB | 32 bands | [Download .txt](https://githubusercontent.com/presets-apo/Carsub%20on%20HomeAVCReciever%20MdMonax2.txt) |
-| 17 | **Catalyst** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Catalyst.txt) |
-| 18 | **CentreEarphonesMDMonax** | Earbuds / TWS / IEMs | 0.00 dB | 35 bands | [Download .txt](https://githubusercontent.com/presets-apo/CentreEarphonesMDMonax.txt) |
-| 19 | **Classical Sony MDMonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 41 bands | [Download .txt](https://githubusercontent.com/presets-apo/Classical%20Sony%20MDMonax.txt) |
-| 20 | **Classical Sony with  bassMDMonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 41 bands | [Download .txt](https://githubusercontent.com/presets-apo/Classical%20Sony%20with%20%20bassMDMonax.txt) |
-| 21 | **Clear Noise CancelV2 MdMonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 42 bands | [Download .txt](https://githubusercontent.com/presets-apo/Clear%20Noise%20CancelV2%20MdMonax.txt) |
-| 22 | **Comfort** | Headphones / Earbuds (All-Rounder) | 0.05 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Comfort.txt) |
-| 23 | **Curva Harman** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 12 bands | [Download .txt](https://githubusercontent.com/presets-apo/Curva%20Harman.txt) |
-| 24 | **Dance Waves MDMonax 80hz** | General / Multi-Device | 0.00 dB | 25 bands | [Download .txt](https://githubusercontent.com/presets-apo/Dance%20Waves%20MDMonax%2080hz.txt) |
-| 25 | **Deep 45 MdMonax 45hz** | General / Multi-Device | 0.00 dB | 48 bands | [Download .txt](https://githubusercontent.com/presets-apo/Deep%2045%20MdMonax%2045hz.txt) |
-| 26 | **DeepWaves Original Earphones MDMonax** | Earbuds / TWS / IEMs | 0.00 dB | 18 bands | [Download .txt](https://githubusercontent.com/presets-apo/DeepWaves%20Original%20Earphones%20MDMonax.txt) |
-| 27 | **DJ Sound MDMonax** | General / Multi-Device | 0.00 dB | 11 bands | [Download .txt](https://githubusercontent.com/presets-apo/DJ%20Sound%20MDMonax.txt) |
-| 28 | **DolbySub on Earphones MdMonax** | Earbuds / TWS / IEMs | 0.00 dB | 11 bands | [Download .txt](https://githubusercontent.com/presets-apo/DolbySub%20on%20Earphones%20MdMonax.txt) |
-| 29 | **Earphones FunkiNuDe Envelope** | Earbuds / TWS / IEMs | 0.00 dB | 19 bands | [Download .txt](https://githubusercontent.com/presets-apo/Earphones%20FunkiNuDe%20Envelope.txt) |
-| 30 | **Enclosed Box DjsMDMONAX** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 14 bands | [Download .txt](https://githubusercontent.com/presets-apo/Enclosed%20Box%20DjsMDMONAX.txt) |
-| 31 | **Foundation** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Foundation.txt) |
-| 32 | **FrontPunchy 50hz** | General / Multi-Device | 0.00 dB | 6 bands | [Download .txt](https://githubusercontent.com/presets-apo/FrontPunchy%2050hz.txt) |
-| 33 | **FTS Envelope Slowed** | General / Multi-Device | 0.00 dB | 34 bands | [Download .txt](https://githubusercontent.com/presets-apo/FTS%20Envelope%20Slowed.txt) |
-| 34 | **Gold** | Headphones / Earbuds (All-Rounder) | 0.02 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Gold.txt) |
-| 35 | **GrootBass MDMonax Envelope** | General / Multi-Device | 0.00 dB | 18 bands | [Download .txt](https://githubusercontent.com/presets-apo/GrootBass%20MDMonax%20Envelope.txt) |
-| 36 | **Harmony** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Harmony.txt) |
-| 37 | **HD Headphones  V2 Deep  50hz  MDMonax** | Over-Ear Headphones | 0.00 dB | 31 bands | [Download .txt](https://githubusercontent.com/presets-apo/HD%20Headphones%20%20V2%20Deep%20%2050hz%20%20MDMonax.txt) |
-| 38 | **Headphones FUNKI-Nude MDMonax** | Over-Ear Headphones | 0.00 dB | 17 bands | [Download .txt](https://githubusercontent.com/presets-apo/Headphones%20FUNKI-Nude%20MDMonax.txt) |
-| 39 | **Hi res TWS 4 Md Monax** | Earbuds / TWS / IEMs | 0.00 dB | 16 bands | [Download .txt](https://githubusercontent.com/presets-apo/Hi%20res%20TWS%204%20Md%20Monax.txt) |
-| 40 | **House El nino 50hz MDMONAX** | General / Multi-Device | 0.00 dB | 45 bands | [Download .txt](https://githubusercontent.com/presets-apo/House%20El%20nino%2050hz%20MDMONAX.txt) |
-| 41 | **Icepower 1  Mdmonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 bands | [Download .txt](https://githubusercontent.com/presets-apo/Icepower%201%20%20Mdmonax.txt) |
-| 42 | **Icepower 2  Mdmonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 bands | [Download .txt](https://githubusercontent.com/presets-apo/Icepower%202%20%20Mdmonax.txt) |
-| 43 | **Indoor Clear MDMonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 bands | [Download .txt](https://githubusercontent.com/presets-apo/Indoor%20Clear%20MDMonax.txt) |
-| 44 | **Jazz punchyMDMonax 106hz** | General / Multi-Device | 0.00 dB | 5 bands | [Download .txt](https://githubusercontent.com/presets-apo/Jazz%20punchyMDMonax%20106hz.txt) |
-| 45 | **July 2026 Envelope Only MDMonax** | General / Multi-Device | 0.00 dB | 16 bands | [Download .txt](https://githubusercontent.com/presets-apo/July%202026%20Envelope%20Only%20MDMonax.txt) |
-| 46 | **June MDMonax DeepWaves 50hz Q100** | General / Multi-Device | 0.00 dB | 12 bands | [Download .txt](https://githubusercontent.com/presets-apo/June%20MDMonax%20DeepWaves%2050hz%20Q100.txt) |
-| 47 | **M19 earphones  B** | Earbuds / TWS / IEMs | 0.00 dB | 21 bands | [Download .txt](https://githubusercontent.com/presets-apo/M19%20earphones%20%20B.txt) |
-| 48 | **Master** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Master.txt) |
-| 49 | **MiD BAss MDMONAX comp400hz** | General / Multi-Device | 0.00 dB | 33 bands | [Download .txt](https://githubusercontent.com/presets-apo/MiD%20BAss%20MDMONAX%20comp400hz.txt) |
-| 50 | **Monday Blues 2 Kick MDMonax** | General / Multi-Device | 0.00 dB | 25 bands | [Download .txt](https://githubusercontent.com/presets-apo/Monday%20Blues%202%20Kick%20MDMonax.txt) |
-| 51 | **Monday Blues deep v2 MDMonax** | General / Multi-Device | 0.00 dB | 28 bands | [Download .txt](https://githubusercontent.com/presets-apo/Monday%20Blues%20deep%20v2%20MDMonax.txt) |
-| 52 | **Movie Bass Mod Slow MDMona** | General / Multi-Device | 0.00 dB | 15 bands | [Download .txt](https://githubusercontent.com/presets-apo/Movie%20Bass%20Mod%20Slow%20MDMona.txt) |
-| 53 | **Noise Cancel Guitar** | General / Multi-Device | 0.00 dB | 39 bands | [Download .txt](https://githubusercontent.com/presets-apo/Noise%20Cancel%20Guitar.txt) |
-| 54 | **November Cascade MDMonax** | General / Multi-Device | 0.00 dB | 17 bands | [Download .txt](https://githubusercontent.com/presets-apo/November%20Cascade%20MDMonax.txt) |
-| 55 | **Outdoor Midrange MdMonax** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 15 bands | [Download .txt](https://githubusercontent.com/presets-apo/Outdoor%20Midrange%20MdMonax.txt) |
-| 56 | **Pioneer Home theather MDMonax** | Home Theater / Soundbar | 0.00 dB | 17 bands | [Download .txt](https://githubusercontent.com/presets-apo/Pioneer%20Home%20theather%20MDMonax.txt) |
-| 57 | **Platinum** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Platinum.txt) |
-| 58 | **PoPiano MDMonaxEnvelope 36hz** | General / Multi-Device | 0.00 dB | 10 bands | [Download .txt](https://githubusercontent.com/presets-apo/PoPiano%20MDMonaxEnvelope%2036hz.txt) |
-| 59 | **PoPiano2 Heavy  MDMonaxEnvelope 36hz** | General / Multi-Device | 0.00 dB | 10 bands | [Download .txt](https://githubusercontent.com/presets-apo/PoPiano2%20Heavy%20%20MDMonaxEnvelope%2036hz.txt) |
-| 60 | **Presence** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Presence.txt) |
-| 61 | **Punchy Bass vijay** | General / Multi-Device | 3.00 dB | 10 bands | [Download .txt](https://githubusercontent.com/presets-apo/Punchy%20Bass%20vijay.txt) |
-| 62 | **Punchy2 Small spk MDMonax 36hz** | Small / Portable Bluetooth Speakers | 0.00 dB | 13 bands | [Download .txt](https://githubusercontent.com/presets-apo/Punchy2%20Small%20spk%20MDMonax%2036hz.txt) |
-| 63 | **Reference X** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Reference%20X.txt) |
-| 64 | **Riddim 2026 MDMonax 40hz** | General / Multi-Device | 0.00 dB | 27 bands | [Download .txt](https://githubusercontent.com/presets-apo/Riddim%202026%20MDMonax%2040hz.txt) |
-| 65 | **Rnb2026MDMonax Hometheathers** | Home Theater / Soundbar | 0.00 dB | 32 bands | [Download .txt](https://githubusercontent.com/presets-apo/Rnb2026MDMonax%20Hometheathers.txt) |
-| 66 | **Signature** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Signature.txt) |
-| 67 | **Slow Mid Sony All stereo** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 37 bands | [Download .txt](https://githubusercontent.com/presets-apo/Slow%20Mid%20Sony%20All%20stereo.txt) |
-| 68 | **SlowBass with Trebble MDMonax** | General / Multi-Device | 0.00 dB | 21 bands | [Download .txt](https://githubusercontent.com/presets-apo/SlowBass%20with%20Trebble%20MDMonax.txt) |
-| 69 | **Small Speakers Clarity Punchy June Stereo Envelope 50hzQ1 MdMonax** | Small / Portable Bluetooth Speakers | 0.00 dB | 9 bands | [Download .txt](https://githubusercontent.com/presets-apo/Small%20Speakers%20Clarity%20Punchy%20June%20Stereo%20Envelope%2050hzQ1%20MdMonax.txt) |
-| 70 | **SoundBar 102hz Q080 Cc MDMonax** | Home Theater / Soundbar | 0.00 dB | 10 bands | [Download .txt](https://githubusercontent.com/presets-apo/SoundBar%20102hz%20Q080%20Cc%20MDMonax.txt) |
-| 71 | **Strike** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Strike.txt) |
-| 72 | **Titan** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Titan.txt) |
-| 73 | **TWS Earphones 2 MDMONAX** | Earbuds / TWS / IEMs | 0.00 dB | 10 bands | [Download .txt](https://githubusercontent.com/presets-apo/TWS%20Earphones%202%20MDMONAX.txt) |
-| 74 | **TWs Earphones MDMonax** | Earbuds / TWS / IEMs | 0.00 dB | 9 bands | [Download .txt](https://githubusercontent.com/presets-apo/TWs%20Earphones%20MDMonax.txt) |
-| 75 | **Tws Midnight Monax** | Earbuds / TWS / IEMs | 0.00 dB | 8 bands | [Download .txt](https://githubusercontent.com/presets-apo/Tws%20Midnight%20Monax.txt) |
-| 76 | **V8 2 MDMonax** | General / Multi-Device | 0.00 dB | 14 bands | [Download .txt](https://githubusercontent.com/presets-apo/V8%202%20MDMonax.txt) |
-| 77 | **V8 3 MDMonax** | General / Multi-Device | 0.00 dB | 14 bands | [Download .txt](https://githubusercontent.com/presets-apo/V8%203%20MDMonax.txt) |
-| 78 | **V8 latest MDMonax** | General / Multi-Device | 0.00 dB | 13 bands | [Download .txt](https://githubusercontent.com/presets-apo/V8%20latest%20MDMonax.txt) |
-| 79 | **Vocal** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Download .txt](https://githubusercontent.com/presets-apo/Vocal.txt) |
+| 1 | **15 inch 36hz  MdMonax stereo Envelope** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/15%20inch%2036hz%20%20MdMonax%20stereo%20Envelope.txt) |
+| 2 | **64 Audio A12t 2** | Earbuds / TWS / IEMs | -7.20 dB | 12 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/64%20Audio%20A12t%202.txt) |
+| 3 | **70hzBasstoneSlow Woofer bass No kick stereo Mdmonax** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 34 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/70hzBasstoneSlow%20Woofer%20bass%20No%20kick%20stereo%20Mdmonax.txt) |
+| 4 | **80hzGroot Bass Stereo Cascade MdMonax** | General / Multi-Device | 0.00 dB | 32 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/80hzGroot%20Bass%20Stereo%20Cascade%20MdMonax.txt) |
+| 5 | **Air** | General / Multi-Device | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Air.txt) |
+| 6 | **Apex** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Apex.txt) |
+| 7 | **Apple AirPods 4 ANC on** | Earbuds / TWS / IEMs | 2.40 dB | 20 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Apple%20AirPods%204%20ANC%20on.txt) |
+| 8 | **Aura** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Aura.txt) |
+| 9 | **Balance** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Balance.txt) |
+| 10 | **Behringer 2 smooth 36hz MdMonax stereo** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Behringer%202%20smooth%2036hz%20MdMonax%20stereo.txt) |
+| 11 | **Behringer My best  Outdoor Md Monax 50hzQ050 Trebbe 6463 Q090** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 8 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Behringer%20My%20best%20%20Outdoor%20Md%20Monax%2050hzQ050%20Trebbe%206463%20Q090.txt) |
+| 12 | **BoomBass Djsound MdMonax 50hz** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 32 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/BoomBass%20Djsound%20MdMonax%2050hz.txt) |
+| 13 | **CarBass  BSpider MDMonax** | Car Audio / Subwoofer | 0.00 dB | 20 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/CarBass%20%20BSpider%20MDMonax.txt) |
+| 14 | **Carsound outdoor MDMonax** | Car Audio / Subwoofer | 0.00 dB | 14 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Carsound%20outdoor%20MDMonax.txt) |
+| 15 | **Carsound outdoor V2 MdMonax** | Car Audio / Subwoofer | 0.00 dB | 18 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Carsound%20outdoor%20V2%20MdMonax.txt) |
+| 16 | **Carsub on HomeAVCReciever MdMonax2** | Car Audio / Subwoofer | 0.00 dB | 32 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Carsub%20on%20HomeAVCReciever%20MdMonax2.txt) |
+| 17 | **Catalyst** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Catalyst.txt) |
+| 18 | **CentreEarphonesMDMonax** | Earbuds / TWS / IEMs | 0.00 dB | 35 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/CentreEarphonesMDMonax.txt) |
+| 19 | **Classical Sony MDMonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 41 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Classical%20Sony%20MDMonax.txt) |
+| 20 | **Classical Sony with  bassMDMonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 41 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Classical%20Sony%20with%20%20bassMDMonax.txt) |
+| 21 | **Clear Noise CancelV2 MdMonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 42 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Clear%20Noise%20CancelV2%20MdMonax.txt) |
+| 22 | **Comfort** | Headphones / Earbuds (All-Rounder) | 0.05 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Comfort.txt) |
+| 23 | **Curva Harman** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 12 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Curva%20Harman.txt) |
+| 24 | **Dance Waves MDMonax 80hz** | General / Multi-Device | 0.00 dB | 25 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Dance%20Waves%20MDMonax%2080hz.txt) |
+| 25 | **Deep 45 MdMonax 45hz** | General / Multi-Device | 0.00 dB | 48 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Deep%2045%20MdMonax%2045hz.txt) |
+| 26 | **DeepWaves Original Earphones MDMonax** | Earbuds / TWS / IEMs | 0.00 dB | 18 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/DeepWaves%20Original%20Earphones%20MDMonax.txt) |
+| 27 | **DJ Sound MDMonax** | General / Multi-Device | 0.00 dB | 11 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/DJ%20Sound%20MDMonax.txt) |
+| 28 | **DolbySub on Earphones MdMonax** | Earbuds / TWS / IEMs | 0.00 dB | 11 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/DolbySub%20on%20Earphones%20MdMonax.txt) |
+| 29 | **Earphones FunkiNuDe Envelope** | Earbuds / TWS / IEMs | 0.00 dB | 19 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Earphones%20FunkiNuDe%20Envelope.txt) |
+| 30 | **Enclosed Box DjsMDMONAX** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 14 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Enclosed%20Box%20DjsMDMONAX.txt) |
+| 31 | **Foundation** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Foundation.txt) |
+| 32 | **FrontPunchy 50hz** | General / Multi-Device | 0.00 dB | 6 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/FrontPunchy%2050hz.txt) |
+| 33 | **FTS Envelope Slowed** | General / Multi-Device | 0.00 dB | 34 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/FTS%20Envelope%20Slowed.txt) |
+| 34 | **Gold** | Headphones / Earbuds (All-Rounder) | 0.02 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Gold.txt) |
+| 35 | **GrootBass MDMonax Envelope** | General / Multi-Device | 0.00 dB | 18 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/GrootBass%20MDMonax%20Envelope.txt) |
+| 36 | **Harmony** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Harmony.txt) |
+| 37 | **HD Headphones  V2 Deep  50hz  MDMonax** | Over-Ear Headphones | 0.00 dB | 31 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/HD%20Headphones%20%20V2%20Deep%20%2050hz%20%20MDMonax.txt) |
+| 38 | **Headphones FUNKI-Nude MDMonax** | Over-Ear Headphones | 0.00 dB | 17 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Headphones%20FUNKI-Nude%20MDMonax.txt) |
+| 39 | **Hi res TWS 4 Md Monax** | Earbuds / TWS / IEMs | 0.00 dB | 16 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Hi%20res%20TWS%204%20Md%20Monax.txt) |
+| 40 | **House El nino 50hz MDMONAX** | General / Multi-Device | 0.00 dB | 45 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/House%20El%20nino%2050hz%20MDMONAX.txt) |
+| 41 | **Icepower 1  Mdmonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Icepower%201%20%20Mdmonax.txt) |
+| 42 | **Icepower 2  Mdmonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Icepower%202%20%20Mdmonax.txt) |
+| 43 | **Indoor Clear MDMonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Indoor%20Clear%20MDMonax.txt) |
+| 44 | **Jazz punchyMDMonax 106hz** | General / Multi-Device | 0.00 dB | 5 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Jazz%20punchyMDMonax%20106hz.txt) |
+| 45 | **July 2026 Envelope Only MDMonax** | General / Multi-Device | 0.00 dB | 16 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/July%202026%20Envelope%20Only%20MDMonax.txt) |
+| 46 | **June MDMonax DeepWaves 50hz Q100** | General / Multi-Device | 0.00 dB | 12 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/June%20MDMonax%20DeepWaves%2050hz%20Q100.txt) |
+| 47 | **M19 earphones  B** | Earbuds / TWS / IEMs | 0.00 dB | 21 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/M19%20earphones%20%20B.txt) |
+| 48 | **Master** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Master.txt) |
+| 49 | **MiD BAss MDMONAX comp400hz** | General / Multi-Device | 0.00 dB | 33 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/MiD%20BAss%20MDMONAX%20comp400hz.txt) |
+| 50 | **Monday Blues 2 Kick MDMonax** | General / Multi-Device | 0.00 dB | 25 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Monday%20Blues%202%20Kick%20MDMonax.txt) |
+| 51 | **Monday Blues deep v2 MDMonax** | General / Multi-Device | 0.00 dB | 28 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Monday%20Blues%20deep%20v2%20MDMonax.txt) |
+| 52 | **Movie Bass Mod Slow MDMona** | General / Multi-Device | 0.00 dB | 15 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Movie%20Bass%20Mod%20Slow%20MDMona.txt) |
+| 53 | **Noise Cancel Guitar** | General / Multi-Device | 0.00 dB | 39 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Noise%20Cancel%20Guitar.txt) |
+| 54 | **November Cascade MDMonax** | General / Multi-Device | 0.00 dB | 17 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/November%20Cascade%20MDMonax.txt) |
+| 55 | **Outdoor Midrange MdMonax** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 15 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Outdoor%20Midrange%20MdMonax.txt) |
+| 56 | **Pioneer Home theather MDMonax** | Home Theater / Soundbar | 0.00 dB | 17 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Pioneer%20Home%20theather%20MDMonax.txt) |
+| 57 | **Platinum** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Platinum.txt) |
+| 58 | **PoPiano MDMonaxEnvelope 36hz** | General / Multi-Device | 0.00 dB | 10 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/PoPiano%20MDMonaxEnvelope%2036hz.txt) |
+| 59 | **PoPiano2 Heavy  MDMonaxEnvelope 36hz** | General / Multi-Device | 0.00 dB | 10 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/PoPiano2%20Heavy%20%20MDMonaxEnvelope%2036hz.txt) |
+| 60 | **Presence** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Presence.txt) |
+| 61 | **Punchy Bass vijay** | General / Multi-Device | 3.00 dB | 10 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Punchy%20Bass%20vijay.txt) |
+| 62 | **Punchy2 Small spk MDMonax 36hz** | Small / Portable Bluetooth Speakers | 0.00 dB | 13 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Punchy2%20Small%20spk%20MDMonax%2036hz.txt) |
+| 63 | **Reference X** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Reference%20X.txt) |
+| 64 | **Riddim 2026 MDMonax 40hz** | General / Multi-Device | 0.00 dB | 27 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Riddim%202026%20MDMonax%2040hz.txt) |
+| 65 | **Rnb2026MDMonax Hometheathers** | Home Theater / Soundbar | 0.00 dB | 32 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Rnb2026MDMonax%20Hometheathers.txt) |
+| 66 | **Signature** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Signature.txt) |
+| 67 | **Slow Mid Sony All stereo** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 37 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Slow%20Mid%20Sony%20All%20stereo.txt) |
+| 68 | **SlowBass with Trebble MDMonax** | General / Multi-Device | 0.00 dB | 21 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/SlowBass%20with%20Trebble%20MDMonax.txt) |
+| 69 | **Small Speakers Clarity Punchy June Stereo Envelope 50hzQ1 MdMonax** | Small / Portable Bluetooth Speakers | 0.00 dB | 9 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Small%20Speakers%20Clarity%20Punchy%20June%20Stereo%20Envelope%2050hzQ1%20MdMonax.txt) |
+| 70 | **SoundBar 102hz Q080 Cc MDMonax** | Home Theater / Soundbar | 0.00 dB | 10 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/SoundBar%20102hz%20Q080%20Cc%20MDMonax.txt) |
+| 71 | **Strike** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Strike.txt) |
+| 72 | **Titan** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Titan.txt) |
+| 73 | **TWS Earphones 2 MDMONAX** | Earbuds / TWS / IEMs | 0.00 dB | 10 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/TWS%20Earphones%202%20MDMONAX.txt) |
+| 74 | **TWs Earphones MDMonax** | Earbuds / TWS / IEMs | 0.00 dB | 9 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/TWs%20Earphones%20MDMonax.txt) |
+| 75 | **Tws Midnight Monax** | Earbuds / TWS / IEMs | 0.00 dB | 8 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Tws%20Midnight%20Monax.txt) |
+| 76 | **V8 2 MDMonax** | General / Multi-Device | 0.00 dB | 14 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/V8%202%20MDMonax.txt) |
+| 77 | **V8 3 MDMonax** | General / Multi-Device | 0.00 dB | 14 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/V8%203%20MDMonax.txt) |
+| 78 | **V8 latest MDMonax** | General / Multi-Device | 0.00 dB | 13 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/V8%20latest%20MDMonax.txt) |
+| 79 | **Vocal** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](https://githubusercontent.com/presets-apo/Vocal.txt) |
 
 ## HeSuVi Virtual Surround HRIRs (169 Profiles)
-
-> **Note:** Binaural HRIR surround profiles are engineered strictly for **Headphones & Earbuds**. Disable Virtual Surround when using phone speakers or external speaker systems.
 
 | # | Profile Name | Recommended Device & Use Case | File Size | Direct Download |
 | :--- | :--- | :--- | :--- | :--- |
