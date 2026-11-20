@@ -284,6 +284,14 @@ function filterTables() {
     tr.style.display = tr.innerText.toLowerCase().includes(q) ? '' : 'none';
   });
 }
+window.addEventListener('DOMContentLoaded', () => {
+  const dlPath = new URLSearchParams(window.location.search).get('dl');
+  if (dlPath) {
+    const fileName = decodeURIComponent(dlPath.split('/').pop());
+    const dummyBtn = document.createElement('button');
+    forceDownload(dlPath, fileName, dummyBtn);
+  }
+});
 </script>
 </body>
 </html>
