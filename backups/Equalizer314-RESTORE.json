@@ -785,11 +785,7 @@
                             "seen_SPEAKER:":  {
                                                   "t":  "s",
                                                   "v":  "Phone speaker"
-                                              },
-                            "seen_BT:28:52:E0:00:41:41":  {
-                                                              "t":  "s",
-                                                              "v":  "(つ◔_◔)つ"
-                                                          }
+                                              }
                         },
     "app_bindings":  {
                          "seen_app.morphe.android.youtube":  {

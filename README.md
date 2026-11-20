@@ -1,6 +1,14 @@
 # Equalizer314 Audio Setup, Presets & Virtual Surround
 
-A curated collection of converted Poweramp parametric EQ presets, an all-in-one Equalizer314 restore backup, and HeSuVi Virtual Surround HRIR files. Click any link below to download individual presets or grab the full master backup in one tap.
+A curated collection of converted Poweramp parametric EQ presets, a privacy-cleaned Equalizer314 master restore backup, and HeSuVi Virtual Surround HRIR files. Click any link below to download individual presets directly or restore the full pack in one tap.
+
+## Get Equalizer314 (App Releases)
+
+Don't have Equalizer314 installed yet? Download the latest APK or install from an official store:
+
+* **GitHub Releases (Latest Beta APKs with Virtual Surround):** [bearinmindcat/Equalizer314 Releases](https://github.com)
+* **F-Droid (Open-Source Store):** [Equalizer314 on F-Droid](https://f-droid.org)
+* **Google Play Store:** [Equalizer314 on Google Play](https://google.com)
 
 ## Direct Downloads (Full Pack & Master Backup)
 
