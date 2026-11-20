@@ -1,33 +1,32 @@
 # Equalizer314 Audio Setup, Presets & Virtual Surround
 
-A curated collection of converted Poweramp parametric EQ presets, a privacy-cleaned Equalizer314 master restore backup, and HeSuVi Virtual Surround HRIR files.
+Converted Poweramp parametric EQ presets (EqualizerAPO format), a restore backup, and HeSuVi Virtual Surround HRIR files for Equalizer314.
 
+<<<<<<< HEAD
 > **New here?** Jump to the [How to Use Equalizer314 (Beginner Guide)](#how-to-use-equalizer314-beginner-guide).
 
 ## One-Click Download Portal (Instant File Downloads)
+=======
+## Downloads
+>>>>>>> a57839f (Re-convert Poweramp presets and rebuild restore backup)
 
-Because GitHub opens raw .txt and .json files in a browser preview tab, use the **One-Click Download Page** below for instant file downloads with search filtering:
+* **One-click download portal (GitHub Pages):** https://burnomus14.github.io/Equalizer314-Setup/
+* **Get the Equalizer314 app (APK releases):** https://github.com/bearinmindcat/Equalizer314/releases
 
-* **Open Instant Download Page:** [https://burnomus14.github.io/Equalizer314-Setup/](https://burnomus14.github.io/Equalizer314-Setup/)
-* **Download Equalizer314 App (APKs):** [https://github.com/bearinmindcat/Equalizer314/releases](https://github.com/bearinmindcat/Equalizer314/releases)
-* **Download Master Restore Backup:** [Equalizer314-RESTORE.json](backups/Equalizer314-RESTORE.json) *(Right-click -> **Save link as...** or press Ctrl+S)*
-* **Download Full Pack as ZIP:** [Equalizer314-Setup-main.zip](https://github.com)
+Clicking a preset name below opens the file in GitHub. Use the portal above to download files.
 
-## Quick Restore & Setup Commands (ADB)
+## Quick Setup Commands (ADB)
 
 > **Optional.** You only need these for per-app control and virtual surround. Basic EQ works without them.
 
 ```powershell
-# 1. Grant system-wide audio session detection & Virtual Surround capture
 adb shell pm grant com.bearinmind.equalizer314 android.permission.DUMP
 adb shell appops set com.bearinmind.equalizer314 PROJECT_MEDIA allow
-
-# 2. Push master backup & HRIR surround files to phone
 adb shell mkdir -p /sdcard/Download/Equalizer314_Presets /sdcard/Download/HeSuVi_HRIR
-adb push "backups/Equalizer314-RESTORE.json" "/sdcard/Download/Equalizer314_Presets/"
-Get-ChildItem "hrir-surround/*.wav" | ForEach-Object { adb push $_.FullName "/sdcard/Download/HeSuVi_HRIR/$($_.Name)" }
+Get-ChildItem presets-apo\*.txt | ForEach-Object { adb push $_.FullName "/sdcard/Download/Equalizer314_Presets/$($_.Name)" }
 ```
 
+<<<<<<< HEAD
 ## How to Use Equalizer314 (Beginner Guide)
 
 Equalizer314 changes the sound of your **whole phone** (music, videos, games, other apps). You can boost bass, soften harsh treble, or correct your headphones. It needs **Android 9 or newer**, no root, and almost no permissions.
@@ -193,95 +192,13 @@ The HRIR `.wav` files in this repo are for virtual surround, which makes stereo 
 > The app is in **beta**, so menu names may change between versions. If something looks different, check the latest release notes: https://github.com/bearinmindcat/Equalizer314/releases
 
 ## Parametric EQ Presets (79 Profiles)
+=======
+## Parametric EQ Presets (136)
+>>>>>>> a57839f (Re-convert Poweramp presets and rebuild restore backup)
 
-> **Tip:** Clicking a .txt link on GitHub opens the raw preset text—press **Ctrl+S** (or tap **Share / Download** on mobile) to save it, or use the [Instant Download Page](https://burnomus14.github.io/Equalizer314-Setup/) for one-tap downloads.
-
-| # | Preset Name | Recommended Device | Preamp | Active Bands | Raw File |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | **15 inch 36hz  MdMonax stereo Envelope** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 bands | [Open / Save .txt](presets-apo/15%20inch%2036hz%20%20MdMonax%20stereo%20Envelope.txt) |
-| 2 | **64 Audio A12t 2** | Earbuds / TWS / IEMs | -7.20 dB | 12 bands | [Open / Save .txt](presets-apo/64%20Audio%20A12t%202.txt) |
-| 3 | **70hzBasstoneSlow Woofer bass No kick stereo Mdmonax** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 34 bands | [Open / Save .txt](presets-apo/70hzBasstoneSlow%20Woofer%20bass%20No%20kick%20stereo%20Mdmonax.txt) |
-| 4 | **80hzGroot Bass Stereo Cascade MdMonax** | General / Multi-Device | 0.00 dB | 32 bands | [Open / Save .txt](presets-apo/80hzGroot%20Bass%20Stereo%20Cascade%20MdMonax.txt) |
-| 5 | **Air** | General / Multi-Device | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Air.txt) |
-| 6 | **Apex** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Apex.txt) |
-| 7 | **Apple AirPods 4 ANC on** | Earbuds / TWS / IEMs | 2.40 dB | 20 bands | [Open / Save .txt](presets-apo/Apple%20AirPods%204%20ANC%20on.txt) |
-| 8 | **Aura** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Aura.txt) |
-| 9 | **Balance** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Balance.txt) |
-| 10 | **Behringer 2 smooth 36hz MdMonax stereo** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 bands | [Open / Save .txt](presets-apo/Behringer%202%20smooth%2036hz%20MdMonax%20stereo.txt) |
-| 11 | **Behringer My best  Outdoor Md Monax 50hzQ050 Trebbe 6463 Q090** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 8 bands | [Open / Save .txt](presets-apo/Behringer%20My%20best%20%20Outdoor%20Md%20Monax%2050hzQ050%20Trebbe%206463%20Q090.txt) |
-| 12 | **BoomBass Djsound MdMonax 50hz** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 32 bands | [Open / Save .txt](presets-apo/BoomBass%20Djsound%20MdMonax%2050hz.txt) |
-| 13 | **CarBass  BSpider MDMonax** | Car Audio / Subwoofer | 0.00 dB | 20 bands | [Open / Save .txt](presets-apo/CarBass%20%20BSpider%20MDMonax.txt) |
-| 14 | **Carsound outdoor MDMonax** | Car Audio / Subwoofer | 0.00 dB | 14 bands | [Open / Save .txt](presets-apo/Carsound%20outdoor%20MDMonax.txt) |
-| 15 | **Carsound outdoor V2 MdMonax** | Car Audio / Subwoofer | 0.00 dB | 18 bands | [Open / Save .txt](presets-apo/Carsound%20outdoor%20V2%20MdMonax.txt) |
-| 16 | **Carsub on HomeAVCReciever MdMonax2** | Car Audio / Subwoofer | 0.00 dB | 32 bands | [Open / Save .txt](presets-apo/Carsub%20on%20HomeAVCReciever%20MdMonax2.txt) |
-| 17 | **Catalyst** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Catalyst.txt) |
-| 18 | **CentreEarphonesMDMonax** | Earbuds / TWS / IEMs | 0.00 dB | 35 bands | [Open / Save .txt](presets-apo/CentreEarphonesMDMonax.txt) |
-| 19 | **Classical Sony MDMonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 41 bands | [Open / Save .txt](presets-apo/Classical%20Sony%20MDMonax.txt) |
-| 20 | **Classical Sony with  bassMDMonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 41 bands | [Open / Save .txt](presets-apo/Classical%20Sony%20with%20%20bassMDMonax.txt) |
-| 21 | **Clear Noise CancelV2 MdMonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 42 bands | [Open / Save .txt](presets-apo/Clear%20Noise%20CancelV2%20MdMonax.txt) |
-| 22 | **Comfort** | Headphones / Earbuds (All-Rounder) | 0.05 dB | 66 bands | [Open / Save .txt](presets-apo/Comfort.txt) |
-| 23 | **Curva Harman** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 12 bands | [Open / Save .txt](presets-apo/Curva%20Harman.txt) |
-| 24 | **Dance Waves MDMonax 80hz** | General / Multi-Device | 0.00 dB | 25 bands | [Open / Save .txt](presets-apo/Dance%20Waves%20MDMonax%2080hz.txt) |
-| 25 | **Deep 45 MdMonax 45hz** | General / Multi-Device | 0.00 dB | 48 bands | [Open / Save .txt](presets-apo/Deep%2045%20MdMonax%2045hz.txt) |
-| 26 | **DeepWaves Original Earphones MDMonax** | Earbuds / TWS / IEMs | 0.00 dB | 18 bands | [Open / Save .txt](presets-apo/DeepWaves%20Original%20Earphones%20MDMonax.txt) |
-| 27 | **DJ Sound MDMonax** | General / Multi-Device | 0.00 dB | 11 bands | [Open / Save .txt](presets-apo/DJ%20Sound%20MDMonax.txt) |
-| 28 | **DolbySub on Earphones MdMonax** | Earbuds / TWS / IEMs | 0.00 dB | 11 bands | [Open / Save .txt](presets-apo/DolbySub%20on%20Earphones%20MdMonax.txt) |
-| 29 | **Earphones FunkiNuDe Envelope** | Earbuds / TWS / IEMs | 0.00 dB | 19 bands | [Open / Save .txt](presets-apo/Earphones%20FunkiNuDe%20Envelope.txt) |
-| 30 | **Enclosed Box DjsMDMONAX** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 14 bands | [Open / Save .txt](presets-apo/Enclosed%20Box%20DjsMDMONAX.txt) |
-| 31 | **Foundation** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Foundation.txt) |
-| 32 | **FrontPunchy 50hz** | General / Multi-Device | 0.00 dB | 6 bands | [Open / Save .txt](presets-apo/FrontPunchy%2050hz.txt) |
-| 33 | **FTS Envelope Slowed** | General / Multi-Device | 0.00 dB | 34 bands | [Open / Save .txt](presets-apo/FTS%20Envelope%20Slowed.txt) |
-| 34 | **Gold** | Headphones / Earbuds (All-Rounder) | 0.02 dB | 66 bands | [Open / Save .txt](presets-apo/Gold.txt) |
-| 35 | **GrootBass MDMonax Envelope** | General / Multi-Device | 0.00 dB | 18 bands | [Open / Save .txt](presets-apo/GrootBass%20MDMonax%20Envelope.txt) |
-| 36 | **Harmony** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Harmony.txt) |
-| 37 | **HD Headphones  V2 Deep  50hz  MDMonax** | Over-Ear Headphones | 0.00 dB | 31 bands | [Open / Save .txt](presets-apo/HD%20Headphones%20%20V2%20Deep%20%2050hz%20%20MDMonax.txt) |
-| 38 | **Headphones FUNKI-Nude MDMonax** | Over-Ear Headphones | 0.00 dB | 17 bands | [Open / Save .txt](presets-apo/Headphones%20FUNKI-Nude%20MDMonax.txt) |
-| 39 | **Hi res TWS 4 Md Monax** | Earbuds / TWS / IEMs | 0.00 dB | 16 bands | [Open / Save .txt](presets-apo/Hi%20res%20TWS%204%20Md%20Monax.txt) |
-| 40 | **House El nino 50hz MDMONAX** | General / Multi-Device | 0.00 dB | 45 bands | [Open / Save .txt](presets-apo/House%20El%20nino%2050hz%20MDMONAX.txt) |
-| 41 | **Icepower 1  Mdmonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 bands | [Open / Save .txt](presets-apo/Icepower%201%20%20Mdmonax.txt) |
-| 42 | **Icepower 2  Mdmonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 bands | [Open / Save .txt](presets-apo/Icepower%202%20%20Mdmonax.txt) |
-| 43 | **Indoor Clear MDMonax** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 bands | [Open / Save .txt](presets-apo/Indoor%20Clear%20MDMonax.txt) |
-| 44 | **Jazz punchyMDMonax 106hz** | General / Multi-Device | 0.00 dB | 5 bands | [Open / Save .txt](presets-apo/Jazz%20punchyMDMonax%20106hz.txt) |
-| 45 | **July 2026 Envelope Only MDMonax** | General / Multi-Device | 0.00 dB | 16 bands | [Open / Save .txt](presets-apo/July%202026%20Envelope%20Only%20MDMonax.txt) |
-| 46 | **June MDMonax DeepWaves 50hz Q100** | General / Multi-Device | 0.00 dB | 12 bands | [Open / Save .txt](presets-apo/June%20MDMonax%20DeepWaves%2050hz%20Q100.txt) |
-| 47 | **M19 earphones  B** | Earbuds / TWS / IEMs | 0.00 dB | 21 bands | [Open / Save .txt](presets-apo/M19%20earphones%20%20B.txt) |
-| 48 | **Master** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Master.txt) |
-| 49 | **MiD BAss MDMONAX comp400hz** | General / Multi-Device | 0.00 dB | 33 bands | [Open / Save .txt](presets-apo/MiD%20BAss%20MDMONAX%20comp400hz.txt) |
-| 50 | **Monday Blues 2 Kick MDMonax** | General / Multi-Device | 0.00 dB | 25 bands | [Open / Save .txt](presets-apo/Monday%20Blues%202%20Kick%20MDMonax.txt) |
-| 51 | **Monday Blues deep v2 MDMonax** | General / Multi-Device | 0.00 dB | 28 bands | [Open / Save .txt](presets-apo/Monday%20Blues%20deep%20v2%20MDMonax.txt) |
-| 52 | **Movie Bass Mod Slow MDMona** | General / Multi-Device | 0.00 dB | 15 bands | [Open / Save .txt](presets-apo/Movie%20Bass%20Mod%20Slow%20MDMona.txt) |
-| 53 | **Noise Cancel Guitar** | General / Multi-Device | 0.00 dB | 39 bands | [Open / Save .txt](presets-apo/Noise%20Cancel%20Guitar.txt) |
-| 54 | **November Cascade MDMonax** | General / Multi-Device | 0.00 dB | 17 bands | [Open / Save .txt](presets-apo/November%20Cascade%20MDMonax.txt) |
-| 55 | **Outdoor Midrange MdMonax** | Outdoor PA / DJ / Large Speakers | 0.00 dB | 15 bands | [Open / Save .txt](presets-apo/Outdoor%20Midrange%20MdMonax.txt) |
-| 56 | **Pioneer Home theather MDMonax** | Home Theater / Soundbar | 0.00 dB | 17 bands | [Open / Save .txt](presets-apo/Pioneer%20Home%20theather%20MDMonax.txt) |
-| 57 | **Platinum** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Platinum.txt) |
-| 58 | **PoPiano MDMonaxEnvelope 36hz** | General / Multi-Device | 0.00 dB | 10 bands | [Open / Save .txt](presets-apo/PoPiano%20MDMonaxEnvelope%2036hz.txt) |
-| 59 | **PoPiano2 Heavy  MDMonaxEnvelope 36hz** | General / Multi-Device | 0.00 dB | 10 bands | [Open / Save .txt](presets-apo/PoPiano2%20Heavy%20%20MDMonaxEnvelope%2036hz.txt) |
-| 60 | **Presence** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Presence.txt) |
-| 61 | **Punchy Bass vijay** | General / Multi-Device | 3.00 dB | 10 bands | [Open / Save .txt](presets-apo/Punchy%20Bass%20vijay.txt) |
-| 62 | **Punchy2 Small spk MDMonax 36hz** | Small / Portable Bluetooth Speakers | 0.00 dB | 13 bands | [Open / Save .txt](presets-apo/Punchy2%20Small%20spk%20MDMonax%2036hz.txt) |
-| 63 | **Reference X** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Reference%20X.txt) |
-| 64 | **Riddim 2026 MDMonax 40hz** | General / Multi-Device | 0.00 dB | 27 bands | [Open / Save .txt](presets-apo/Riddim%202026%20MDMonax%2040hz.txt) |
-| 65 | **Rnb2026MDMonax Hometheathers** | Home Theater / Soundbar | 0.00 dB | 32 bands | [Open / Save .txt](presets-apo/Rnb2026MDMonax%20Hometheathers.txt) |
-| 66 | **Signature** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Signature.txt) |
-| 67 | **Slow Mid Sony All stereo** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 37 bands | [Open / Save .txt](presets-apo/Slow%20Mid%20Sony%20All%20stereo.txt) |
-| 68 | **SlowBass with Trebble MDMonax** | General / Multi-Device | 0.00 dB | 21 bands | [Open / Save .txt](presets-apo/SlowBass%20with%20Trebble%20MDMonax.txt) |
-| 69 | **Small Speakers Clarity Punchy June Stereo Envelope 50hzQ1 MdMonax** | Small / Portable Bluetooth Speakers | 0.00 dB | 9 bands | [Open / Save .txt](presets-apo/Small%20Speakers%20Clarity%20Punchy%20June%20Stereo%20Envelope%2050hzQ1%20MdMonax.txt) |
-| 70 | **SoundBar 102hz Q080 Cc MDMonax** | Home Theater / Soundbar | 0.00 dB | 10 bands | [Open / Save .txt](presets-apo/SoundBar%20102hz%20Q080%20Cc%20MDMonax.txt) |
-| 71 | **Strike** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Strike.txt) |
-| 72 | **Titan** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Titan.txt) |
-| 73 | **TWS Earphones 2 MDMONAX** | Earbuds / TWS / IEMs | 0.00 dB | 10 bands | [Open / Save .txt](presets-apo/TWS%20Earphones%202%20MDMONAX.txt) |
-| 74 | **TWs Earphones MDMonax** | Earbuds / TWS / IEMs | 0.00 dB | 9 bands | [Open / Save .txt](presets-apo/TWs%20Earphones%20MDMonax.txt) |
-| 75 | **Tws Midnight Monax** | Earbuds / TWS / IEMs | 0.00 dB | 8 bands | [Open / Save .txt](presets-apo/Tws%20Midnight%20Monax.txt) |
-| 76 | **V8 2 MDMonax** | General / Multi-Device | 0.00 dB | 14 bands | [Open / Save .txt](presets-apo/V8%202%20MDMonax.txt) |
-| 77 | **V8 3 MDMonax** | General / Multi-Device | 0.00 dB | 14 bands | [Open / Save .txt](presets-apo/V8%203%20MDMonax.txt) |
-| 78 | **V8 latest MDMonax** | General / Multi-Device | 0.00 dB | 13 bands | [Open / Save .txt](presets-apo/V8%20latest%20MDMonax.txt) |
-| 79 | **Vocal** | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 bands | [Open / Save .txt](presets-apo/Vocal.txt) |
-
-## HeSuVi Virtual Surround HRIRs (169 Profiles)
-
-| # | Profile Name | Recommended Device & Use Case | File Size | Direct Download |
+| # | Preset | Recommended Device | Preamp | Bands |
 | :--- | :--- | :--- | :--- | :--- |
+<<<<<<< HEAD
 | 1 | **atmos** | Headphones / Earbuds (Dolby Cinema & Music) | 281.7 KB | [Download .wav](hrir-surround/atmos.wav) |
 | 2 | **atmos-** | Headphones / Earbuds (Dolby Cinema & Music) | 3.5 KB | [Download .wav](hrir-surround/atmos-.wav) |
 | 3 | **atmos_L** | Headphones / Earbuds (Dolby Cinema & Music) | 160.9 KB | [Download .wav](hrir-surround/atmos_L.wav) |
@@ -451,3 +368,317 @@ The HRIR `.wav` files in this repo are for virtual surround, which makes stereo 
 | 167 | **waves-_L** | Headphones / Earbuds Only (Binaural) | 16.3 KB | [Download .wav](hrir-surround/waves-_L.wav) |
 | 168 | **waves_R** | Headphones / Earbuds Only (Binaural) | 270.1 KB | [Download .wav](hrir-surround/waves_R.wav) |
 | 169 | **waves-_R** | Headphones / Earbuds Only (Binaural) | 16.3 KB | [Download .wav](hrir-surround/waves-_R.wav) |
+=======
+| 1 | [(70hzBasstone)Slow Woofer bass. No kick stereo Mdmonax](presets-apo/%2870hzBasstone%29Slow%20Woofer%20bass.%20No%20kick%20stereo%20Mdmonax.txt) | Outdoor PA / DJ / Large Speakers | 0.00 dB | 34 |
+| 2 | [(C) JBL Tune 510BT](presets-apo/%28C%29%20JBL%20Tune%20510BT.txt) | General / Multi-Device | 9.17 dB | 15 |
+| 3 | [15 inch 36hz MdMonax stereo Envelope](presets-apo/15%20inch%2036hz%20MdMonax%20stereo%20Envelope.txt) | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 |
+| 4 | [1MORE Penta Driver](presets-apo/1MORE%20Penta%20Driver.txt) | General / Multi-Device | 0.00 dB | 34 |
+| 5 | [32 band iso 226 stereo](presets-apo/32%20band%20iso%20226%20stereo.txt) | General / Multi-Device | 0.00 dB | 33 |
+| 6 | [64 Audio A12t (2)](presets-apo/64%20Audio%20A12t%20%282%29.txt) | Earbuds / TWS / IEMs | -7.20 dB | 12 |
+| 7 | [80hzGroot Bass Stereo Cascade MdMonax](presets-apo/80hzGroot%20Bass%20Stereo%20Cascade%20MdMonax.txt) | General / Multi-Device | 0.00 dB | 32 |
+| 8 | [AAGHAZ LOW VOCAL](presets-apo/AAGHAZ%20LOW%20VOCAL.txt) | Headphones / Earbuds (All-Rounder) | -2.44 dB | 18 |
+| 9 | [Apple AirPods 4 (ANC on)](presets-apo/Apple%20AirPods%204%20%28ANC%20on%29.txt) | Earbuds / TWS / IEMs | 2.40 dB | 20 |
+| 10 | [Bang 2026 Monax](presets-apo/Bang%202026%20Monax.txt) | General / Multi-Device | 0.00 dB | 22 |
+| 11 | [Behringer 2 smooth 36hz MdMonax stereo (2)](presets-apo/Behringer%202%20smooth%2036hz%20MdMonax%20stereo%20%282%29.txt) | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 |
+| 12 | [Behringer 2 smooth 36hz MdMonax stereo](presets-apo/Behringer%202%20smooth%2036hz%20MdMonax%20stereo.txt) | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 |
+| 13 | [Behringer My best Outdoor Md Monax 50hzQ0.50 Trebbe 6463 Q0.90](presets-apo/Behringer%20My%20best%20Outdoor%20Md%20Monax%2050hzQ0.50%20Trebbe%206463%20Q0.90.txt) | Outdoor PA / DJ / Large Speakers | 0.00 dB | 8 |
+| 14 | [Better Voice Monax 36hz tone](presets-apo/Better%20Voice%20Monax%2036hz%20tone.txt) | General / Multi-Device | 0.00 dB | 21 |
+| 15 | [Big Speakers HD Monax](presets-apo/Big%20Speakers%20HD%20Monax.txt) | General / Multi-Device | 0.00 dB | 37 |
+| 16 | [Black Spider Stereo Envelope MDMonax](presets-apo/Black%20Spider%20Stereo%20Envelope%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 6 |
+| 17 | [BoomBass Djsound MdMonax 50hz](presets-apo/BoomBass%20Djsound%20MdMonax%2050hz.txt) | Outdoor PA / DJ / Large Speakers | 0.00 dB | 32 |
+| 18 | [Car enclosed BoxBasstone 44hz C320 MDMonax](presets-apo/Car%20enclosed%20BoxBasstone%2044hz%20C320%20MDMonax.txt) | Car Audio / Subwoofer | 0.00 dB | 8 |
+| 19 | [Car Non enclosedPortedBasstone 44hz C320 MDMonax](presets-apo/Car%20Non%20enclosedPortedBasstone%2044hz%20C320%20MDMonax.txt) | Car Audio / Subwoofer | 0.00 dB | 8 |
+| 20 | [CarBass BSpider MDMonax](presets-apo/CarBass%20BSpider%20MDMonax.txt) | Car Audio / Subwoofer | 0.00 dB | 20 |
+| 21 | [CarBass SA Oldies Monax c30 stereo](presets-apo/CarBass%20SA%20Oldies%20Monax%20c30%20stereo.txt) | Car Audio / Subwoofer | 0.00 dB | 29 |
+| 22 | [CarBass Venom Monax](presets-apo/CarBass%20Venom%20Monax.txt) | Car Audio / Subwoofer | 0.00 dB | 43 |
+| 23 | [Carsound Frequencies Monax](presets-apo/Carsound%20Frequencies%20Monax.txt) | Car Audio / Subwoofer | 0.00 dB | 21 |
+| 24 | [Carsound outdoor MDMonax](presets-apo/Carsound%20outdoor%20MDMonax.txt) | Car Audio / Subwoofer | 0.00 dB | 14 |
+| 25 | [Carsound outdoor V2 MdMonax](presets-apo/Carsound%20outdoor%20V2%20MdMonax.txt) | Car Audio / Subwoofer | 0.00 dB | 18 |
+| 26 | [CarsoundMonamodi 36hz](presets-apo/CarsoundMonamodi%2036hz.txt) | Car Audio / Subwoofer | 0.00 dB | 31 |
+| 27 | [Carsub on HomeAVCReciever MdMonax2](presets-apo/Carsub%20on%20HomeAVCReciever%20MdMonax2.txt) | Car Audio / Subwoofer | 0.00 dB | 32 |
+| 28 | [CentreEarphonesMDMonax](presets-apo/CentreEarphonesMDMonax.txt) | Earbuds / TWS / IEMs | 0.00 dB | 35 |
+| 29 | [Classical Sony MDMonax](presets-apo/Classical%20Sony%20MDMonax.txt) | Headphones / Earbuds (All-Rounder) | 0.00 dB | 41 |
+| 30 | [Classical Sony with bassMDMonax](presets-apo/Classical%20Sony%20with%20bassMDMonax.txt) | Headphones / Earbuds (All-Rounder) | 0.00 dB | 41 |
+| 31 | [Clear Noise CancelV2 MdMonax](presets-apo/Clear%20Noise%20CancelV2%20MdMonax.txt) | Headphones / Earbuds (All-Rounder) | 0.00 dB | 42 |
+| 32 | [Combi Concert Envelope MDMonax](presets-apo/Combi%20Concert%20Envelope%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 8 |
+| 33 | [Combi Concert MDMonax](presets-apo/Combi%20Concert%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 9 |
+| 34 | [Crossover for PA Compressor 320](presets-apo/Crossover%20for%20PA%20Compressor%20320.txt) | General / Multi-Device | 0.00 dB | 22 |
+| 35 | [Crossover Sound bar (L) Carsound (R) MdMonax](presets-apo/Crossover%20Sound%20bar%20%28L%29%20Carsound%20%28R%29%20MdMonax.txt) | Car Audio / Subwoofer | 0.00 dB | 19 |
+| 36 | [Curva Harman](presets-apo/Curva%20Harman.txt) | Headphones / Earbuds (All-Rounder) | 0.00 dB | 12 |
+| 37 | [Dance Waves MDMonax 80hz](presets-apo/Dance%20Waves%20MDMonax%2080hz.txt) | General / Multi-Device | 0.00 dB | 25 |
+| 38 | [Deep 45 MdMonax (45hz)](presets-apo/Deep%2045%20MdMonax%20%2845hz%29.txt) | General / Multi-Device | 0.00 dB | 48 |
+| 39 | [Deep bass 2](presets-apo/Deep%20bass%202.txt) | General / Multi-Device | -9.43 dB | 15 |
+| 40 | [Deep Waves MDMonax 2026](presets-apo/Deep%20Waves%20MDMonax%202026.txt) | General / Multi-Device | 0.00 dB | 30 |
+| 41 | [DeepWaves Original Earphones MDMonax](presets-apo/DeepWaves%20Original%20Earphones%20MDMonax.txt) | Earbuds / TWS / IEMs | 0.00 dB | 18 |
+| 42 | [Dj Set](presets-apo/Dj%20Set.txt) | General / Multi-Device | 4.60 dB | 26 |
+| 43 | [DJ Sound MDMonax](presets-apo/DJ%20Sound%20MDMonax.txt) | Outdoor PA / DJ / Large Speakers | 0.00 dB | 11 |
+| 44 | [DolbySub on Earphones MdMonax](presets-apo/DolbySub%20on%20Earphones%20MdMonax.txt) | Earbuds / TWS / IEMs | 0.00 dB | 11 |
+| 45 | [Dvc Stereo Envelope MdMonax](presets-apo/Dvc%20Stereo%20Envelope%20MdMonax.txt) | General / Multi-Device | 0.00 dB | 7 |
+| 46 | [Earphones FunkiNuDe Envelope](presets-apo/Earphones%20FunkiNuDe%20Envelope.txt) | Earbuds / TWS / IEMs | 0.00 dB | 19 |
+| 47 | [Ecco Envelope Crossover B142Q0.30 C45 MDMonax](presets-apo/Ecco%20Envelope%20Crossover%20B142Q0.30%20C45%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 23 |
+| 48 | [-Echo Reduced clarity defined. 36hz MdMonax](presets-apo/-Echo%20Reduced%20clarity%20defined.%2036hz%20MdMonax.txt) | Headphones / Earbuds (All-Rounder) | 0.00 dB | 28 |
+| 49 | [Enclosed Box DjsMDMONAX](presets-apo/Enclosed%20Box%20DjsMDMONAX.txt) | Outdoor PA / DJ / Large Speakers | 0.00 dB | 14 |
+| 50 | [Envelope Crossover Bass boosted(R) MDMonax](presets-apo/Envelope%20Crossover%20Bass%20boosted%28R%29%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 22 |
+| 51 | [Envelope Crossover Bass( R mono) Md Monax (Fixed)](presets-apo/Envelope%20Crossover%20Bass%28%20R%20mono%29%20Md%20Monax%20%28Fixed%29.txt) | General / Multi-Device | 0.00 dB | 22 |
+| 52 | [FrontPunchy 50hz](presets-apo/FrontPunchy%2050hz.txt) | General / Multi-Device | 0.00 dB | 6 |
+| 53 | [FTS Envelope Slowed](presets-apo/FTS%20Envelope%20Slowed.txt) | General / Multi-Device | 0.00 dB | 34 |
+| 54 | [General Stereo April 2026vMdMonax](presets-apo/General%20Stereo%20April%202026vMdMonax.txt) | General / Multi-Device | 0.00 dB | 24 |
+| 55 | [Gospel 3 HomeTheater 2026 MDMonax](presets-apo/Gospel%203%20HomeTheater%202026%20MDMonax.txt) | Home Theater / Soundbar | 0.00 dB | 12 |
+| 56 | [GrootBass MDMonax Envelope](presets-apo/GrootBass%20MDMonax%20Envelope.txt) | General / Multi-Device | 0.00 dB | 18 |
+| 57 | [Guitar Kicks MdMonax](presets-apo/Guitar%20Kicks%20MdMonax.txt) | General / Multi-Device | 0.00 dB | 31 |
+| 58 | [HD Ears (Monax)](presets-apo/HD%20Ears%20%28Monax%29.txt) | General / Multi-Device | 0.00 dB | 17 |
+| 59 | [HD General Monax](presets-apo/HD%20General%20Monax.txt) | General / Multi-Device | 0.00 dB | 17 |
+| 60 | [HD Headphones 50hz MDMonax](presets-apo/HD%20Headphones%2050hz%20MDMonax.txt) | Over-Ear Headphones | 0.00 dB | 31 |
+| 61 | [HD Headphones V2 Deep 50hz MDMonax](presets-apo/HD%20Headphones%20V2%20Deep%2050hz%20MDMonax.txt) | Over-Ear Headphones | 0.00 dB | 31 |
+| 62 | [Headphones Clear Monax](presets-apo/Headphones%20Clear%20Monax.txt) | Over-Ear Headphones | 0.00 dB | 52 |
+| 63 | [Headphones FUNKI-Nude MDMonax](presets-apo/Headphones%20FUNKI-Nude%20MDMonax.txt) | Over-Ear Headphones | 0.00 dB | 17 |
+| 64 | [Hi res 2 Earphones Monax](presets-apo/Hi%20res%202%20Earphones%20Monax.txt) | Earbuds / TWS / IEMs | 0.00 dB | 18 |
+| 65 | [Hi res TWS 4 Md Monax](presets-apo/Hi%20res%20TWS%204%20Md%20Monax.txt) | Earbuds / TWS / IEMs | 0.00 dB | 16 |
+| 66 | [HIFIMAN TWS600](presets-apo/HIFIMAN%20TWS600.txt) | Earbuds / TWS / IEMs | 0.00 dB | 12 |
+| 67 | [hi-res stereo headphone](presets-apo/hi-res%20stereo%20headphone.txt) | Over-Ear Headphones | 0.00 dB | 13 |
+| 68 | [Home Theater 2026 Bass tone 35hz Monax](presets-apo/Home%20Theater%202026%20Bass%20tone%2035hz%20Monax.txt) | Home Theater / Soundbar | 0.00 dB | 23 |
+| 69 | [House El nino 50hz MDMONAX](presets-apo/House%20El%20nino%2050hz%20MDMONAX.txt) | General / Multi-Device | 0.00 dB | 45 |
+| 70 | [Icepower 1 Mdmonax](presets-apo/Icepower%201%20Mdmonax.txt) | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 |
+| 71 | [Icepower 2 Mdmonax](presets-apo/Icepower%202%20Mdmonax.txt) | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 |
+| 72 | [Indoor Clear MDMonax](presets-apo/Indoor%20Clear%20MDMonax.txt) | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 |
+| 73 | [Jazz punchyMDMonax 106hz](presets-apo/Jazz%20punchyMDMonax%20106hz.txt) | General / Multi-Device | 0.00 dB | 5 |
+| 74 | [July 2026 Envelope Only MDMonax](presets-apo/July%202026%20Envelope%20Only%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 16 |
+| 75 | [June MDMonax DeepWaves 50hz Q1.00](presets-apo/June%20MDMonax%20DeepWaves%2050hz%20Q1.00.txt) | General / Multi-Device | 0.00 dB | 12 |
+| 76 | [Lenovo GM2 Pro - Balanced Bass Clear Highs](presets-apo/Lenovo%20GM2%20Pro%20-%20Balanced%20Bass%20Clear%20Highs.txt) | Headphones / Earbuds (All-Rounder) | 1.90 dB | 7 |
+| 77 | [M19 earphones B](presets-apo/M19%20earphones%20B.txt) | Earbuds / TWS / IEMs | 0.00 dB | 21 |
+| 78 | [Marley](presets-apo/Marley.txt) | General / Multi-Device | 0.00 dB | 12 |
+| 79 | [Massive Bass Targa (Monax)](presets-apo/Massive%20Bass%20Targa%20%28Monax%29.txt) | General / Multi-Device | 0.00 dB | 43 |
+| 80 | [MDMonax Outdoor](presets-apo/MDMonax%20Outdoor.txt) | Outdoor PA / DJ / Large Speakers | 0.00 dB | 34 |
+| 81 | [MiD BAss MDMONAX comp400hz](presets-apo/MiD%20BAss%20MDMONAX%20comp400hz.txt) | General / Multi-Device | 0.00 dB | 33 |
+| 82 | [Monax 45 hz](presets-apo/Monax%2045%20hz.txt) | General / Multi-Device | 0.04 dB | 30 |
+| 83 | [Monax Crossover Bass(L)](presets-apo/Monax%20Crossover%20Bass%28L%29.txt) | General / Multi-Device | 0.00 dB | 14 |
+| 84 | [Monax Crossover Bass(R)](presets-apo/Monax%20Crossover%20Bass%28R%29.txt) | General / Multi-Device | 0.00 dB | 14 |
+| 85 | [Monax full bass](presets-apo/Monax%20full%20bass.txt) | General / Multi-Device | 0.00 dB | 15 |
+| 86 | [Monax sub2](presets-apo/Monax%20sub2.txt) | General / Multi-Device | 0.00 dB | 15 |
+| 87 | [Monday Blues 2 Kick MDMonax](presets-apo/Monday%20Blues%202%20Kick%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 25 |
+| 88 | [Monday Blues deep v2 MDMonax](presets-apo/Monday%20Blues%20deep%20v2%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 28 |
+| 89 | [Moondrop Chu2](presets-apo/Moondrop%20Chu2.txt) | General / Multi-Device | -1.55 dB | 12 |
+| 90 | [Movie Bass Mod Slow MDMona](presets-apo/Movie%20Bass%20Mod%20Slow%20MDMona.txt) | General / Multi-Device | 0.00 dB | 15 |
+| 91 | [My Edifier TWS6](presets-apo/My%20Edifier%20TWS6.txt) | Earbuds / TWS / IEMs | 0.00 dB | 8 |
+| 92 | [Neo7SE Speaker - Less Bass More Depth](presets-apo/Neo7SE%20Speaker%20-%20Less%20Bass%20More%20Depth.txt) | General / Multi-Device | 2.81 dB | 8 |
+| 93 | [Noise Cancel Guitar](presets-apo/Noise%20Cancel%20Guitar.txt) | General / Multi-Device | 0.00 dB | 39 |
+| 94 | [November Cascade MDMonax](presets-apo/November%20Cascade%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 17 |
+| 95 | [Num of Bands 28 First frq 30hz MDMonax](presets-apo/Num%20of%20Bands%2028%20First%20frq%2030hz%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 30 |
+| 96 | [Old Skul SuB Monax 2026](presets-apo/Old%20Skul%20SuB%20Monax%202026.txt) | General / Multi-Device | 0.00 dB | 17 |
+| 97 | [Outdoor MdMonax](presets-apo/Outdoor%20MdMonax.txt) | Outdoor PA / DJ / Large Speakers | 0.00 dB | 25 |
+| 98 | [Outdoor Midrange MdMonax](presets-apo/Outdoor%20Midrange%20MdMonax.txt) | Outdoor PA / DJ / Large Speakers | 0.00 dB | 15 |
+| 99 | [P.M.P.O Speakers Clarity 40hz MDMonax](presets-apo/P.M.P.O%20Speakers%20Clarity%2040hz%20MDMonax.txt) | Headphones / Earbuds (All-Rounder) | 0.00 dB | 45 |
+| 100 | [Parametric](presets-apo/Parametric.txt) | General / Multi-Device | 0.00 dB | 11 |
+| 101 | [Party 12 Stereo Trebble 7858khzQMax BassTone30hz Q0.55 MdMonax](presets-apo/Party%2012%20Stereo%20Trebble%207858khzQMax%20BassTone30hz%20Q0.55%20MdMonax.txt) | General / Multi-Device | 0.00 dB | 9 |
+| 102 | [Party Stereo 2 Bass Tone 48hz Q1.30 Compressor 320hz Monax](presets-apo/Party%20Stereo%202%20Bass%20Tone%2048hz%20Q1.30%20Compressor%20320hz%20Monax.txt) | General / Multi-Device | 0.00 dB | 20 |
+| 103 | [Party Stereo Bass Tone 55hz Q1.50 Compressor 450hz Monax](presets-apo/Party%20Stereo%20Bass%20Tone%2055hz%20Q1.50%20Compressor%20450hz%20Monax.txt) | General / Multi-Device | 0.00 dB | 22 |
+| 104 | [Phone speaker with clarity MDMonax](presets-apo/Phone%20speaker%20with%20clarity%20MDMonax.txt) | Headphones / Earbuds (All-Rounder) | 0.00 dB | 20 |
+| 105 | [Pioneer Home theather MDMonax](presets-apo/Pioneer%20Home%20theather%20MDMonax.txt) | Home Theater / Soundbar | 0.00 dB | 17 |
+| 106 | [PistonBuds Pro Q30 - Warm Bass](presets-apo/PistonBuds%20Pro%20Q30%20-%20Warm%20Bass.txt) | General / Multi-Device | 5.50 dB | 6 |
+| 107 | [PoPiano MDMonax..Envelope 36hz](presets-apo/PoPiano%20MDMonax..Envelope%2036hz.txt) | General / Multi-Device | 0.00 dB | 10 |
+| 108 | [PoPiano2 Heavy MDMonax..Envelope 36hz](presets-apo/PoPiano2%20Heavy%20MDMonax..Envelope%2036hz.txt) | General / Multi-Device | 0.00 dB | 10 |
+| 109 | [PowerBass Room](presets-apo/PowerBass%20Room.txt) | General / Multi-Device | 0.00 dB | 47 |
+| 110 | [Punchy Bass vijay](presets-apo/Punchy%20Bass%20vijay.txt) | General / Multi-Device | 3.00 dB | 10 |
+| 111 | [Punchy stereo MdMonax](presets-apo/Punchy%20stereo%20MdMonax.txt) | General / Multi-Device | 0.00 dB | 8 |
+| 112 | [Punchy2 Small spk MDMonax 36hz](presets-apo/Punchy2%20Small%20spk%20MDMonax%2036hz.txt) | Small / Portable Speakers | 0.00 dB | 13 |
+| 113 | [Reggae MD Monax](presets-apo/Reggae%20MD%20Monax.txt) | General / Multi-Device | 0.00 dB | 27 |
+| 114 | [Reggae Monax](presets-apo/Reggae%20Monax.txt) | General / Multi-Device | 0.03 dB | 30 |
+| 115 | [Riddim 2026 MDMonax 40hz](presets-apo/Riddim%202026%20MDMonax%2040hz.txt) | General / Multi-Device | 0.00 dB | 27 |
+| 116 | [Rnb2026MDMonax Hometheathers](presets-apo/Rnb2026MDMonax%20Hometheathers.txt) | Home Theater / Soundbar | 0.00 dB | 32 |
+| 117 | [Slow Mid Sony All stereo](presets-apo/Slow%20Mid%20Sony%20All%20stereo.txt) | Headphones / Earbuds (All-Rounder) | 0.00 dB | 37 |
+| 118 | [SlowBass with Trebble MDMonax](presets-apo/SlowBass%20with%20Trebble%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 21 |
+| 119 | [Small Speakers Clarity Punchy June Stereo Envelope 50hzQ1 MdMonax](presets-apo/Small%20Speakers%20Clarity%20Punchy%20June%20Stereo%20Envelope%2050hzQ1%20MdMonax.txt) | Small / Portable Speakers | 0.00 dB | 9 |
+| 120 | [SonyX Monax 65hz Tone 45hzDelay(69)](presets-apo/SonyX%20Monax%2065hz%20Tone%2045hzDelay%2869%29.txt) | Headphones / Earbuds (All-Rounder) | 0.00 dB | 24 |
+| 121 | [SoundBar 102hz Q0.80 Cc MDMonax](presets-apo/SoundBar%20102hz%20Q0.80%20Cc%20MDMonax.txt) | Home Theater / Soundbar | 0.00 dB | 10 |
+| 122 | [Soundbar Monax (Envelope)](presets-apo/Soundbar%20Monax%20%28Envelope%29.txt) | Home Theater / Soundbar | 0.00 dB | 38 |
+| 123 | [SoundCloud JBL go 4](presets-apo/SoundCloud%20JBL%20go%204.txt) | General / Multi-Device | -8.48 dB | 26 |
+| 124 | [standar iso226](presets-apo/standar%20iso226.txt) | General / Multi-Device | 0.00 dB | 12 |
+| 125 | [stereo standart iso 226](presets-apo/stereo%20standart%20iso%20226.txt) | General / Multi-Device | 0.00 dB | 12 |
+| 126 | [Targa 15 Monamodi Monax 2026 Carbass](presets-apo/Targa%2015%20Monamodi%20Monax%202026%20Carbass.txt) | Car Audio / Subwoofer | 0.02 dB | 33 |
+| 127 | [Tempest home Bass Tone 30hz Q 0.50 MDMonax](presets-apo/Tempest%20home%20Bass%20Tone%2030hz%20Q%200.50%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 10 |
+| 128 | [TWS 2 MdMonax](presets-apo/TWS%202%20MdMonax.txt) | Earbuds / TWS / IEMs | 0.00 dB | 31 |
+| 129 | [TWS Earphones 2 MDMONAX](presets-apo/TWS%20Earphones%202%20MDMONAX.txt) | Earbuds / TWS / IEMs | 0.00 dB | 10 |
+| 130 | [TWs Earphones MDMonax](presets-apo/TWs%20Earphones%20MDMonax.txt) | Earbuds / TWS / IEMs | 0.00 dB | 9 |
+| 131 | [Tws Midnight Monax](presets-apo/Tws%20Midnight%20Monax.txt) | Earbuds / TWS / IEMs | 0.00 dB | 8 |
+| 132 | [V8 2 MDMonax](presets-apo/V8%202%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 14 |
+| 133 | [V8 3 MDMonax](presets-apo/V8%203%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 14 |
+| 134 | [V8 latest MDMonax](presets-apo/V8%20latest%20MDMonax.txt) | General / Multi-Device | 0.00 dB | 13 |
+| 135 | [ViveX ultimate](presets-apo/ViveX%20ultimate.txt) | General / Multi-Device | -5.50 dB | 13 |
+| 136 | [Vivo X200 Ultra](presets-apo/Vivo%20X200%20Ultra.txt) | General / Multi-Device | 0.00 dB | 12 |
+
+## HeSuVi Virtual Surround HRIRs (169)
+
+> Binaural profiles are for headphones and earbuds only. Turn Virtual Surround off for speakers.
+
+| # | Profile | Recommended Device | Size |
+| :--- | :--- | :--- | :--- |
+| 1 | [atmos](hrir-surround/atmos.wav) | Headphones / Earbuds (Dolby) | 281.7 KB |
+| 2 | [atmos-](hrir-surround/atmos-.wav) | Headphones / Earbuds (Dolby) | 3.5 KB |
+| 3 | [atmos_L](hrir-surround/atmos_L.wav) | Headphones / Earbuds (Dolby) | 160.9 KB |
+| 4 | [atmos-_L](hrir-surround/atmos-_L.wav) | Headphones / Earbuds (Dolby) | 4 KB |
+| 5 | [atmos_R](hrir-surround/atmos_R.wav) | Headphones / Earbuds (Dolby) | 160.9 KB |
+| 6 | [atmos-_R](hrir-surround/atmos-_R.wav) | Headphones / Earbuds (Dolby) | 4 KB |
+| 7 | [cmss_ent](hrir-surround/cmss_ent.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 262.7 KB |
+| 8 | [cmss_ent-](hrir-surround/cmss_ent-.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 4.7 KB |
+| 9 | [cmss_ent_L](hrir-surround/cmss_ent_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 150.1 KB |
+| 10 | [cmss_ent-_L](hrir-surround/cmss_ent-_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 5.3 KB |
+| 11 | [cmss_ent_R](hrir-surround/cmss_ent_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 150.1 KB |
+| 12 | [cmss_ent-_R](hrir-surround/cmss_ent-_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 5.3 KB |
+| 13 | [cmss_game](hrir-surround/cmss_game.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 262.7 KB |
+| 14 | [cmss_game-](hrir-surround/cmss_game-.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 4.6 KB |
+| 15 | [cmss_game_L](hrir-surround/cmss_game_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 150.1 KB |
+| 16 | [cmss_game-_L](hrir-surround/cmss_game-_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 5.2 KB |
+| 17 | [cmss_game_R](hrir-surround/cmss_game_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 150.1 KB |
+| 18 | [cmss_game-_R](hrir-surround/cmss_game-_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 5.2 KB |
+| 19 | [cmss_rx](hrir-surround/cmss_rx.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 2.5 KB |
+| 20 | [cmss_rx_L](hrir-surround/cmss_rx_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 2.8 KB |
+| 21 | [cmss_rx_R](hrir-surround/cmss_rx_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 2.8 KB |
+| 22 | [cmss_rx+](hrir-surround/cmss_rx%2B.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 787.7 KB |
+| 23 | [cmss_rx+_L](hrir-surround/cmss_rx%2B_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 450.1 KB |
+| 24 | [cmss_rx+_R](hrir-surround/cmss_rx%2B_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 450.1 KB |
+| 25 | [dh-](hrir-surround/dh-.wav) | Headphones / Earbuds (Dolby) | 3.7 KB |
+| 26 | [dh-_L](hrir-surround/dh-_L.wav) | Headphones / Earbuds (Dolby) | 4.1 KB |
+| 27 | [dh-_R](hrir-surround/dh-_R.wav) | Headphones / Earbuds (Dolby) | 4.1 KB |
+| 28 | [dh+](hrir-surround/dh%2B.wav) | Headphones / Earbuds (Dolby) | 385.5 KB |
+| 29 | [dh+_L](hrir-surround/dh%2B_L.wav) | Headphones / Earbuds (Dolby) | 220.2 KB |
+| 30 | [dh+_R](hrir-surround/dh%2B_R.wav) | Headphones / Earbuds (Dolby) | 220.2 KB |
+| 31 | [dh++](hrir-surround/dh%2B%2B.wav) | Headphones / Earbuds (Dolby) | 393.9 KB |
+| 32 | [dh++_L](hrir-surround/dh%2B%2B_L.wav) | Headphones / Earbuds (Dolby) | 225.1 KB |
+| 33 | [dh++_R](hrir-surround/dh%2B%2B_R.wav) | Headphones / Earbuds (Dolby) | 225.1 KB |
+| 34 | [dht](hrir-surround/dht.wav) | Headphones / Earbuds (Dolby) | 472.7 KB |
+| 35 | [dht-](hrir-surround/dht-.wav) | Headphones / Earbuds (Dolby) | 21.2 KB |
+| 36 | [dht_L](hrir-surround/dht_L.wav) | Headphones / Earbuds (Dolby) | 270.1 KB |
+| 37 | [dht-_L](hrir-surround/dht-_L.wav) | Headphones / Earbuds (Dolby) | 12.1 KB |
+| 38 | [dht_R](hrir-surround/dht_R.wav) | Headphones / Earbuds (Dolby) | 270.1 KB |
+| 39 | [dht-_R](hrir-surround/dht-_R.wav) | Headphones / Earbuds (Dolby) | 12.1 KB |
+| 40 | [dirac_delta_44_left](hrir-surround/dirac_delta_44_left.wav) | Headphones / Earbuds Only (Binaural) | 88 KB |
+| 41 | [dirac_delta_44_right](hrir-surround/dirac_delta_44_right.wav) | Headphones / Earbuds Only (Binaural) | 88 KB |
+| 42 | [dirac_delta_48_left](hrir-surround/dirac_delta_48_left.wav) | Headphones / Earbuds Only (Binaural) | 96 KB |
+| 43 | [dirac_delta_48_right](hrir-surround/dirac_delta_48_right.wav) | Headphones / Earbuds Only (Binaural) | 96 KB |
+| 44 | [ds3d](hrir-surround/ds3d.wav) | Headphones / Earbuds Only (Binaural) | 7.3 KB |
+| 45 | [ds3d_L](hrir-surround/ds3d_L.wav) | Headphones / Earbuds Only (Binaural) | 8.3 KB |
+| 46 | [ds3d_R](hrir-surround/ds3d_R.wav) | Headphones / Earbuds Only (Binaural) | 8.3 KB |
+| 47 | [ds3d+](hrir-surround/ds3d%2B.wav) | Headphones / Earbuds Only (Binaural) | 163.3 KB |
+| 48 | [ds3d+_L](hrir-surround/ds3d%2B_L.wav) | Headphones / Earbuds Only (Binaural) | 93.3 KB |
+| 49 | [ds3d+_R](hrir-surround/ds3d%2B_R.wav) | Headphones / Earbuds Only (Binaural) | 93.3 KB |
+| 50 | [ds3d++](hrir-surround/ds3d%2B%2B.wav) | Headphones / Earbuds Only (Binaural) | 656.4 KB |
+| 51 | [ds3d++_L](hrir-surround/ds3d%2B%2B_L.wav) | Headphones / Earbuds Only (Binaural) | 375.1 KB |
+| 52 | [ds3d++_R](hrir-surround/ds3d%2B%2B_R.wav) | Headphones / Earbuds Only (Binaural) | 375.1 KB |
+| 53 | [ds3d+++](hrir-surround/ds3d%2B%2B%2B.wav) | Headphones / Earbuds Only (Binaural) | 918.9 KB |
+| 54 | [ds3d+++_L](hrir-surround/ds3d%2B%2B%2B_L.wav) | Headphones / Earbuds Only (Binaural) | 525.1 KB |
+| 55 | [ds3d+++_R](hrir-surround/ds3d%2B%2B%2B_R.wav) | Headphones / Earbuds Only (Binaural) | 525.1 KB |
+| 56 | [dtshx](hrir-surround/dtshx.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 65.8 KB |
+| 57 | [dtshx-](hrir-surround/dtshx-.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 4.2 KB |
+| 58 | [dtshx_L](hrir-surround/dtshx_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 37.6 KB |
+| 59 | [dtshx-_L](hrir-surround/dtshx-_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 4.7 KB |
+| 60 | [dtshx_R](hrir-surround/dtshx_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 37.6 KB |
+| 61 | [dtshx-_R](hrir-surround/dtshx-_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 4.7 KB |
+| 62 | [dvs](hrir-surround/dvs.wav) | Headphones / Earbuds Only (Binaural) | 459.6 KB |
+| 63 | [dvs_L](hrir-surround/dvs_L.wav) | Headphones / Earbuds Only (Binaural) | 262.6 KB |
+| 64 | [dvs_R](hrir-surround/dvs_R.wav) | Headphones / Earbuds Only (Binaural) | 262.6 KB |
+| 65 | [dvs+](hrir-surround/dvs%2B.wav) | Headphones / Earbuds Only (Binaural) | 399.2 KB |
+| 66 | [dvs+_L](hrir-surround/dvs%2B_L.wav) | Headphones / Earbuds Only (Binaural) | 228.1 KB |
+| 67 | [dvs+_R](hrir-surround/dvs%2B_R.wav) | Headphones / Earbuds Only (Binaural) | 228.1 KB |
+| 68 | [gsx](hrir-surround/gsx.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 262.7 KB |
+| 69 | [gsx-](hrir-surround/gsx-.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 3.4 KB |
+| 70 | [gsx_L](hrir-surround/gsx_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 150.1 KB |
+| 71 | [gsx-_L](hrir-surround/gsx-_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 3.9 KB |
+| 72 | [gsx_R](hrir-surround/gsx_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 150.1 KB |
+| 73 | [gsx-_R](hrir-surround/gsx-_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 3.9 KB |
+| 74 | [gsx+](hrir-surround/gsx%2B.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 472.7 KB |
+| 75 | [gsx+_L](hrir-surround/gsx%2B_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 270.1 KB |
+| 76 | [gsx+_R](hrir-surround/gsx%2B_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 270.1 KB |
+| 77 | [gsx++](hrir-surround/gsx%2B%2B.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 603.9 KB |
+| 78 | [gsx++_L](hrir-surround/gsx%2B%2B_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 345.1 KB |
+| 79 | [gsx++_R](hrir-surround/gsx%2B%2B_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 345.1 KB |
+| 80 | [hear](hrir-surround/hear.wav) | Headphones / Earbuds Only (Binaural) | 2.8 KB |
+| 81 | [hear_L](hrir-surround/hear_L.wav) | Headphones / Earbuds Only (Binaural) | 3.1 KB |
+| 82 | [hear_R](hrir-surround/hear_R.wav) | Headphones / Earbuds Only (Binaural) | 3.1 KB |
+| 83 | [nahimic](hrir-surround/nahimic.wav) | Headphones / Earbuds Only (Binaural) | 787.7 KB |
+| 84 | [nahimic-](hrir-surround/nahimic-.wav) | Headphones / Earbuds Only (Binaural) | 13.9 KB |
+| 85 | [nahimic_L](hrir-surround/nahimic_L.wav) | Headphones / Earbuds Only (Binaural) | 450.1 KB |
+| 86 | [nahimic-_L](hrir-surround/nahimic-_L.wav) | Headphones / Earbuds Only (Binaural) | 15.8 KB |
+| 87 | [nahimic_R](hrir-surround/nahimic_R.wav) | Headphones / Earbuds Only (Binaural) | 450.1 KB |
+| 88 | [nahimic-_R](hrir-surround/nahimic-_R.wav) | Headphones / Earbuds Only (Binaural) | 15.8 KB |
+| 89 | [none](hrir-surround/none.wav) | Headphones / Earbuds Only (Binaural) | 0.2 KB |
+| 90 | [none_L](hrir-surround/none_L.wav) | Headphones / Earbuds Only (Binaural) | 0.1 KB |
+| 91 | [none_R](hrir-surround/none_R.wav) | Headphones / Earbuds Only (Binaural) | 0.1 KB |
+| 92 | [oal_cia0](hrir-surround/oal_cia0.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 1.9 KB |
+| 93 | [oal_cia0_L](hrir-surround/oal_cia0_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 2.1 KB |
+| 94 | [oal_cia0_R](hrir-surround/oal_cia0_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 2.1 KB |
+| 95 | [oal_cia1](hrir-surround/oal_cia1.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 1.7 KB |
+| 96 | [oal_cia1_L](hrir-surround/oal_cia1_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 1.9 KB |
+| 97 | [oal_cia1_R](hrir-surround/oal_cia1_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 1.9 KB |
+| 98 | [oal_dflt](hrir-surround/oal_dflt.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 1.9 KB |
+| 99 | [oal_dflt_L](hrir-surround/oal_dflt_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 2.1 KB |
+| 100 | [oal_dflt_R](hrir-surround/oal_dflt_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 2.1 KB |
+| 101 | [oal+](hrir-surround/oal%2B.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 393.9 KB |
+| 102 | [oal+_L](hrir-surround/oal%2B_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 225.1 KB |
+| 103 | [oal+_R](hrir-surround/oal%2B_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 225.1 KB |
+| 104 | [oal++](hrir-surround/oal%2B%2B.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 393.9 KB |
+| 105 | [oal++_L](hrir-surround/oal%2B%2B_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 225.1 KB |
+| 106 | [oal++_R](hrir-surround/oal%2B%2B_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 225.1 KB |
+| 107 | [oal+++](hrir-surround/oal%2B%2B%2B.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 656.4 KB |
+| 108 | [oal+++_L](hrir-surround/oal%2B%2B%2B_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 375.1 KB |
+| 109 | [oal+++_R](hrir-surround/oal%2B%2B%2B_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 375.1 KB |
+| 110 | [ooyh0](hrir-surround/ooyh0.wav) | Headphones / Earbuds Only (Binaural) | 590.8 KB |
+| 111 | [ooyh0_L](hrir-surround/ooyh0_L.wav) | Headphones / Earbuds Only (Binaural) | 337.6 KB |
+| 112 | [ooyh0_R](hrir-surround/ooyh0_R.wav) | Headphones / Earbuds Only (Binaural) | 337.6 KB |
+| 113 | [ooyh1](hrir-surround/ooyh1.wav) | Headphones / Earbuds Only (Binaural) | 381 KB |
+| 114 | [ooyh1_L](hrir-surround/ooyh1_L.wav) | Headphones / Earbuds Only (Binaural) | 217.7 KB |
+| 115 | [ooyh1_R](hrir-surround/ooyh1_R.wav) | Headphones / Earbuds Only (Binaural) | 217.7 KB |
+| 116 | [razer](hrir-surround/razer.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 9.1 KB |
+| 117 | [razer_fix](hrir-surround/razer_fix.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 27 KB |
+| 118 | [razer_fix_L](hrir-surround/razer_fix_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 30.8 KB |
+| 119 | [razer_fix_R](hrir-surround/razer_fix_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 30.8 KB |
+| 120 | [razer_L](hrir-surround/razer_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 10.3 KB |
+| 121 | [razer_R](hrir-surround/razer_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 10.3 KB |
+| 122 | [sbx100](hrir-surround/sbx100.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 262.7 KB |
+| 123 | [sbx100-](hrir-surround/sbx100-.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 1.9 KB |
+| 124 | [sbx100_L](hrir-surround/sbx100_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 150.1 KB |
+| 125 | [sbx100-_L](hrir-surround/sbx100-_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 2.1 KB |
+| 126 | [sbx100_R](hrir-surround/sbx100_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 150.1 KB |
+| 127 | [sbx100-_R](hrir-surround/sbx100-_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 2.1 KB |
+| 128 | [sbx33](hrir-surround/sbx33.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 262.7 KB |
+| 129 | [sbx33-](hrir-surround/sbx33-.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 1.9 KB |
+| 130 | [sbx33_L](hrir-surround/sbx33_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 150.1 KB |
+| 131 | [sbx33-_L](hrir-surround/sbx33-_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 2.1 KB |
+| 132 | [sbx33_R](hrir-surround/sbx33_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 150.1 KB |
+| 133 | [sbx33-_R](hrir-surround/sbx33-_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 2.1 KB |
+| 134 | [sbx67](hrir-surround/sbx67.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 262.7 KB |
+| 135 | [sbx67-](hrir-surround/sbx67-.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 1.9 KB |
+| 136 | [sbx67_L](hrir-surround/sbx67_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 150.1 KB |
+| 137 | [sbx67-_L](hrir-surround/sbx67-_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 2.1 KB |
+| 138 | [sbx67_R](hrir-surround/sbx67_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 150.1 KB |
+| 139 | [sbx67-_R](hrir-surround/sbx67-_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 2.1 KB |
+| 140 | [sonic](hrir-surround/sonic.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 280.7 KB |
+| 141 | [sonic-](hrir-surround/sonic-.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 8.6 KB |
+| 142 | [sonic_L](hrir-surround/sonic_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 160.4 KB |
+| 143 | [sonic-_L](hrir-surround/sonic-_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 9.8 KB |
+| 144 | [sonic_R](hrir-surround/sonic_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 160.4 KB |
+| 145 | [sonic-_R](hrir-surround/sonic-_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 9.8 KB |
+| 146 | [sonic+](hrir-surround/sonic%2B.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 630.2 KB |
+| 147 | [sonic+_L](hrir-surround/sonic%2B_L.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 360.1 KB |
+| 148 | [sonic+_R](hrir-surround/sonic%2B_R.wav) | Headphones / Earbuds (3D Gaming & Spatial) | 360.1 KB |
+| 149 | [ssc_dub](hrir-surround/ssc_dub.wav) | Headphones / Earbuds Only (Binaural) | 267.1 KB |
+| 150 | [ssc_dub_L](hrir-surround/ssc_dub_L.wav) | Headphones / Earbuds Only (Binaural) | 152.6 KB |
+| 151 | [ssc_dub_R](hrir-surround/ssc_dub_R.wav) | Headphones / Earbuds Only (Binaural) | 152.6 KB |
+| 152 | [ssc_ny](hrir-surround/ssc_ny.wav) | Headphones / Earbuds Only (Binaural) | 144.6 KB |
+| 153 | [ssc_ny_L](hrir-surround/ssc_ny_L.wav) | Headphones / Earbuds Only (Binaural) | 82.6 KB |
+| 154 | [ssc_ny_R](hrir-surround/ssc_ny_R.wav) | Headphones / Earbuds Only (Binaural) | 82.6 KB |
+| 155 | [ssc_ny+](hrir-surround/ssc_ny%2B.wav) | Headphones / Earbuds Only (Binaural) | 486 KB |
+| 156 | [ssc_ny+_L](hrir-surround/ssc_ny%2B_L.wav) | Headphones / Earbuds Only (Binaural) | 277.7 KB |
+| 157 | [ssc_ny+_R](hrir-surround/ssc_ny%2B_R.wav) | Headphones / Earbuds Only (Binaural) | 277.7 KB |
+| 158 | [ssc_syd](hrir-surround/ssc_syd.wav) | Headphones / Earbuds Only (Binaural) | 412.3 KB |
+| 159 | [ssc_syd_L](hrir-surround/ssc_syd_L.wav) | Headphones / Earbuds Only (Binaural) | 235.6 KB |
+| 160 | [ssc_syd_R](hrir-surround/ssc_syd_R.wav) | Headphones / Earbuds Only (Binaural) | 235.6 KB |
+| 161 | [ssc_syd+](hrir-surround/ssc_syd%2B.wav) | Headphones / Earbuds Only (Binaural) | 897.9 KB |
+| 162 | [ssc_syd+_L](hrir-surround/ssc_syd%2B_L.wav) | Headphones / Earbuds Only (Binaural) | 513.1 KB |
+| 163 | [ssc_syd+_R](hrir-surround/ssc_syd%2B_R.wav) | Headphones / Earbuds Only (Binaural) | 513.1 KB |
+| 164 | [waves](hrir-surround/waves.wav) | Headphones / Earbuds Only (Binaural) | 472.7 KB |
+| 165 | [waves-](hrir-surround/waves-.wav) | Headphones / Earbuds Only (Binaural) | 14.3 KB |
+| 166 | [waves_L](hrir-surround/waves_L.wav) | Headphones / Earbuds Only (Binaural) | 270.1 KB |
+| 167 | [waves-_L](hrir-surround/waves-_L.wav) | Headphones / Earbuds Only (Binaural) | 16.3 KB |
+| 168 | [waves_R](hrir-surround/waves_R.wav) | Headphones / Earbuds Only (Binaural) | 270.1 KB |
+| 169 | [waves-_R](hrir-surround/waves-_R.wav) | Headphones / Earbuds Only (Binaural) | 16.3 KB |
+>>>>>>> a57839f (Re-convert Poweramp presets and rebuild restore backup)

@@ -1,0 +1,103 @@
+{
+	"name": "Moondrop Chu2",
+	"preamp": -1.5466821193695068,
+	"parametric": false,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 0.6852582097053528,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 0.4842739999294281,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 31,
+			"q": 0.0,
+			"gain": 2.5125467777252197,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 62,
+			"q": 0.0,
+			"gain": 2.5329816341400146,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 124,
+			"q": 0.0,
+			"gain": 0.986754298210144,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 249,
+			"q": 0.0,
+			"gain": -2.1590280532836914,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 498,
+			"q": 0.0,
+			"gain": -0.9804877638816833,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 996,
+			"q": 0.0,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1995,
+			"q": 0.0,
+			"gain": 0.10209918022155762,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 3993,
+			"q": 0.0,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 7993,
+			"q": 0.0,
+			"gain": 1.021319031715393,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 16000,
+			"q": 0.0,
+			"gain": 0.49026310443878174,
+			"color": 0
+		}
+	]
+}

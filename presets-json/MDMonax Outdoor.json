@@ -1,0 +1,279 @@
+{
+	"name": "MDMonax Outdoor",
+	"preamp": 0.0,
+	"parametric": false,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 7.570655822753906,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 7.5385236740112305,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 30,
+			"q": 0.0,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 37,
+			"q": 0.0,
+			"gain": 15.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 45,
+			"q": 0.0,
+			"gain": 15.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 55,
+			"q": 0.0,
+			"gain": -15.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 67,
+			"q": 0.0,
+			"gain": -15.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 83,
+			"q": 0.0,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 101,
+			"q": 0.0,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 124,
+			"q": 0.0,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 152,
+			"q": 0.0,
+			"gain": 0.04213571548461914,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 186,
+			"q": 0.0,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 227,
+			"q": 0.0,
+			"gain": 0.0904083251953125,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 278,
+			"q": 0.0,
+			"gain": 0.019585490226745605,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 341,
+			"q": 0.0,
+			"gain": 0.008429288864135742,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 418,
+			"q": 0.0,
+			"gain": 0.04186391830444336,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 511,
+			"q": 0.0,
+			"gain": 0.04472494125366211,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 626,
+			"q": 0.0,
+			"gain": 0.0031435489654541016,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 767,
+			"q": 0.0,
+			"gain": 0.0625920295715332,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 939,
+			"q": 0.0,
+			"gain": 0.05292356014251709,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1150,
+			"q": 0.0,
+			"gain": 0.11474490165710449,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1408,
+			"q": 0.0,
+			"gain": 0.03300011157989502,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1724,
+			"q": 0.0,
+			"gain": 2.6407763957977295,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 2111,
+			"q": 0.0,
+			"gain": 1.2351429462432861,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 2585,
+			"q": 0.0,
+			"gain": -0.317172110080719,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 3165,
+			"q": 0.0,
+			"gain": -0.9065848588943481,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 3876,
+			"q": 0.0,
+			"gain": 1.7729651927947998,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 4746,
+			"q": 0.0,
+			"gain": 2.20729660987854,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 5811,
+			"q": 0.0,
+			"gain": 9.083490371704102,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 7116,
+			"q": 0.0,
+			"gain": 10.238763809204102,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 8714,
+			"q": 0.0,
+			"gain": 6.446628570556641,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 10670,
+			"q": 0.0,
+			"gain": 6.3664655685424805,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 13066,
+			"q": 0.0,
+			"gain": 6.551637649536133,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 16000,
+			"q": 0.0,
+			"gain": 6.632022857666016,
+			"color": 0
+		}
+	]
+}

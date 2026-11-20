@@ -1,0 +1,247 @@
+{
+	"name": "Monax 45 hz",
+	"preamp": 0.03735494613647461,
+	"parametric": false,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 10.509461402893066,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 7.526206016540527,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 32,
+			"q": 0.0,
+			"gain": 7.478354454040527,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 40,
+			"q": 0.0,
+			"gain": 7.4752092361450195,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 50,
+			"q": 0.0,
+			"gain": 7.4591288566589355,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 63,
+			"q": 0.0,
+			"gain": 0.5769252777099609,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 79,
+			"q": 0.0,
+			"gain": -15.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 99,
+			"q": 0.0,
+			"gain": -14.160693168640137,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 124,
+			"q": 0.0,
+			"gain": -8.50818157196045,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 155,
+			"q": 0.0,
+			"gain": -6.0252814292907715,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 194,
+			"q": 0.0,
+			"gain": 4.233981132507324,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 243,
+			"q": 0.0,
+			"gain": -1.8820470571517944,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 304,
+			"q": 0.0,
+			"gain": -3.620309829711914,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 381,
+			"q": 0.0,
+			"gain": -4.263977527618408,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 477,
+			"q": 0.0,
+			"gain": 2.280339002609253,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 598,
+			"q": 0.0,
+			"gain": 4.8941497802734375,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 749,
+			"q": 0.0,
+			"gain": 4.226124286651611,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 938,
+			"q": 0.0,
+			"gain": 5.9849772453308105,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1175,
+			"q": 0.0,
+			"gain": 5.941010475158691,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1472,
+			"q": 0.0,
+			"gain": 6.12802267074585,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1844,
+			"q": 0.0,
+			"gain": 4.182797431945801,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 2310,
+			"q": 0.0,
+			"gain": -2.2288246154785156,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 2894,
+			"q": 0.0,
+			"gain": 2.8154454231262207,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 3624,
+			"q": 0.0,
+			"gain": 5.47260046005249,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 4540,
+			"q": 0.0,
+			"gain": 4.550836086273193,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 5687,
+			"q": 0.0,
+			"gain": 1.7991435527801514,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 7123,
+			"q": 0.0,
+			"gain": 6.228916168212891,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 8923,
+			"q": 0.0,
+			"gain": 1.5072548389434814,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 11177,
+			"q": 0.0,
+			"gain": 6.92249870300293,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 14000,
+			"q": 0.0,
+			"gain": 12.324437141418457,
+			"color": 0
+		}
+	]
+}

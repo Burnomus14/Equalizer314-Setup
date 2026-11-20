@@ -1,0 +1,55 @@
+{
+	"name": "Black Spider Stereo Envelope MDMonax",
+	"preamp": -0.0016687011811882257,
+	"parametric": true,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 2.9914889335632324,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 2.981355667114258,
+			"color": 0
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 55,
+			"q": 1.2547539472579956,
+			"gain": 15.0,
+			"color": 0
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 65,
+			"q": 1.0001612901687622,
+			"gain": -15.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 9903,
+			"q": 1.1360750198364258,
+			"gain": 2.9894418716430664,
+			"color": -14540254
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 10626,
+			"q": 1.4936950206756592,
+			"gain": 3.1735146045684814,
+			"color": -14540254
+		}
+	]
+}

@@ -1,0 +1,215 @@
+{
+	"name": "Dj Set",
+	"preamp": 4.600001335144043,
+	"parametric": true,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 4.398250102996826,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 45,
+			"q": 5.0,
+			"gain": 15.0,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 38,
+			"q": 5.0,
+			"gain": 7.4576263427734375,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 50,
+			"q": 5.0,
+			"gain": 2.98305082321167,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 63,
+			"q": 5.0,
+			"gain": 11.949151992797852,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 85,
+			"q": 5.0,
+			"gain": -9.916620254516602,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 127,
+			"q": 5.0,
+			"gain": -9.959612846374512,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 192,
+			"q": 5.0,
+			"gain": -10.042289733886719,
+			"color": -7829368
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 777,
+			"q": 3.384298801422119,
+			"gain": 6.7787861824035645,
+			"color": -6750055
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 1630,
+			"q": 1.3335137367248535,
+			"gain": 7.4563446044921875,
+			"color": -7859968
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 14824,
+			"q": 4.918877124786377,
+			"gain": 7.456179618835449,
+			"color": -16772728
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 200,
+			"q": 1.4954173564910889,
+			"gain": 4.512257099151611,
+			"color": -15628237
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 400,
+			"q": 1.4954173564910889,
+			"gain": 4.449151992797852,
+			"color": -7829453
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 60,
+			"q": 1.4954173564910889,
+			"gain": 4.534188270568848,
+			"color": -8947849
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 816,
+			"q": 1.1859147548675537,
+			"gain": 7.499704837799072,
+			"color": -6750055
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 986,
+			"q": 1.3094731569290161,
+			"gain": 9.034581184387207,
+			"color": -7859968
+		},
+		{
+			"type": 4,
+			"channels": 0,
+			"frequency": 1718,
+			"q": 4.01689338684082,
+			"gain": 15.0,
+			"color": -15649895
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 80,
+			"q": 0.8350090980529785,
+			"gain": 15.0,
+			"color": -15623885
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 805,
+			"q": 0.8350090980529785,
+			"gain": 15.0,
+			"color": -6710989
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 387,
+			"q": 0.8350090980529785,
+			"gain": 15.0,
+			"color": -7829368
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 774,
+			"q": 2.2972021102905273,
+			"gain": 15.0,
+			"color": -6750055
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 9169,
+			"q": 0.6027222275733948,
+			"gain": 15.0,
+			"color": -7859968
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 9169,
+			"q": 3.384096384048462,
+			"gain": 15.0,
+			"color": -16772728
+		},
+		{
+			"type": 3,
+			"channels": 0,
+			"frequency": 9169,
+			"q": 7.969980239868164,
+			"gain": 15.0,
+			"color": -15628237
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 4868,
+			"q": 2.627991199493408,
+			"gain": 15.0,
+			"color": -6710989
+		}
+	]
+}

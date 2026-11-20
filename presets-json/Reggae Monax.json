@@ -1,0 +1,247 @@
+{
+	"name": "Reggae Monax",
+	"preamp": 0.0337986946105957,
+	"parametric": false,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 10.458925247192383,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 7.46435546875,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 32,
+			"q": 0.0,
+			"gain": 8.890449523925781,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 40,
+			"q": 0.0,
+			"gain": 7.542135715484619,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 50,
+			"q": 0.0,
+			"gain": 4.502009391784668,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 63,
+			"q": 0.0,
+			"gain": -15.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 79,
+			"q": 0.0,
+			"gain": 4.550562381744385,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 99,
+			"q": 0.0,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 124,
+			"q": 0.0,
+			"gain": -15.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 155,
+			"q": 0.0,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 194,
+			"q": 0.0,
+			"gain": -3.07584285736084,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 243,
+			"q": 0.0,
+			"gain": -8.300561904907227,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 304,
+			"q": 0.0,
+			"gain": -3.2022464275360107,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 381,
+			"q": 0.0,
+			"gain": -11.0941743850708,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 477,
+			"q": 0.0,
+			"gain": 3.117976665496826,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 598,
+			"q": 0.0,
+			"gain": 8.890448570251465,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 749,
+			"q": 0.0,
+			"gain": 0.04213392734527588,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 938,
+			"q": 0.0,
+			"gain": 0.04213392734527588,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1175,
+			"q": 0.0,
+			"gain": 3.876403570175171,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1472,
+			"q": 0.0,
+			"gain": 8.363763809204102,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1844,
+			"q": 0.0,
+			"gain": 3.75,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 2310,
+			"q": 0.0,
+			"gain": -1.6587791442871094,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 2894,
+			"q": 0.0,
+			"gain": 7.5,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 3624,
+			"q": 0.0,
+			"gain": 7.50016450881958,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 4540,
+			"q": 0.0,
+			"gain": -5.991573810577393,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 5687,
+			"q": 0.0,
+			"gain": 8.448036193847656,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 7123,
+			"q": 0.0,
+			"gain": -5.477281093597412,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 8923,
+			"q": 0.0,
+			"gain": 6.361207485198975,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 11177,
+			"q": 0.0,
+			"gain": 9.39606761932373,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 14000,
+			"q": 0.0,
+			"gain": 3.117070198059082,
+			"color": 0
+		}
+	]
+}

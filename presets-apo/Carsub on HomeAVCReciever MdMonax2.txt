@@ -1,4 +1,4 @@
-﻿Preamp: 0.00 dB
+Preamp: 0.00 dB
 Filter 1: ON PK Fc 90 Hz Gain 6.82 dB Q 0.80
 Filter 2: ON LSC Fc 10000 Hz Gain 0.00 dB Q 0.60
 Filter 3: ON LSC Fc 246 Hz Gain 7.91 dB Q 0.71
@@ -7,25 +7,25 @@ Filter 5: ON PK Fc 104 Hz Gain 4.85 dB Q 1.50
 Filter 6: ON PK Fc 469 Hz Gain 8.04 dB Q 1.00
 Filter 7: ON PK Fc 76 Hz Gain -10.01 dB Q 12.00
 Filter 8: ON PK Fc 55 Hz Gain 6.03 dB Q 3.93
-Filter 9: ON HP Fc 90 Hz Gain 7.04 dB Q 12.00
+Filter 9: ON PK Fc 90 Hz Gain 7.04 dB Q 12.00
 Filter 10: ON PK Fc 380 Hz Gain 4.95 dB Q 0.99
-Filter 11: ON HP Fc 750 Hz Gain -4.97 dB Q 1.30
+Filter 11: ON PK Fc 750 Hz Gain -4.97 dB Q 1.30
 Filter 12: ON PK Fc 40 Hz Gain -0.36 dB Q 12.00
 Filter 13: ON PK Fc 28 Hz Gain 2.96 dB Q 1.41
 Filter 14: ON LSC Fc 30 Hz Gain 5.00 dB Q 2.51
 Filter 15: ON PK Fc 115 Hz Gain 4.98 dB Q 0.90
-Filter 16: ON HP Fc 85 Hz Gain -4.94 dB Q 2.09
+Filter 16: ON PK Fc 85 Hz Gain -4.94 dB Q 2.09
 Filter 17: ON PK Fc 140 Hz Gain 3.00 dB Q 1.05
-Filter 18: ON LP Fc 150 Hz Gain -7.60 dB Q 0.72
-Filter 19: ON LP Fc 750 Hz Gain 1.56 dB Q 0.85
-Filter 20: ON LP Fc 3983 Hz Gain -3.27 dB Q 4.82
-Filter 21: ON LP Fc 400 Hz Gain 1.01 dB Q 2.18
+Filter 18: ON PK Fc 150 Hz Gain -7.60 dB Q 0.72
+Filter 19: ON PK Fc 750 Hz Gain 1.56 dB Q 0.85
+Filter 20: ON PK Fc 3983 Hz Gain -3.27 dB Q 4.82
+Filter 21: ON PK Fc 400 Hz Gain 1.01 dB Q 2.18
 Filter 22: ON LSC Fc 7494 Hz Gain 4.50 dB Q 0.83
-Filter 23: ON LP Fc 2321 Hz Gain 2.55 dB Q 3.01
-Filter 24: ON LP Fc 1756 Hz Gain -1.50 dB Q 2.52
-Filter 25: ON LP Fc 1953 Hz Gain 1.00 dB Q 3.23
-Filter 26: ON LP Fc 3166 Hz Gain -1.80 dB Q 5.42
-Filter 27: ON LP Fc 18836 Hz Gain 9.45 dB Q 0.86
+Filter 23: ON PK Fc 2321 Hz Gain 2.55 dB Q 3.01
+Filter 24: ON PK Fc 1756 Hz Gain -1.50 dB Q 2.52
+Filter 25: ON PK Fc 1953 Hz Gain 1.00 dB Q 3.23
+Filter 26: ON PK Fc 3166 Hz Gain -1.80 dB Q 5.42
+Filter 27: ON PK Fc 18836 Hz Gain 9.45 dB Q 0.86
 Filter 28: ON PK Fc 54 Hz Gain 4.98 dB Q 0.86
 Filter 29: ON PK Fc 66 Hz Gain -3.04 dB Q 3.55
 Filter 30: ON PK Fc 132 Hz Gain -4.97 dB Q 1.45

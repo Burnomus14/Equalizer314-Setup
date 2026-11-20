@@ -1,0 +1,127 @@
+{
+	"name": "Monax sub2",
+	"preamp": 0.0,
+	"parametric": true,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 26,
+			"q": 1.5,
+			"gain": -3.8983047008514404,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 35,
+			"q": 1.5,
+			"gain": 12.415255546569824,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 46,
+			"q": 1.5,
+			"gain": 6.58840274810791,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 61,
+			"q": 1.5,
+			"gain": -10.317216873168945,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 82,
+			"q": 1.5,
+			"gain": -8.940696716308594E-7,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 110,
+			"q": 1.5,
+			"gain": -13.519432067871094,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 145,
+			"q": 1.5,
+			"gain": -12.627117156982422,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 190,
+			"q": 1.5,
+			"gain": -6.71672248840332,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 260,
+			"q": 1.5,
+			"gain": -3.622260570526123,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 50,
+			"q": 1.5,
+			"gain": 5.974577903747559,
+			"color": -7829368
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 830,
+			"q": 1.3301509618759155,
+			"gain": 2.9661030769348145,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 777,
+			"q": 1.3301509618759155,
+			"gain": 3.008474826812744,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 8174,
+			"q": 1.9979150295257568,
+			"gain": 4.512630462646484,
+			"color": 0
+		}
+	]
+}

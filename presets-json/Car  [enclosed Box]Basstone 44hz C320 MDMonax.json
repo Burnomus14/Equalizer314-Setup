@@ -1,0 +1,71 @@
+{
+	"name": "Car  [enclosed Box]Basstone 44hz C320 MDMonax",
+	"preamp": -0.0016687011811882257,
+	"parametric": true,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 7.5351691246032715,
+			"color": 0
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 45,
+			"q": 1.4986077547073364,
+			"gain": 6.963468551635742,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 68,
+			"q": 1.4986077547073364,
+			"gain": -5.95890474319458,
+			"color": -15649895
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 63,
+			"q": 1.4986077547073364,
+			"gain": 3.1735146045684814,
+			"color": -15623885
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 115,
+			"q": 1.4986077547073364,
+			"gain": -10.022830963134766,
+			"color": -6710989
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 830,
+			"q": 1.4986077547073364,
+			"gain": 4.954337120056152,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 4016,
+			"q": 1.4990198612213135,
+			"gain": 4.954337120056152,
+			"color": -7829368
+		}
+	]
+}

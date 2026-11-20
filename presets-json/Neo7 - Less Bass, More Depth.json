@@ -1,0 +1,72 @@
+[{
+	"name": "Neo7SE Speaker - Less Bass, More Depth",
+	"preamp": 2.8084158897399902,
+	"parametric": true,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 3.5,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 2.5,
+			"color": 0
+		},
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 170,
+			"q": 2.700000047683716,
+			"gain": 2.0,
+			"color": -16755456
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 280,
+			"q": 2.5,
+			"gain": 2.0,
+			"color": -13421773
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 310,
+			"q": 3.0,
+			"gain": 3.0,
+			"color": -13421773
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 465,
+			"q": 2.9000000953674316,
+			"gain": 3.0,
+			"color": -6750055
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 3800,
+			"q": 2.0,
+			"gain": 4.0,
+			"color": -7859968
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.7099999785423279,
+			"gain": 3.0,
+			"color": -16776961
+		}
+	]
+}
+]

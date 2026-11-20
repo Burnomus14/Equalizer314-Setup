@@ -1,0 +1,119 @@
+{
+	"name": "Monax Crossover Bass(R)",
+	"preamp": 0.0,
+	"parametric": true,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 0,
+			"channels": 2,
+			"frequency": 362,
+			"q": 12.0,
+			"gain": -15.0,
+			"color": -15623885
+		},
+		{
+			"type": 0,
+			"channels": 2,
+			"frequency": 35,
+			"q": 12.0,
+			"gain": 15.0,
+			"color": -6710989
+		},
+		{
+			"type": 0,
+			"channels": 2,
+			"frequency": 80,
+			"q": 2.6473841667175293,
+			"gain": 15.0,
+			"color": -7829368
+		},
+		{
+			"type": 0,
+			"channels": 2,
+			"frequency": 76,
+			"q": 12.0,
+			"gain": -15.0,
+			"color": -6750055
+		},
+		{
+			"type": 0,
+			"channels": 2,
+			"frequency": 61,
+			"q": 11.955896377563477,
+			"gain": 15.0,
+			"color": -7859968
+		},
+		{
+			"type": 0,
+			"channels": 2,
+			"frequency": 201,
+			"q": 1.0044368505477905,
+			"gain": 15.0,
+			"color": -7859968
+		},
+		{
+			"type": 0,
+			"channels": 2,
+			"frequency": 124,
+			"q": 1.003507137298584,
+			"gain": -15.0,
+			"color": -16772728
+		},
+		{
+			"type": 1,
+			"channels": 1,
+			"frequency": 925,
+			"q": 1.3227986097335815,
+			"gain": 10.550846099853516,
+			"color": -15623885
+		},
+		{
+			"type": 1,
+			"channels": 1,
+			"frequency": 1548,
+			"q": 1.3227986097335815,
+			"gain": 10.550848007202148,
+			"color": -6710989
+		},
+		{
+			"type": 1,
+			"channels": 1,
+			"frequency": 18607,
+			"q": 1.2415944337844849,
+			"gain": -15.0,
+			"color": -7829368
+		},
+		{
+			"type": 0,
+			"channels": 1,
+			"frequency": 164,
+			"q": 1.2415944337844849,
+			"gain": -15.0,
+			"color": -6750055
+		},
+		{
+			"type": 0,
+			"channels": 1,
+			"frequency": 284,
+			"q": 1.2415944337844849,
+			"gain": 15.0,
+			"color": -7859968
+		}
+	]
+}

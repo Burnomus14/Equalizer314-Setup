@@ -1,0 +1,96 @@
+[{
+	"name": "Parametric",
+	"preamp": 0.0,
+	"parametric": true,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 37,
+			"q": 0.32993894815444946,
+			"gain": 5.9921159744262695,
+			"color": -15649895
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 62,
+			"q": 1.5,
+			"gain": -10.013140678405762,
+			"color": -15623885
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 144,
+			"q": 1.5,
+			"gain": 2.4835734367370605,
+			"color": -6710989
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 6224,
+			"q": 1.6895262002944946,
+			"gain": 4.967148780822754,
+			"color": -7829368
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 496,
+			"q": 1.5,
+			"gain": -6.070959091186523,
+			"color": -6750055
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 9613,
+			"q": 0.4749886095523834,
+			"gain": 6.386334419250488,
+			"color": -7859968
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1984,
+			"q": 1.5,
+			"gain": 0.0,
+			"color": -16772728
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 3968,
+			"q": 1.5,
+			"gain": 4.957609176635742,
+			"color": -15628237
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 7651,
+			"q": 2.306584119796753,
+			"gain": 7.017082691192627,
+			"color": -7829453
+		}
+	]
+}
+]

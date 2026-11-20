@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Lenovo GM2 Pro - Balanced Bass & Clear Highs",
+    "preamp": 1.9,
+    "parametric": true,
+    "bands": [
+      {
+        "type": 0,
+        "channels": 0,
+        "frequency": 60,
+        "q": 0.9,
+        "gain": 3.0,
+        "color": 0
+      },
+      {
+        "type": 0,
+        "channels": 0,
+        "frequency": 120,
+        "q": 1.8,
+        "gain": 2.5,
+        "color": -16755456
+      },
+      {
+        "type": 2,
+        "channels": 0,
+        "frequency": 250,
+        "q": 2.5,
+        "gain": -1.5,
+        "color": -13421773
+      },
+      {
+        "type": 2,
+        "channels": 0,
+        "frequency": 500,
+        "q": 2.8,
+        "gain": -1.0,
+        "color": -6750055
+      },
+      {
+        "type": 2,
+        "channels": 0,
+        "frequency": 1800,
+        "q": 2.2,
+        "gain": 2.5,
+        "color": -7859968
+      },
+      {
+        "type": 1,
+        "channels": 0,
+        "frequency": 4500,
+        "q": 1.2,
+        "gain": 2.0,
+        "color": -16776961
+      },
+      {
+        "type": 1,
+        "channels": 0,
+        "frequency": 9500,
+        "q": 0.7,
+        "gain": 3.0,
+        "color": -16776961
+      }
+    ]
+  }
+]

@@ -1,0 +1,279 @@
+{
+	"name": "1MORE Penta Driver",
+	"preamp": 0.0,
+	"parametric": false,
+	"bands": [
+		{
+			"type": 0,
+			"channels": 0,
+			"frequency": 90,
+			"q": 0.800000011920929,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 1,
+			"channels": 0,
+			"frequency": 10000,
+			"q": 0.6000000238418579,
+			"gain": 0.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 20,
+			"q": 0.0,
+			"gain": 1.5,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 25,
+			"q": 0.0,
+			"gain": 0.5499999523162842,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 31,
+			"q": 0.0,
+			"gain": -0.14999985694885254,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 39,
+			"q": 0.0,
+			"gain": -0.7499999403953552,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 49,
+			"q": 0.0,
+			"gain": -1.0999999046325684,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 61,
+			"q": 0.0,
+			"gain": -1.4500000476837158,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 76,
+			"q": 0.0,
+			"gain": -2.0500001907348633,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 95,
+			"q": 0.0,
+			"gain": -2.819999933242798,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 119,
+			"q": 0.0,
+			"gain": -3.6666667461395264,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 148,
+			"q": 0.0,
+			"gain": -4.100000381469727,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 185,
+			"q": 0.0,
+			"gain": -4.03000020980835,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 231,
+			"q": 0.0,
+			"gain": -3.5307693481445312,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 289,
+			"q": 0.0,
+			"gain": -2.739999771118164,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 361,
+			"q": 0.0,
+			"gain": -1.9315789937973022,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 451,
+			"q": 0.0,
+			"gain": -1.1166666746139526,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 564,
+			"q": 0.0,
+			"gain": -0.5064516067504883,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 705,
+			"q": 0.0,
+			"gain": -0.3000001907348633,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 880,
+			"q": 0.0,
+			"gain": -0.7306122779846191,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1100,
+			"q": 0.0,
+			"gain": -2.2655739784240723,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1374,
+			"q": 0.0,
+			"gain": -3.644737482070923,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 1717,
+			"q": 0.0,
+			"gain": -4.370526313781738,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 2145,
+			"q": 0.0,
+			"gain": -1.6016936302185059,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 2680,
+			"q": 0.0,
+			"gain": 3.235135555267334,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 3348,
+			"q": 0.0,
+			"gain": 5.0,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 4182,
+			"q": 0.0,
+			"gain": 2.4043679237365723,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 5225,
+			"q": 0.0,
+			"gain": 3.710528612136841,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 6528,
+			"q": 0.0,
+			"gain": 5.800000190734863,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 8156,
+			"q": 0.0,
+			"gain": 5.800000190734863,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 10190,
+			"q": 0.0,
+			"gain": 2.7360641956329346,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 12731,
+			"q": 0.0,
+			"gain": -1.8421053886413574,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 15905,
+			"q": 0.0,
+			"gain": -7.794712066650391,
+			"color": 0
+		},
+		{
+			"type": 2,
+			"channels": 0,
+			"frequency": 19871,
+			"q": 0.0,
+			"gain": -15.0,
+			"color": 0
+		}
+	]
+}
