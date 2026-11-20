@@ -287,7 +287,7 @@ foreach ($file in $apoFiles) {
         }
         $categoryCounts[$categoryId]++
         $categoryLabel = Escape-Html $categoryLabels[$categoryId]
-        $categoryTags.Add("<span class=""category-tag"">$categoryLabel</span>")
+        $categoryTags.Add("<span class=""category-tag category-tag-$categoryId"">$categoryLabel</span>")
     }
 
     $recommendationName = Escape-Html $file.BaseName

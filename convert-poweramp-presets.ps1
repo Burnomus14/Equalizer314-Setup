@@ -284,9 +284,9 @@ $preserved = [ordered]@{
 $preservedBefore = ConvertTo-Json -InputObject $preserved -Depth 100 -Compress
 
 $customPresets = [ordered]@{}
+$customPresetNames = New-Object System.Collections.Generic.List[string]
 foreach ($record in $records) {
     $appBands = New-Object System.Collections.Generic.List[object]
-    $slot = 0
     foreach ($band in $record.Bands) {
         $appBands.Add([ordered]@{
             frequency = $band.Frequency
@@ -294,20 +294,23 @@ foreach ($record in $records) {
             filterType = (Get-AppFilterType $band.ApoType)
             q = $band.Q
             enabled = $band.Enabled
-            slot = $slot
         })
-        $slot++
     }
 
     $appPreset = [ordered]@{
-        name = $record.OutputName
-        preampGain = $record.Preamp
+        preamp = $record.Preamp
+        channelSideEqEnabled = $false
         bands = @($appBands.ToArray())
     }
-    $customPresets[$record.OutputName] = [ordered]@{
+    $customPresets["preset_$($record.OutputName)"] = [ordered]@{
         t = "s"
         v = (ConvertTo-Json -InputObject $appPreset -Depth 20 -Compress)
     }
+    $customPresetNames.Add($record.OutputName)
+}
+$customPresets["preset_names"] = [ordered]@{
+    t = "ss"
+    v = @($customPresetNames.ToArray())
 }
 
 $restore.custom_presets = $customPresets
@@ -325,12 +328,39 @@ $backupTemp = Join-Path (Split-Path -Parent $backupPath) (".Equalizer314-RESTORE
 try {
     [IO.File]::WriteAllText($backupTemp, $backupJson, $utf8WithoutBom)
     $validatedBackup = Read-JsonFile $backupTemp
-    $validatedPresetCount = @($validatedBackup.custom_presets.PSObject.Properties).Count
+    $validatedCustomPresets = $validatedBackup.custom_presets
+    $validatedPresetCount = @($validatedCustomPresets.PSObject.Properties).Count - 1
     if ($validatedPresetCount -ne $records.Count) {
         throw "Generated restore backup has $validatedPresetCount custom presets; expected $($records.Count)."
     }
-    foreach ($property in $validatedBackup.custom_presets.PSObject.Properties) {
-        $null = ([string]$property.Value.v | ConvertFrom-Json)
+    $namesEntry = $validatedCustomPresets.PSObject.Properties["preset_names"].Value
+    if ($namesEntry.t -ne "ss" -or @($namesEntry.v).Count -ne $records.Count) {
+        throw "Generated custom presets are missing the app's preset_names string set."
+    }
+    $validatedNames = @($namesEntry.v)
+    foreach ($record in $records) {
+        if ($record.OutputName -notin $validatedNames) {
+            throw "Generated custom preset name list is missing '$($record.OutputName)'."
+        }
+        $presetEntry = $validatedCustomPresets.PSObject.Properties["preset_$($record.OutputName)"]
+        if ($null -eq $presetEntry -or $presetEntry.Value.t -ne "s") {
+            throw "Generated custom preset '$($record.OutputName)' is missing its app preference entry."
+        }
+        $appPreset = [string]$presetEntry.Value.v | ConvertFrom-Json
+        if ($null -eq $appPreset.PSObject.Properties["preamp"] -or $appPreset.channelSideEqEnabled -ne $false) {
+            throw "Generated custom preset '$($record.OutputName)' has an invalid Equalizer314 preset shape."
+        }
+        $appPresetBands = @($appPreset.bands)
+        if ($appPresetBands.Count -ne $record.Bands.Count) {
+            throw "Generated custom preset '$($record.OutputName)' has $($appPresetBands.Count) bands; expected $($record.Bands.Count)."
+        }
+        foreach ($appBand in $appPresetBands) {
+            foreach ($field in @("frequency", "gain", "filterType", "q", "enabled")) {
+                if ($null -eq $appBand.PSObject.Properties[$field]) {
+                    throw "Generated custom preset '$($record.OutputName)' has a band missing '$field'."
+                }
+            }
+        }
     }
 
     foreach ($output in $outputs) {
