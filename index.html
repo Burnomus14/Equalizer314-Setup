@@ -24,7 +24,8 @@ table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;p
 </style></head><body>
 <h1>Equalizer314 Presets & Virtual Surround</h1>
 <div class="card"><p><a class="btn blue" href="https://github.com/bearinmindcat/Equalizer314/releases" target="_blank">Get the Equalizer314 app</a>
-<a class="btn blue" href="https://github.com/Burnomus14/Equalizer314-Setup" target="_blank">View repository</a></p></div>
+<a class="btn blue" href="https://github.com/Burnomus14/Equalizer314-Setup" target="_blank">View repository</a>
+<button type="button" class="btn blue" id="open-recommendations">Explore Recommendations</button></p></div>
 <input type="text" id="search" aria-label="Search recommendations, EQ presets, or HRIR profiles" placeholder="Search recommendations, EQ presets, or HRIR profiles...">
 <div class="tabs" role="tablist" aria-label="Preset sections">
 <button type="button" class="tab-button" id="tab-recommendations" role="tab" aria-selected="true" aria-controls="recommendations-tab">Recommendations</button>
@@ -414,6 +415,11 @@ function activateTab(tab) {
 }
 tabButtons.forEach(function(button) {
   button.addEventListener('click', function() { activateTab(button); });
+});
+document.getElementById('open-recommendations').addEventListener('click', function() {
+  var tab = document.getElementById('tab-recommendations');
+  activateTab(tab);
+  document.getElementById(tab.getAttribute('aria-controls')).scrollIntoView({ behavior: 'smooth' });
 });
 document.querySelector('[role="tablist"]').addEventListener('keydown', function(e) {
   var tabs = Array.prototype.slice.call(tabButtons);
