@@ -187,146 +187,166 @@ The HRIR `.wav` files in this repo are for virtual surround, which makes stereo 
 
 > The app is in **beta**, so menu names may change between versions. If something looks different, check the latest release notes: https://github.com/bearinmindcat/Equalizer314/releases
 
-## Parametric EQ Presets (136)
+## Parametric EQ Presets (156)
 
 | # | Preset | Description | Recommended Device | Preamp | Bands |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | [(70hzBasstone)Slow Woofer bass. No kick stereo Mdmonax](presets-apo/%2870hzBasstone%29Slow%20Woofer%20bass.%20No%20kick%20stereo%20Mdmonax.txt) | Name suggests emphasis on bass or low frequencies and punch or kick impact. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 34 |
-| 2 | [(C) JBL Tune 510BT](presets-apo/%28C%29%20JBL%20Tune%20510BT.txt) | Name identifies a device-specific tuning; use it as a starting point for the named model. | Over-Ear Headphones | 9.17 dB | 15 |
+| 2 | [(C) JBL Tune 510BT](presets-apo/%28C%29%20JBL%20Tune%20510BT.txt) | Name identifies a device-specific tuning; use it as a starting point for the named model. | Over-Ear Headphones | 0.00 dB | 15 |
 | 3 | [15 inch 36hz MdMonax stereo Envelope](presets-apo/15%20inch%2036hz%20MdMonax%20stereo%20Envelope.txt) | General EQ profile; the name does not specify a particular sound target. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 |
 | 4 | [1MORE Penta Driver](presets-apo/1MORE%20Penta%20Driver.txt) | Name identifies a device-specific tuning; use it as a starting point for the named model. | Earbuds / TWS / IEMs | 0.00 dB | 34 |
 | 5 | [32 band iso 226 stereo](presets-apo/32%20band%20iso%20226%20stereo.txt) | Name identifies this as an ISO 226 equal-loudness profile. | General / Multi-Device | 0.00 dB | 33 |
 | 6 | [64 Audio A12t (2)](presets-apo/64%20Audio%20A12t%20%282%29.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | -7.20 dB | 12 |
 | 7 | [80hzGroot Bass Stereo Cascade MdMonax](presets-apo/80hzGroot%20Bass%20Stereo%20Cascade%20MdMonax.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 32 |
-| 8 | [AAGHAZ LOW VOCAL](presets-apo/AAGHAZ%20LOW%20VOCAL.txt) | Name suggests emphasis on bass or low frequencies and clarity or vocals. | Headphones / Earbuds (All-Rounder) | -2.44 dB | 18 |
-| 9 | [Apple AirPods 4 (ANC on)](presets-apo/Apple%20AirPods%204%20%28ANC%20on%29.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 2.40 dB | 20 |
-| 10 | [Bang 2026 Monax](presets-apo/Bang%202026%20Monax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 22 |
-| 11 | [Behringer 2 smooth 36hz MdMonax stereo (2)](presets-apo/Behringer%202%20smooth%2036hz%20MdMonax%20stereo%20%282%29.txt) | General EQ profile; the name does not specify a particular sound target. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 |
-| 12 | [Behringer 2 smooth 36hz MdMonax stereo](presets-apo/Behringer%202%20smooth%2036hz%20MdMonax%20stereo.txt) | General EQ profile; the name does not specify a particular sound target. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 |
-| 13 | [Behringer My best Outdoor Md Monax 50hzQ0.50 Trebbe 6463 Q0.90](presets-apo/Behringer%20My%20best%20Outdoor%20Md%20Monax%2050hzQ0.50%20Trebbe%206463%20Q0.90.txt) | Name identifies this as a speaker or sound-system profile. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 8 |
-| 14 | [Better Voice Monax 36hz tone](presets-apo/Better%20Voice%20Monax%2036hz%20tone.txt) | Name suggests emphasis on clarity or vocals. | General / Multi-Device | 0.00 dB | 21 |
-| 15 | [Big Speakers HD Monax](presets-apo/Big%20Speakers%20HD%20Monax.txt) | Name identifies this as a speaker or sound-system profile. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 37 |
-| 16 | [Black Spider Stereo Envelope MDMonax](presets-apo/Black%20Spider%20Stereo%20Envelope%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 6 |
-| 17 | [BoomBass Djsound MdMonax 50hz](presets-apo/BoomBass%20Djsound%20MdMonax%2050hz.txt) | Name suggests emphasis on bass or low frequencies. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 32 |
-| 18 | [Car enclosed BoxBasstone 44hz C320 MDMonax](presets-apo/Car%20enclosed%20BoxBasstone%2044hz%20C320%20MDMonax.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.00 dB | 8 |
-| 19 | [Car Non enclosedPortedBasstone 44hz C320 MDMonax](presets-apo/Car%20Non%20enclosedPortedBasstone%2044hz%20C320%20MDMonax.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.00 dB | 8 |
-| 20 | [CarBass BSpider MDMonax](presets-apo/CarBass%20BSpider%20MDMonax.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.00 dB | 20 |
-| 21 | [CarBass SA Oldies Monax c30 stereo](presets-apo/CarBass%20SA%20Oldies%20Monax%20c30%20stereo.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.00 dB | 29 |
-| 22 | [CarBass Venom Monax](presets-apo/CarBass%20Venom%20Monax.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.00 dB | 43 |
-| 23 | [Carsound Frequencies Monax](presets-apo/Carsound%20Frequencies%20Monax.txt) | Name identifies this as a car-audio profile. | Car Audio / Subwoofer | 0.00 dB | 21 |
-| 24 | [Carsound outdoor MDMonax](presets-apo/Carsound%20outdoor%20MDMonax.txt) | Name identifies this as a car-audio profile. | Car Audio / Subwoofer | 0.00 dB | 14 |
-| 25 | [Carsound outdoor V2 MdMonax](presets-apo/Carsound%20outdoor%20V2%20MdMonax.txt) | Name identifies this as a car-audio profile. | Car Audio / Subwoofer | 0.00 dB | 18 |
-| 26 | [CarsoundMonamodi 36hz](presets-apo/CarsoundMonamodi%2036hz.txt) | Name identifies this as a car-audio profile. | Car Audio / Subwoofer | 0.00 dB | 31 |
-| 27 | [Carsub on HomeAVCReciever MdMonax2](presets-apo/Carsub%20on%20HomeAVCReciever%20MdMonax2.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.00 dB | 32 |
-| 28 | [CentreEarphonesMDMonax](presets-apo/CentreEarphonesMDMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 35 |
-| 29 | [Classical Sony MDMonax](presets-apo/Classical%20Sony%20MDMonax.txt) | Name identifies a device-specific tuning; use it as a starting point for the named model. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 41 |
-| 30 | [Classical Sony with bassMDMonax](presets-apo/Classical%20Sony%20with%20bassMDMonax.txt) | Name suggests emphasis on bass or low frequencies. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 41 |
-| 31 | [Clear Noise CancelV2 MdMonax](presets-apo/Clear%20Noise%20CancelV2%20MdMonax.txt) | Name suggests emphasis on clarity or vocals. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 42 |
-| 32 | [Combi Concert Envelope MDMonax](presets-apo/Combi%20Concert%20Envelope%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 8 |
-| 33 | [Combi Concert MDMonax](presets-apo/Combi%20Concert%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 9 |
-| 34 | [Crossover for PA Compressor 320](presets-apo/Crossover%20for%20PA%20Compressor%20320.txt) | Name identifies this as a speaker or sound-system profile. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 22 |
-| 35 | [Crossover Sound bar (L) Carsound (R) MdMonax](presets-apo/Crossover%20Sound%20bar%20%28L%29%20Carsound%20%28R%29%20MdMonax.txt) | Name identifies this as a car-audio profile. | Car Audio / Subwoofer | 0.00 dB | 19 |
-| 36 | [Curva Harman](presets-apo/Curva%20Harman.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 12 |
-| 37 | [Dance Waves MDMonax 80hz](presets-apo/Dance%20Waves%20MDMonax%2080hz.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 0.00 dB | 25 |
-| 38 | [Deep 45 MdMonax (45hz)](presets-apo/Deep%2045%20MdMonax%20%2845hz%29.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 48 |
-| 39 | [Deep bass 2](presets-apo/Deep%20bass%202.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | -9.43 dB | 15 |
-| 40 | [Deep Waves MDMonax 2026](presets-apo/Deep%20Waves%20MDMonax%202026.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 30 |
-| 41 | [DeepWaves Original Earphones MDMonax](presets-apo/DeepWaves%20Original%20Earphones%20MDMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 18 |
-| 42 | [Dj Set](presets-apo/Dj%20Set.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 4.60 dB | 26 |
-| 43 | [DJ Sound MDMonax](presets-apo/DJ%20Sound%20MDMonax.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 0.00 dB | 11 |
-| 44 | [DolbySub on Earphones MdMonax](presets-apo/DolbySub%20on%20Earphones%20MdMonax.txt) | Name suggests emphasis on bass or low frequencies. | Earbuds / TWS / IEMs | 0.00 dB | 11 |
-| 45 | [Dvc Stereo Envelope MdMonax](presets-apo/Dvc%20Stereo%20Envelope%20MdMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 7 |
-| 46 | [Earphones FunkiNuDe Envelope](presets-apo/Earphones%20FunkiNuDe%20Envelope.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 19 |
-| 47 | [Ecco Envelope Crossover B142Q0.30 C45 MDMonax](presets-apo/Ecco%20Envelope%20Crossover%20B142Q0.30%20C45%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 23 |
-| 48 | [-Echo Reduced clarity defined. 36hz MdMonax](presets-apo/-Echo%20Reduced%20clarity%20defined.%2036hz%20MdMonax.txt) | Name suggests emphasis on clarity or vocals. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 28 |
-| 49 | [Enclosed Box DjsMDMONAX](presets-apo/Enclosed%20Box%20DjsMDMONAX.txt) | Name identifies a music-style listening profile. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 14 |
-| 50 | [Envelope Crossover Bass boosted(R) MDMonax](presets-apo/Envelope%20Crossover%20Bass%20boosted%28R%29%20MDMonax.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 22 |
-| 51 | [Envelope Crossover Bass( R mono) Md Monax (Fixed)](presets-apo/Envelope%20Crossover%20Bass%28%20R%20mono%29%20Md%20Monax%20%28Fixed%29.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 22 |
-| 52 | [FrontPunchy 50hz](presets-apo/FrontPunchy%2050hz.txt) | Name suggests emphasis on punch or kick impact. | General / Multi-Device | 0.00 dB | 6 |
-| 53 | [FTS Envelope Slowed](presets-apo/FTS%20Envelope%20Slowed.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 34 |
-| 54 | [General Stereo April 2026vMdMonax](presets-apo/General%20Stereo%20April%202026vMdMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 24 |
-| 55 | [Gospel 3 HomeTheater 2026 MDMonax](presets-apo/Gospel%203%20HomeTheater%202026%20MDMonax.txt) | Name identifies this as a speaker or sound-system profile. | General / Multi-Device | 0.00 dB | 12 |
-| 56 | [GrootBass MDMonax Envelope](presets-apo/GrootBass%20MDMonax%20Envelope.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 18 |
-| 57 | [Guitar Kicks MdMonax](presets-apo/Guitar%20Kicks%20MdMonax.txt) | Name suggests emphasis on punch or kick impact. | General / Multi-Device | 0.00 dB | 31 |
-| 58 | [HD Ears (Monax)](presets-apo/HD%20Ears%20%28Monax%29.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 17 |
-| 59 | [HD General Monax](presets-apo/HD%20General%20Monax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 17 |
-| 60 | [HD Headphones 50hz MDMonax](presets-apo/HD%20Headphones%2050hz%20MDMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Over-Ear Headphones | 0.00 dB | 31 |
-| 61 | [HD Headphones V2 Deep 50hz MDMonax](presets-apo/HD%20Headphones%20V2%20Deep%2050hz%20MDMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Over-Ear Headphones | 0.00 dB | 31 |
-| 62 | [Headphones Clear Monax](presets-apo/Headphones%20Clear%20Monax.txt) | Name suggests emphasis on clarity or vocals. | Over-Ear Headphones | 0.00 dB | 52 |
-| 63 | [Headphones FUNKI-Nude MDMonax](presets-apo/Headphones%20FUNKI-Nude%20MDMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Over-Ear Headphones | 0.00 dB | 17 |
-| 64 | [Hi res 2 Earphones Monax](presets-apo/Hi%20res%202%20Earphones%20Monax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 18 |
-| 65 | [Hi res TWS 4 Md Monax](presets-apo/Hi%20res%20TWS%204%20Md%20Monax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 16 |
-| 66 | [HIFIMAN TWS600](presets-apo/HIFIMAN%20TWS600.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 12 |
-| 67 | [hi-res stereo headphone](presets-apo/hi-res%20stereo%20headphone.txt) | Name identifies a headphone or earphone-oriented profile. | Over-Ear Headphones | 0.00 dB | 13 |
-| 68 | [Home Theater 2026 Bass tone 35hz Monax](presets-apo/Home%20Theater%202026%20Bass%20tone%2035hz%20Monax.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 23 |
-| 69 | [House El nino 50hz MDMONAX](presets-apo/House%20El%20nino%2050hz%20MDMONAX.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 45 |
-| 70 | [Icepower 1 Mdmonax](presets-apo/Icepower%201%20Mdmonax.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 |
-| 71 | [Icepower 2 Mdmonax](presets-apo/Icepower%202%20Mdmonax.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 |
-| 72 | [Indoor Clear MDMonax](presets-apo/Indoor%20Clear%20MDMonax.txt) | Name suggests emphasis on clarity or vocals. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 |
-| 73 | [Jazz punchyMDMonax 106hz](presets-apo/Jazz%20punchyMDMonax%20106hz.txt) | Name suggests emphasis on punch or kick impact. | General / Multi-Device | 0.00 dB | 5 |
-| 74 | [July 2026 Envelope Only MDMonax](presets-apo/July%202026%20Envelope%20Only%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 16 |
-| 75 | [June MDMonax DeepWaves 50hz Q1.00](presets-apo/June%20MDMonax%20DeepWaves%2050hz%20Q1.00.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 12 |
-| 76 | [Lenovo GM2 Pro - Balanced Bass Clear Highs](presets-apo/Lenovo%20GM2%20Pro%20-%20Balanced%20Bass%20Clear%20Highs.txt) | Name suggests emphasis on bass or low frequencies and clarity or vocals and treble or higher frequencies. | Headphones / Earbuds (All-Rounder) | 1.90 dB | 7 |
-| 77 | [M19 earphones B](presets-apo/M19%20earphones%20B.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 21 |
-| 78 | [Marley](presets-apo/Marley.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 12 |
-| 79 | [Massive Bass Targa (Monax)](presets-apo/Massive%20Bass%20Targa%20%28Monax%29.txt) | Name suggests emphasis on bass or low frequencies. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 43 |
-| 80 | [MDMonax Outdoor](presets-apo/MDMonax%20Outdoor.txt) | Name identifies this as a speaker or sound-system profile. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 34 |
-| 81 | [MiD BAss MDMONAX comp400hz](presets-apo/MiD%20BAss%20MDMONAX%20comp400hz.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 33 |
-| 82 | [Monax 45 hz](presets-apo/Monax%2045%20hz.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.04 dB | 30 |
-| 83 | [Monax Crossover Bass(L)](presets-apo/Monax%20Crossover%20Bass%28L%29.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 14 |
-| 84 | [Monax Crossover Bass(R)](presets-apo/Monax%20Crossover%20Bass%28R%29.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 14 |
-| 85 | [Monax full bass](presets-apo/Monax%20full%20bass.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 15 |
-| 86 | [Monax sub2](presets-apo/Monax%20sub2.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 15 |
-| 87 | [Monday Blues 2 Kick MDMonax](presets-apo/Monday%20Blues%202%20Kick%20MDMonax.txt) | Name suggests emphasis on punch or kick impact. | General / Multi-Device | 0.00 dB | 25 |
-| 88 | [Monday Blues deep v2 MDMonax](presets-apo/Monday%20Blues%20deep%20v2%20MDMonax.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 0.00 dB | 28 |
-| 89 | [Moondrop Chu2](presets-apo/Moondrop%20Chu2.txt) | Name identifies a device-specific tuning; use it as a starting point for the named model. | Earbuds / TWS / IEMs | -1.55 dB | 12 |
-| 90 | [Movie Bass Mod Slow MDMona](presets-apo/Movie%20Bass%20Mod%20Slow%20MDMona.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 15 |
-| 91 | [My Edifier TWS6](presets-apo/My%20Edifier%20TWS6.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 8 |
-| 92 | [Neo7SE Speaker - Less Bass More Depth](presets-apo/Neo7SE%20Speaker%20-%20Less%20Bass%20More%20Depth.txt) | Name suggests emphasis on reduced bass. | Small / Portable Speakers | 2.81 dB | 8 |
-| 93 | [Noise Cancel Guitar](presets-apo/Noise%20Cancel%20Guitar.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 39 |
-| 94 | [November Cascade MDMonax](presets-apo/November%20Cascade%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 17 |
-| 95 | [Num of Bands 28 First frq 30hz MDMonax](presets-apo/Num%20of%20Bands%2028%20First%20frq%2030hz%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 30 |
-| 96 | [Old Skul SuB Monax 2026](presets-apo/Old%20Skul%20SuB%20Monax%202026.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 17 |
-| 97 | [Outdoor MdMonax](presets-apo/Outdoor%20MdMonax.txt) | Name identifies this as a speaker or sound-system profile. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 25 |
-| 98 | [Outdoor Midrange MdMonax](presets-apo/Outdoor%20Midrange%20MdMonax.txt) | Name suggests emphasis on clarity or vocals. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 15 |
-| 99 | [P.M.P.O Speakers Clarity 40hz MDMonax](presets-apo/P.M.P.O%20Speakers%20Clarity%2040hz%20MDMonax.txt) | Name suggests emphasis on clarity or vocals. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 45 |
-| 100 | [Parametric](presets-apo/Parametric.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 11 |
-| 101 | [Party 12 Stereo Trebble 7858khzQMax BassTone30hz Q0.55 MdMonax](presets-apo/Party%2012%20Stereo%20Trebble%207858khzQMax%20BassTone30hz%20Q0.55%20MdMonax.txt) | Name suggests emphasis on bass or low frequencies and treble or higher frequencies. | General / Multi-Device | 0.00 dB | 9 |
-| 102 | [Party Stereo 2 Bass Tone 48hz Q1.30 Compressor 320hz Monax](presets-apo/Party%20Stereo%202%20Bass%20Tone%2048hz%20Q1.30%20Compressor%20320hz%20Monax.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 20 |
-| 103 | [Party Stereo Bass Tone 55hz Q1.50 Compressor 450hz Monax](presets-apo/Party%20Stereo%20Bass%20Tone%2055hz%20Q1.50%20Compressor%20450hz%20Monax.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 22 |
-| 104 | [Phone speaker with clarity MDMonax](presets-apo/Phone%20speaker%20with%20clarity%20MDMonax.txt) | Name suggests emphasis on clarity or vocals. | Small / Portable Speakers | 0.00 dB | 20 |
-| 105 | [Pioneer Home theather MDMonax](presets-apo/Pioneer%20Home%20theather%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | Home Theater / Soundbar | 0.00 dB | 17 |
-| 106 | [PistonBuds Pro Q30 - Warm Bass](presets-apo/PistonBuds%20Pro%20Q30%20-%20Warm%20Bass.txt) | Name suggests emphasis on bass or low frequencies. | Earbuds / TWS / IEMs | 5.50 dB | 6 |
-| 107 | [PoPiano MDMonax..Envelope 36hz](presets-apo/PoPiano%20MDMonax..Envelope%2036hz.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 10 |
-| 108 | [PoPiano2 Heavy MDMonax..Envelope 36hz](presets-apo/PoPiano2%20Heavy%20MDMonax..Envelope%2036hz.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 10 |
-| 109 | [PowerBass Room](presets-apo/PowerBass%20Room.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 47 |
-| 110 | [Punchy Bass vijay](presets-apo/Punchy%20Bass%20vijay.txt) | Name suggests emphasis on bass or low frequencies and punch or kick impact. | General / Multi-Device | 3.00 dB | 10 |
-| 111 | [Punchy stereo MdMonax](presets-apo/Punchy%20stereo%20MdMonax.txt) | Name suggests emphasis on punch or kick impact. | General / Multi-Device | 0.00 dB | 8 |
-| 112 | [Punchy2 Small spk MDMonax 36hz](presets-apo/Punchy2%20Small%20spk%20MDMonax%2036hz.txt) | Name suggests emphasis on punch or kick impact. | Small / Portable Speakers | 0.00 dB | 13 |
-| 113 | [Reggae MD Monax](presets-apo/Reggae%20MD%20Monax.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 0.00 dB | 27 |
-| 114 | [Reggae Monax](presets-apo/Reggae%20Monax.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 0.03 dB | 30 |
-| 115 | [Riddim 2026 MDMonax 40hz](presets-apo/Riddim%202026%20MDMonax%2040hz.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 0.00 dB | 27 |
-| 116 | [Rnb2026MDMonax Hometheathers](presets-apo/Rnb2026MDMonax%20Hometheathers.txt) | Name identifies a music-style listening profile. | Home Theater / Soundbar | 0.00 dB | 32 |
-| 117 | [Slow Mid Sony All stereo](presets-apo/Slow%20Mid%20Sony%20All%20stereo.txt) | Name suggests emphasis on bass or low frequencies. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 37 |
-| 118 | [SlowBass with Trebble MDMonax](presets-apo/SlowBass%20with%20Trebble%20MDMonax.txt) | Name suggests emphasis on bass or low frequencies and treble or higher frequencies. | General / Multi-Device | 0.00 dB | 21 |
-| 119 | [Small Speakers Clarity Punchy June Stereo Envelope 50hzQ1 MdMonax](presets-apo/Small%20Speakers%20Clarity%20Punchy%20June%20Stereo%20Envelope%2050hzQ1%20MdMonax.txt) | Name suggests emphasis on punch or kick impact and clarity or vocals. | Small / Portable Speakers | 0.00 dB | 9 |
-| 120 | [SonyX Monax 65hz Tone 45hzDelay(69)](presets-apo/SonyX%20Monax%2065hz%20Tone%2045hzDelay%2869%29.txt) | Name identifies a device-specific tuning; use it as a starting point for the named model. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 24 |
-| 121 | [SoundBar 102hz Q0.80 Cc MDMonax](presets-apo/SoundBar%20102hz%20Q0.80%20Cc%20MDMonax.txt) | Name identifies this as a speaker or sound-system profile. | Home Theater / Soundbar | 0.00 dB | 10 |
-| 122 | [Soundbar Monax (Envelope)](presets-apo/Soundbar%20Monax%20%28Envelope%29.txt) | Name identifies this as a speaker or sound-system profile. | Home Theater / Soundbar | 0.00 dB | 38 |
-| 123 | [SoundCloud JBL go 4](presets-apo/SoundCloud%20JBL%20go%204.txt) | Name identifies a device-specific tuning; use it as a starting point for the named model. | Small / Portable Speakers | -8.48 dB | 26 |
-| 124 | [standar iso226](presets-apo/standar%20iso226.txt) | Name identifies this as an ISO 226 equal-loudness profile. | General / Multi-Device | 0.00 dB | 12 |
-| 125 | [stereo standart iso 226](presets-apo/stereo%20standart%20iso%20226.txt) | Name identifies this as an ISO 226 equal-loudness profile. | General / Multi-Device | 0.00 dB | 12 |
-| 126 | [Targa 15 Monamodi Monax 2026 Carbass](presets-apo/Targa%2015%20Monamodi%20Monax%202026%20Carbass.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.02 dB | 33 |
-| 127 | [Tempest home Bass Tone 30hz Q 0.50 MDMonax](presets-apo/Tempest%20home%20Bass%20Tone%2030hz%20Q%200.50%20MDMonax.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 10 |
-| 128 | [TWS 2 MdMonax](presets-apo/TWS%202%20MdMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 31 |
-| 129 | [TWS Earphones 2 MDMONAX](presets-apo/TWS%20Earphones%202%20MDMONAX.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 10 |
-| 130 | [TWs Earphones MDMonax](presets-apo/TWs%20Earphones%20MDMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 9 |
-| 131 | [Tws Midnight Monax](presets-apo/Tws%20Midnight%20Monax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 8 |
-| 132 | [V8 2 MDMonax](presets-apo/V8%202%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 14 |
-| 133 | [V8 3 MDMonax](presets-apo/V8%203%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 14 |
-| 134 | [V8 latest MDMonax](presets-apo/V8%20latest%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 13 |
-| 135 | [ViveX ultimate](presets-apo/ViveX%20ultimate.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | -5.50 dB | 13 |
-| 136 | [Vivo X200 Ultra](presets-apo/Vivo%20X200%20Ultra.txt) | Name identifies a device-specific tuning; use it as a starting point for the named model. | General / Multi-Device | 0.00 dB | 12 |
+| 8 | [AAGHAZ LOW VOCAL](presets-apo/AAGHAZ%20LOW%20VOCAL.txt) | Name suggests emphasis on bass or low frequencies and clarity or vocals. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 18 |
+| 9 | [Air](presets-apo/Air.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 66 |
+| 10 | [Apex](presets-apo/Apex.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 66 |
+| 11 | [Apple AirPods 4 (ANC on)](presets-apo/Apple%20AirPods%204%20%28ANC%20on%29.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 2.40 dB | 20 |
+| 12 | [Aura](presets-apo/Aura.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 66 |
+| 13 | [Balance](presets-apo/Balance.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 |
+| 14 | [Bang 2026 Monax](presets-apo/Bang%202026%20Monax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 22 |
+| 15 | [Behringer 2 smooth 36hz MdMonax stereo (2)](presets-apo/Behringer%202%20smooth%2036hz%20MdMonax%20stereo%20%282%29.txt) | General EQ profile; the name does not specify a particular sound target. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 |
+| 16 | [Behringer 2 smooth 36hz MdMonax stereo](presets-apo/Behringer%202%20smooth%2036hz%20MdMonax%20stereo.txt) | General EQ profile; the name does not specify a particular sound target. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 9 |
+| 17 | [Behringer My best Outdoor Md Monax 50hzQ0.50 Trebbe 6463 Q0.90](presets-apo/Behringer%20My%20best%20Outdoor%20Md%20Monax%2050hzQ0.50%20Trebbe%206463%20Q0.90.txt) | Name identifies this as a speaker or sound-system profile. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 8 |
+| 18 | [Better Voice Monax 36hz tone](presets-apo/Better%20Voice%20Monax%2036hz%20tone.txt) | Name suggests emphasis on clarity or vocals. | General / Multi-Device | 0.00 dB | 21 |
+| 19 | [Big Speakers HD Monax](presets-apo/Big%20Speakers%20HD%20Monax.txt) | Name identifies this as a speaker or sound-system profile. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 37 |
+| 20 | [Black Spider Stereo Envelope MDMonax](presets-apo/Black%20Spider%20Stereo%20Envelope%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 6 |
+| 21 | [BoomBass Djsound MdMonax 50hz](presets-apo/BoomBass%20Djsound%20MdMonax%2050hz.txt) | Name suggests emphasis on bass or low frequencies. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 32 |
+| 22 | [Car enclosed BoxBasstone 44hz C320 MDMonax](presets-apo/Car%20enclosed%20BoxBasstone%2044hz%20C320%20MDMonax.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.00 dB | 8 |
+| 23 | [Car Non enclosedPortedBasstone 44hz C320 MDMonax](presets-apo/Car%20Non%20enclosedPortedBasstone%2044hz%20C320%20MDMonax.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.00 dB | 8 |
+| 24 | [CarBass BSpider MDMonax](presets-apo/CarBass%20BSpider%20MDMonax.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.00 dB | 20 |
+| 25 | [CarBass SA Oldies Monax c30 stereo](presets-apo/CarBass%20SA%20Oldies%20Monax%20c30%20stereo.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.00 dB | 29 |
+| 26 | [CarBass Venom Monax](presets-apo/CarBass%20Venom%20Monax.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.00 dB | 43 |
+| 27 | [Carsound Frequencies Monax](presets-apo/Carsound%20Frequencies%20Monax.txt) | Name identifies this as a car-audio profile. | Car Audio / Subwoofer | 0.00 dB | 21 |
+| 28 | [Carsound outdoor MDMonax](presets-apo/Carsound%20outdoor%20MDMonax.txt) | Name identifies this as a car-audio profile. | Car Audio / Subwoofer | 0.00 dB | 14 |
+| 29 | [Carsound outdoor V2 MdMonax](presets-apo/Carsound%20outdoor%20V2%20MdMonax.txt) | Name identifies this as a car-audio profile. | Car Audio / Subwoofer | 0.00 dB | 18 |
+| 30 | [CarsoundMonamodi 36hz](presets-apo/CarsoundMonamodi%2036hz.txt) | Name identifies this as a car-audio profile. | Car Audio / Subwoofer | 0.00 dB | 31 |
+| 31 | [Carsub on HomeAVCReciever MdMonax2](presets-apo/Carsub%20on%20HomeAVCReciever%20MdMonax2.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.00 dB | 32 |
+| 32 | [Catalyst](presets-apo/Catalyst.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 66 |
+| 33 | [CentreEarphonesMDMonax](presets-apo/CentreEarphonesMDMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 35 |
+| 34 | [Classical Sony MDMonax](presets-apo/Classical%20Sony%20MDMonax.txt) | Name identifies a device-specific tuning; use it as a starting point for the named model. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 41 |
+| 35 | [Classical Sony with bassMDMonax](presets-apo/Classical%20Sony%20with%20bassMDMonax.txt) | Name suggests emphasis on bass or low frequencies. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 41 |
+| 36 | [Clear Noise CancelV2 MdMonax](presets-apo/Clear%20Noise%20CancelV2%20MdMonax.txt) | Name suggests emphasis on clarity or vocals. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 42 |
+| 37 | [Combi Concert Envelope MDMonax](presets-apo/Combi%20Concert%20Envelope%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 8 |
+| 38 | [Combi Concert MDMonax](presets-apo/Combi%20Concert%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 9 |
+| 39 | [Comfort Aura Presence Vocal Balance Master Air Strike Harmony Catalyst Apex Reference X Platinum Foundation Foundation Presence Titan Gold Signature](presets-apo/Comfort%20Aura%20Presence%20Vocal%20Balance%20Master%20Air%20Strike%20Harmony%20Catalyst%20Apex%20Reference%20X%20Platinum%20Foundation%20Foundation%20Presence%20Titan%20Gold%20Signature.txt) | Name suggests emphasis on clarity or vocals. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 1254 |
+| 40 | [Comfort](presets-apo/Comfort.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.05 dB | 66 |
+| 41 | [Crossover for PA Compressor 320](presets-apo/Crossover%20for%20PA%20Compressor%20320.txt) | Name identifies this as a speaker or sound-system profile. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 22 |
+| 42 | [Crossover Sound bar (L) Carsound (R) MdMonax](presets-apo/Crossover%20Sound%20bar%20%28L%29%20Carsound%20%28R%29%20MdMonax.txt) | Name identifies this as a car-audio profile. | Car Audio / Subwoofer | 0.00 dB | 19 |
+| 43 | [Curva Harman](presets-apo/Curva%20Harman.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 12 |
+| 44 | [Dance Waves MDMonax 80hz](presets-apo/Dance%20Waves%20MDMonax%2080hz.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 0.00 dB | 25 |
+| 45 | [Deep 45 MdMonax (45hz)](presets-apo/Deep%2045%20MdMonax%20%2845hz%29.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 48 |
+| 46 | [Deep bass 2](presets-apo/Deep%20bass%202.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | -9.43 dB | 15 |
+| 47 | [Deep Waves MDMonax 2026](presets-apo/Deep%20Waves%20MDMonax%202026.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 30 |
+| 48 | [DeepWaves Original Earphones MDMonax](presets-apo/DeepWaves%20Original%20Earphones%20MDMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 18 |
+| 49 | [Dj Set](presets-apo/Dj%20Set.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 4.60 dB | 26 |
+| 50 | [DJ Sound MDMonax](presets-apo/DJ%20Sound%20MDMonax.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 0.00 dB | 11 |
+| 51 | [DolbySub on Earphones MdMonax](presets-apo/DolbySub%20on%20Earphones%20MdMonax.txt) | Name suggests emphasis on bass or low frequencies. | Earbuds / TWS / IEMs | 0.00 dB | 11 |
+| 52 | [Dvc Stereo Envelope MdMonax](presets-apo/Dvc%20Stereo%20Envelope%20MdMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 7 |
+| 53 | [Earphones FunkiNuDe Envelope](presets-apo/Earphones%20FunkiNuDe%20Envelope.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 19 |
+| 54 | [Ecco Envelope Crossover B142Q0.30 C45 MDMonax](presets-apo/Ecco%20Envelope%20Crossover%20B142Q0.30%20C45%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 23 |
+| 55 | [-Echo Reduced clarity defined. 36hz MdMonax](presets-apo/-Echo%20Reduced%20clarity%20defined.%2036hz%20MdMonax.txt) | Name suggests emphasis on clarity or vocals. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 28 |
+| 56 | [Enclosed Box DjsMDMONAX](presets-apo/Enclosed%20Box%20DjsMDMONAX.txt) | Name identifies a music-style listening profile. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 14 |
+| 57 | [Envelope Crossover Bass boosted(R) MDMonax](presets-apo/Envelope%20Crossover%20Bass%20boosted%28R%29%20MDMonax.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 22 |
+| 58 | [Envelope Crossover Bass( R mono) Md Monax (Fixed)](presets-apo/Envelope%20Crossover%20Bass%28%20R%20mono%29%20Md%20Monax%20%28Fixed%29.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 22 |
+| 59 | [Foundation (2)](presets-apo/Foundation%20%282%29.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 66 |
+| 60 | [Foundation](presets-apo/Foundation.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 66 |
+| 61 | [FrontPunchy 50hz](presets-apo/FrontPunchy%2050hz.txt) | Name suggests emphasis on punch or kick impact. | General / Multi-Device | 0.00 dB | 6 |
+| 62 | [FTS Envelope Slowed](presets-apo/FTS%20Envelope%20Slowed.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 34 |
+| 63 | [General Stereo April 2026vMdMonax](presets-apo/General%20Stereo%20April%202026vMdMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 24 |
+| 64 | [Gold](presets-apo/Gold.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.02 dB | 66 |
+| 65 | [Gospel 3 HomeTheater 2026 MDMonax](presets-apo/Gospel%203%20HomeTheater%202026%20MDMonax.txt) | Name identifies this as a speaker or sound-system profile. | General / Multi-Device | 0.00 dB | 12 |
+| 66 | [GrootBass MDMonax Envelope](presets-apo/GrootBass%20MDMonax%20Envelope.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 18 |
+| 67 | [Guitar Kicks MdMonax](presets-apo/Guitar%20Kicks%20MdMonax.txt) | Name suggests emphasis on punch or kick impact. | General / Multi-Device | 0.00 dB | 31 |
+| 68 | [Harmony](presets-apo/Harmony.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 66 |
+| 69 | [HD Ears (Monax)](presets-apo/HD%20Ears%20%28Monax%29.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 17 |
+| 70 | [HD General Monax](presets-apo/HD%20General%20Monax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 17 |
+| 71 | [HD Headphones 50hz MDMonax](presets-apo/HD%20Headphones%2050hz%20MDMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Over-Ear Headphones | 0.00 dB | 31 |
+| 72 | [HD Headphones V2 Deep 50hz MDMonax](presets-apo/HD%20Headphones%20V2%20Deep%2050hz%20MDMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Over-Ear Headphones | 0.00 dB | 31 |
+| 73 | [Headphones Clear Monax](presets-apo/Headphones%20Clear%20Monax.txt) | Name suggests emphasis on clarity or vocals. | Over-Ear Headphones | 0.00 dB | 52 |
+| 74 | [Headphones FUNKI-Nude MDMonax](presets-apo/Headphones%20FUNKI-Nude%20MDMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Over-Ear Headphones | 0.00 dB | 17 |
+| 75 | [Hi res 2 Earphones Monax](presets-apo/Hi%20res%202%20Earphones%20Monax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 18 |
+| 76 | [Hi res TWS 4 Md Monax](presets-apo/Hi%20res%20TWS%204%20Md%20Monax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 16 |
+| 77 | [HIFIMAN TWS600](presets-apo/HIFIMAN%20TWS600.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 12 |
+| 78 | [hi-res stereo headphone](presets-apo/hi-res%20stereo%20headphone.txt) | Name identifies a headphone or earphone-oriented profile. | Over-Ear Headphones | 0.00 dB | 13 |
+| 79 | [Home Theater 2026 Bass tone 35hz Monax](presets-apo/Home%20Theater%202026%20Bass%20tone%2035hz%20Monax.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 23 |
+| 80 | [House El nino 50hz MDMONAX](presets-apo/House%20El%20nino%2050hz%20MDMONAX.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 45 |
+| 81 | [Icepower 1 Mdmonax](presets-apo/Icepower%201%20Mdmonax.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 |
+| 82 | [Icepower 2 Mdmonax](presets-apo/Icepower%202%20Mdmonax.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 |
+| 83 | [Indoor Clear MDMonax](presets-apo/Indoor%20Clear%20MDMonax.txt) | Name suggests emphasis on clarity or vocals. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 43 |
+| 84 | [Jazz punchyMDMonax 106hz](presets-apo/Jazz%20punchyMDMonax%20106hz.txt) | Name suggests emphasis on punch or kick impact. | General / Multi-Device | 0.00 dB | 5 |
+| 85 | [July 2026 Envelope Only MDMonax](presets-apo/July%202026%20Envelope%20Only%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 16 |
+| 86 | [June MDMonax DeepWaves 50hz Q1.00](presets-apo/June%20MDMonax%20DeepWaves%2050hz%20Q1.00.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 12 |
+| 87 | [Lenovo GM2 Pro - Balanced Bass Clear Highs](presets-apo/Lenovo%20GM2%20Pro%20-%20Balanced%20Bass%20Clear%20Highs.txt) | Name suggests emphasis on bass or low frequencies and clarity or vocals and treble or higher frequencies. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 7 |
+| 88 | [M19 earphones B](presets-apo/M19%20earphones%20B.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 21 |
+| 89 | [Marley](presets-apo/Marley.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 12 |
+| 90 | [Massive Bass Targa (Monax)](presets-apo/Massive%20Bass%20Targa%20%28Monax%29.txt) | Name suggests emphasis on bass or low frequencies. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 43 |
+| 91 | [Master](presets-apo/Master.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 |
+| 92 | [MDMonax Outdoor](presets-apo/MDMonax%20Outdoor.txt) | Name identifies this as a speaker or sound-system profile. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 34 |
+| 93 | [MiD BAss MDMONAX comp400hz](presets-apo/MiD%20BAss%20MDMONAX%20comp400hz.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 33 |
+| 94 | [Monax 45 hz](presets-apo/Monax%2045%20hz.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.04 dB | 30 |
+| 95 | [Monax Crossover Bass(L)](presets-apo/Monax%20Crossover%20Bass%28L%29.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 14 |
+| 96 | [Monax Crossover Bass(R)](presets-apo/Monax%20Crossover%20Bass%28R%29.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 14 |
+| 97 | [Monax full bass](presets-apo/Monax%20full%20bass.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 15 |
+| 98 | [Monax sub2](presets-apo/Monax%20sub2.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 15 |
+| 99 | [Monday Blues 2 Kick MDMonax](presets-apo/Monday%20Blues%202%20Kick%20MDMonax.txt) | Name suggests emphasis on punch or kick impact. | General / Multi-Device | 0.00 dB | 25 |
+| 100 | [Monday Blues deep v2 MDMonax](presets-apo/Monday%20Blues%20deep%20v2%20MDMonax.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 0.00 dB | 28 |
+| 101 | [Moondrop Chu2](presets-apo/Moondrop%20Chu2.txt) | Name identifies a device-specific tuning; use it as a starting point for the named model. | Earbuds / TWS / IEMs | -1.55 dB | 12 |
+| 102 | [Movie Bass Mod Slow MDMona](presets-apo/Movie%20Bass%20Mod%20Slow%20MDMona.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 15 |
+| 103 | [My Edifier TWS6](presets-apo/My%20Edifier%20TWS6.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 8 |
+| 104 | [Neo7SE Speaker - Less Bass More Depth](presets-apo/Neo7SE%20Speaker%20-%20Less%20Bass%20More%20Depth.txt) | Name suggests emphasis on reduced bass. | Small / Portable Speakers | 0.00 dB | 8 |
+| 105 | [Noise Cancel Guitar](presets-apo/Noise%20Cancel%20Guitar.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 39 |
+| 106 | [November Cascade MDMonax](presets-apo/November%20Cascade%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 17 |
+| 107 | [Num of Bands 28 First frq 30hz MDMonax](presets-apo/Num%20of%20Bands%2028%20First%20frq%2030hz%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 30 |
+| 108 | [Old Skul SuB Monax 2026](presets-apo/Old%20Skul%20SuB%20Monax%202026.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 17 |
+| 109 | [Outdoor MdMonax](presets-apo/Outdoor%20MdMonax.txt) | Name identifies this as a speaker or sound-system profile. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 25 |
+| 110 | [Outdoor Midrange MdMonax](presets-apo/Outdoor%20Midrange%20MdMonax.txt) | Name suggests emphasis on clarity or vocals. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 15 |
+| 111 | [P.M.P.O Speakers Clarity 40hz MDMonax](presets-apo/P.M.P.O%20Speakers%20Clarity%2040hz%20MDMonax.txt) | Name suggests emphasis on clarity or vocals. | Outdoor PA / DJ / Large Speakers | 0.00 dB | 45 |
+| 112 | [Parametric](presets-apo/Parametric.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 11 |
+| 113 | [Party 12 Stereo Trebble 7858khzQMax BassTone30hz Q0.55 MdMonax](presets-apo/Party%2012%20Stereo%20Trebble%207858khzQMax%20BassTone30hz%20Q0.55%20MdMonax.txt) | Name suggests emphasis on bass or low frequencies and treble or higher frequencies. | General / Multi-Device | 0.00 dB | 9 |
+| 114 | [Party Stereo 2 Bass Tone 48hz Q1.30 Compressor 320hz Monax](presets-apo/Party%20Stereo%202%20Bass%20Tone%2048hz%20Q1.30%20Compressor%20320hz%20Monax.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 20 |
+| 115 | [Party Stereo Bass Tone 55hz Q1.50 Compressor 450hz Monax](presets-apo/Party%20Stereo%20Bass%20Tone%2055hz%20Q1.50%20Compressor%20450hz%20Monax.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 22 |
+| 116 | [Phone speaker with clarity MDMonax](presets-apo/Phone%20speaker%20with%20clarity%20MDMonax.txt) | Name suggests emphasis on clarity or vocals. | Small / Portable Speakers | 0.00 dB | 20 |
+| 117 | [Pioneer Home theather MDMonax](presets-apo/Pioneer%20Home%20theather%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | Home Theater / Soundbar | 0.00 dB | 17 |
+| 118 | [PistonBuds Pro Q30 - Warm Bass](presets-apo/PistonBuds%20Pro%20Q30%20-%20Warm%20Bass.txt) | Name suggests emphasis on bass or low frequencies. | Earbuds / TWS / IEMs | 0.00 dB | 6 |
+| 119 | [Platinum](presets-apo/Platinum.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 |
+| 120 | [PoPiano MDMonax..Envelope 36hz](presets-apo/PoPiano%20MDMonax..Envelope%2036hz.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 10 |
+| 121 | [PoPiano2 Heavy MDMonax..Envelope 36hz](presets-apo/PoPiano2%20Heavy%20MDMonax..Envelope%2036hz.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 10 |
+| 122 | [PowerBass Room](presets-apo/PowerBass%20Room.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 47 |
+| 123 | [Presence (2)](presets-apo/Presence%20%282%29.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 |
+| 124 | [Presence](presets-apo/Presence.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 |
+| 125 | [Punchy Bass vijay](presets-apo/Punchy%20Bass%20vijay.txt) | Name suggests emphasis on bass or low frequencies and punch or kick impact. | General / Multi-Device | 0.00 dB | 10 |
+| 126 | [Punchy stereo MdMonax](presets-apo/Punchy%20stereo%20MdMonax.txt) | Name suggests emphasis on punch or kick impact. | General / Multi-Device | 0.00 dB | 8 |
+| 127 | [Punchy2 Small spk MDMonax 36hz](presets-apo/Punchy2%20Small%20spk%20MDMonax%2036hz.txt) | Name suggests emphasis on punch or kick impact. | Small / Portable Speakers | 0.00 dB | 13 |
+| 128 | [Reference X](presets-apo/Reference%20X.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 |
+| 129 | [Reggae MD Monax](presets-apo/Reggae%20MD%20Monax.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 0.00 dB | 27 |
+| 130 | [Reggae Monax](presets-apo/Reggae%20Monax.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 0.03 dB | 30 |
+| 131 | [Riddim 2026 MDMonax 40hz](presets-apo/Riddim%202026%20MDMonax%2040hz.txt) | Name identifies a music-style listening profile. | General / Multi-Device | 0.00 dB | 27 |
+| 132 | [Rnb2026MDMonax Hometheathers](presets-apo/Rnb2026MDMonax%20Hometheathers.txt) | Name identifies a music-style listening profile. | Home Theater / Soundbar | 0.00 dB | 32 |
+| 133 | [Signature](presets-apo/Signature.txt) | General EQ profile; the name does not specify a particular sound target. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 |
+| 134 | [Slow Mid Sony All stereo](presets-apo/Slow%20Mid%20Sony%20All%20stereo.txt) | Name suggests emphasis on bass or low frequencies. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 37 |
+| 135 | [SlowBass with Trebble MDMonax](presets-apo/SlowBass%20with%20Trebble%20MDMonax.txt) | Name suggests emphasis on bass or low frequencies and treble or higher frequencies. | General / Multi-Device | 0.00 dB | 21 |
+| 136 | [Small Speakers Clarity Punchy June Stereo Envelope 50hzQ1 MdMonax](presets-apo/Small%20Speakers%20Clarity%20Punchy%20June%20Stereo%20Envelope%2050hzQ1%20MdMonax.txt) | Name suggests emphasis on punch or kick impact and clarity or vocals. | Small / Portable Speakers | 0.00 dB | 9 |
+| 137 | [SonyX Monax 65hz Tone 45hzDelay(69)](presets-apo/SonyX%20Monax%2065hz%20Tone%2045hzDelay%2869%29.txt) | Name identifies a device-specific tuning; use it as a starting point for the named model. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 24 |
+| 138 | [SoundBar 102hz Q0.80 Cc MDMonax](presets-apo/SoundBar%20102hz%20Q0.80%20Cc%20MDMonax.txt) | Name identifies this as a speaker or sound-system profile. | Home Theater / Soundbar | 0.00 dB | 10 |
+| 139 | [Soundbar Monax (Envelope)](presets-apo/Soundbar%20Monax%20%28Envelope%29.txt) | Name identifies this as a speaker or sound-system profile. | Home Theater / Soundbar | 0.00 dB | 38 |
+| 140 | [SoundCloud JBL go 4](presets-apo/SoundCloud%20JBL%20go%204.txt) | Name identifies a device-specific tuning; use it as a starting point for the named model. | Small / Portable Speakers | -8.48 dB | 26 |
+| 141 | [standar iso226](presets-apo/standar%20iso226.txt) | Name identifies this as an ISO 226 equal-loudness profile. | General / Multi-Device | 0.00 dB | 12 |
+| 142 | [stereo standart iso 226](presets-apo/stereo%20standart%20iso%20226.txt) | Name identifies this as an ISO 226 equal-loudness profile. | General / Multi-Device | 0.00 dB | 12 |
+| 143 | [Strike](presets-apo/Strike.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 66 |
+| 144 | [Targa 15 Monamodi Monax 2026 Carbass](presets-apo/Targa%2015%20Monamodi%20Monax%202026%20Carbass.txt) | Name suggests emphasis on bass or low frequencies. | Car Audio / Subwoofer | 0.02 dB | 33 |
+| 145 | [Tempest home Bass Tone 30hz Q 0.50 MDMonax](presets-apo/Tempest%20home%20Bass%20Tone%2030hz%20Q%200.50%20MDMonax.txt) | Name suggests emphasis on bass or low frequencies. | General / Multi-Device | 0.00 dB | 10 |
+| 146 | [Titan](presets-apo/Titan.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 66 |
+| 147 | [TWS 2 MdMonax](presets-apo/TWS%202%20MdMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 31 |
+| 148 | [TWS Earphones 2 MDMONAX](presets-apo/TWS%20Earphones%202%20MDMONAX.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 10 |
+| 149 | [TWs Earphones MDMonax](presets-apo/TWs%20Earphones%20MDMonax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 9 |
+| 150 | [Tws Midnight Monax](presets-apo/Tws%20Midnight%20Monax.txt) | Name identifies a headphone or earphone-oriented profile. | Earbuds / TWS / IEMs | 0.00 dB | 8 |
+| 151 | [V8 2 MDMonax](presets-apo/V8%202%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 14 |
+| 152 | [V8 3 MDMonax](presets-apo/V8%203%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 14 |
+| 153 | [V8 latest MDMonax](presets-apo/V8%20latest%20MDMonax.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 13 |
+| 154 | [ViveX ultimate](presets-apo/ViveX%20ultimate.txt) | General EQ profile; the name does not specify a particular sound target. | General / Multi-Device | 0.00 dB | 13 |
+| 155 | [Vivo X200 Ultra](presets-apo/Vivo%20X200%20Ultra.txt) | Name identifies a device-specific tuning; use it as a starting point for the named model. | General / Multi-Device | 0.00 dB | 12 |
+| 156 | [Vocal](presets-apo/Vocal.txt) | Name suggests emphasis on clarity or vocals. | Headphones / Earbuds (All-Rounder) | 0.00 dB | 66 |
 
 ## HeSuVi Virtual Surround HRIRs (169)
 

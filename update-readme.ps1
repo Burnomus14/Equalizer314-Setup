@@ -114,6 +114,10 @@ function Escape-MarkdownCell([string]$value) {
     return $value.Replace("|", "\|")
 }
 
+function Escape-Html([string]$value) {
+    return [Net.WebUtility]::HtmlEncode($value)
+}
+
 $apoFiles = @(Get-ChildItem -LiteralPath (Join-Path $repoRoot "presets-apo") -Filter "*.txt" -File | Sort-Object Name)
 $wavFiles = @(Get-ChildItem -LiteralPath (Join-Path $repoRoot "hrir-surround") -Filter "*.wav" -File | Sort-Object Name)
 
@@ -178,6 +182,43 @@ if ($prefix -match '(?m)^(<<<<<<<|=======|>>>>>>>)') {
 
 $updatedReadme = $prefix + ($md -join "`n") + "`n"
 $utf8WithoutBom = New-Object System.Text.UTF8Encoding($false)
-[IO.File]::WriteAllText($readmePath, $updatedReadme, $utf8WithoutBom)
 
-Write-Host "Updated README.md with $($apoFiles.Count) EQ descriptions and $($wavFiles.Count) HRIR descriptions." -ForegroundColor Green
+$portalPath = Join-Path $repoRoot "index.html"
+$portalRows = New-Object System.Collections.Generic.List[string]
+foreach ($file in $apoFiles) {
+    $lines = @(Get-Content -LiteralPath $file.FullName)
+    $preampLine = $lines | Where-Object { $_ -match '^Preamp:' } | Select-Object -First 1
+    $preamp = if ($preampLine) { $preampLine -replace '^Preamp:\s*', '' } else { "Not specified" }
+    $bands = @($lines | Where-Object { $_ -match '^Filter\s+\d+:' }).Count
+    $name = Escape-Html $file.BaseName
+    $description = Escape-Html (Get-EqDescription $file.BaseName)
+    $device = Escape-Html (Get-EqDeviceTag $file.BaseName)
+    $url = [Uri]::EscapeDataString($file.Name).Replace("(", "%28").Replace(")", "%29")
+    $downloadName = Escape-Html $file.Name
+    $portalRows.Add("<tr><td><strong>$name</strong></td><td>$description</td><td>$device</td><td>$preamp</td><td>$bands</td><td><button class=""btn"" data-url=""presets-apo/$url"" data-name=""$downloadName"">Download .txt</button></td></tr>")
+}
+
+$portalSection = New-Object System.Collections.Generic.List[string]
+$portalSection.Add("<h2>Parametric EQ Presets ($($apoFiles.Count))</h2>")
+$portalSection.Add('<div class="wrap"><table><thead><tr><th>Preset</th><th>Description</th><th>Device</th><th>Preamp</th><th>Bands</th><th></th></tr></thead><tbody>')
+$portalSection.Add($portalRows -join "`n")
+$portalSection.Add('</tbody></table></div>')
+
+$portal = [IO.File]::ReadAllText($portalPath)
+$portalHeading = [regex]::Match($portal, '(?m)^<h2>Parametric EQ Presets \(\d+\)</h2>\r?\n')
+if (-not $portalHeading.Success) {
+    throw "Could not find the Parametric EQ Presets section in index.html."
+}
+$portalTailStart = $portalHeading.Index + $portalHeading.Length
+$portalTail = $portal.Substring($portalTailStart)
+$hrirHeading = [regex]::Match($portalTail, '(?m)^<h2>HeSuVi Virtual Surround HRIRs \(\d+\)</h2>')
+if (-not $hrirHeading.Success) {
+    throw "Could not find the HeSuVi section after the EQ table in index.html."
+}
+$portalEnd = $portalTailStart + $hrirHeading.Index
+$updatedPortal = $portal.Substring(0, $portalHeading.Index) + ($portalSection -join "`n") + "`n" + $portal.Substring($portalEnd)
+
+[IO.File]::WriteAllText($readmePath, $updatedReadme, $utf8WithoutBom)
+[IO.File]::WriteAllText($portalPath, $updatedPortal, $utf8WithoutBom)
+
+Write-Host "Updated README and download portal with $($apoFiles.Count) EQ descriptions and $($wavFiles.Count) HRIR descriptions." -ForegroundColor Green
