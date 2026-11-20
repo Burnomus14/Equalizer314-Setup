@@ -199,13 +199,16 @@ foreach ($file in $apoFiles) {
 }
 
 $portalSection = New-Object System.Collections.Generic.List[string]
+$portalSection.Add('<section id="eq-tab" class="tab-panel" role="tabpanel" aria-labelledby="tab-eq" tabindex="0" hidden>')
 $portalSection.Add("<h2>Parametric EQ Presets ($($apoFiles.Count))</h2>")
 $portalSection.Add('<div class="wrap"><table><thead><tr><th>Preset</th><th>Description</th><th>Device</th><th>Preamp</th><th>Bands</th><th></th></tr></thead><tbody>')
 $portalSection.Add($portalRows -join "`n")
 $portalSection.Add('</tbody></table></div>')
+$portalSection.Add('</section>')
+$portalSection.Add('<section id="hrir-tab" class="tab-panel" role="tabpanel" aria-labelledby="tab-hrir" tabindex="0" hidden>')
 
 $portal = [IO.File]::ReadAllText($portalPath)
-$portalHeading = [regex]::Match($portal, '(?m)^<h2>Parametric EQ Presets \(\d+\)</h2>\r?\n')
+$portalHeading = [regex]::Match($portal, '(?m)^(?:<section id="eq-tab"[^>]*>\r?\n)*<h2>Parametric EQ Presets \(\d+\)</h2>\r?\n')
 if (-not $portalHeading.Success) {
     throw "Could not find the Parametric EQ Presets section in index.html."
 }
