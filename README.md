@@ -6,7 +6,7 @@ A curated collection of converted Poweramp parametric EQ presets, a privacy-clea
 
 Because GitHub opens raw .txt and .json files in a browser preview tab, use the **One-Click Download Page** below for instant file downloads with search filtering:
 
-* **Open Instant Download Page:** [https://github.io](https://github.io) *(Enable GitHub Pages in repo Settings -> Pages -> Deploy from main branch)*
+* **Open Instant Download Page:** [https://burnomus14.github.io/Equalizer314-Setup/](https://burnomus14.github.io/Equalizer314-Setup/) *(Enable GitHub Pages in repo Settings -> Pages -> Deploy from main branch)*
 * **Download Equalizer314 App (APKs):** [https://github.com/bearinmindcat/Equalizer314/releases](https://github.com/bearinmindcat/Equalizer314/releases)
 * **Download Master Restore Backup:** [Equalizer314-RESTORE.json](https://githubusercontent.com/backups/Equalizer314-RESTORE.json) *(Right-click -> **Save link as...** or press Ctrl+S)*
 * **Download Full Pack as ZIP:** [Equalizer314-Setup-main.zip](https://github.com)
@@ -26,7 +26,7 @@ Get-ChildItem "hrir-surround/*.wav" | ForEach-Object { adb push $_.FullName "/sd
 
 ## Parametric EQ Presets (79 Profiles)
 
-> **Tip:** Clicking a .txt link on GitHub opens the raw preset text—press **Ctrl+S** (or tap **Share / Download** on mobile) to save it, or use the [Instant Download Page](https://github.io) for one-tap downloads.
+> **Tip:** Clicking a .txt link on GitHub opens the raw preset text—press **Ctrl+S** (or tap **Share / Download** on mobile) to save it, or use the [Instant Download Page](https://burnomus14.github.io/Equalizer314-Setup/) for one-tap downloads.
 
 | # | Preset Name | Recommended Device | Preamp | Active Bands | Raw File |
 | :--- | :--- | :--- | :--- | :--- | :--- |
