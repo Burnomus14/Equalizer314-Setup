@@ -10,6 +10,8 @@ Converted Poweramp parametric EQ presets (EqualizerAPO format), a restore backup
 * **Get the Equalizer314 app (APK releases):** https://github.com/bearinmindcat/Equalizer314/releases
 * **Master Restore Backup:** [backups/Equalizer314-RESTORE.json](backups/Equalizer314-RESTORE.json)
 
+This is a full Equalizer314 backup, not just a preset pack. It contains 156 custom EQ presets along with the saved EQ settings, device bindings, and app bindings. Import it with the app's **Restore** option to restore this preset collection and configuration. To load just one EQ preset, download an individual `.txt` file instead.
+
 Clicking a preset name below opens the file in GitHub. Use the portal above to download files.
 
 ## Quick Setup Commands (ADB)
