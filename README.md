@@ -2,6 +2,8 @@
 
 A curated collection of converted Poweramp parametric EQ presets, a privacy-cleaned Equalizer314 master restore backup, and HeSuVi Virtual Surround HRIR files.
 
+> **New here?** Jump to the [How to Use Equalizer314 (Beginner Guide)](#how-to-use-equalizer314-beginner-guide).
+
 ## One-Click Download Portal (Instant File Downloads)
 
 Because GitHub opens raw .txt and .json files in a browser preview tab, use the **One-Click Download Page** below for instant file downloads with search filtering:
@@ -13,6 +15,8 @@ Because GitHub opens raw .txt and .json files in a browser preview tab, use the 
 
 ## Quick Restore & Setup Commands (ADB)
 
+> **Optional.** You only need these for per-app control and virtual surround. Basic EQ works without them.
+
 ```powershell
 # 1. Grant system-wide audio session detection & Virtual Surround capture
 adb shell pm grant com.bearinmind.equalizer314 android.permission.DUMP
@@ -23,6 +27,170 @@ adb shell mkdir -p /sdcard/Download/Equalizer314_Presets /sdcard/Download/HeSuVi
 adb push "backups/Equalizer314-RESTORE.json" "/sdcard/Download/Equalizer314_Presets/"
 Get-ChildItem "hrir-surround/*.wav" | ForEach-Object { adb push $_.FullName "/sdcard/Download/HeSuVi_HRIR/$($_.Name)" }
 ```
+
+## How to Use Equalizer314 (Beginner Guide)
+
+Equalizer314 changes the sound of your **whole phone** (music, videos, games, other apps). You can boost bass, soften harsh treble, or correct your headphones. It needs **Android 9 or newer**, no root, and almost no permissions.
+
+> **New to equalizers?** An equalizer (EQ) turns specific pitches up or down. Low pitches = bass, high pitches = treble. A **preset** is a saved EQ setting you can load in one tap.
+
+### Quick Start (5 minutes)
+
+1. **Install the app** from GitHub, F-Droid, Obtainium or Google Play (links in the Downloads section above).
+2. **Close other EQ apps** (Wavelet, Poweramp EQ, built-in phone equalizers). Only one EQ app can control the phone's audio at a time.
+3. **Open Equalizer314** and allow notifications if asked. This helps the app see which apps are playing.
+4. **Turn it on** with the power button, or use the Quick Settings tile (see below).
+5. **Play some music** and start with **Simple mode** (it is on the first screen). Drag a point up or down and listen to the change.
+6. **Load a preset** from this repo (see [Using the presets in this repo](#using-the-presets-in-this-repo)).
+
+> The ADB commands in [Quick Restore & Setup Commands](#quick-restore--setup-commands-adb) are **optional**. You only need them for per-app control and virtual surround. Basic EQ works without them.
+
+---
+
+### The Main Features, Explained
+
+#### 1. EQ Modes (Simple, Parametric, Graphic, Table)
+**What it does:** Four ways to edit the same sound.
+- **Simple:** easiest. Drag a few points up or down.
+- **Parametric:** most powerful. Drag points on the graph to choose the pitch, the boost or cut, and how wide it is (Q).
+- **Graphic:** a row of sliders, like a classic equalizer.
+- **Table:** type exact numbers for each band.
+
+**How to use:**
+1. Pick a mode on the main screen.
+2. Drag points on the graph, or use the sliders or table.
+3. Want fewer modes? Go to **Settings > EQ Modes & UI** and hide the ones you don't use.
+
+**Tips:**
+- In Parametric mode, **tap and hold a band** to change its filter type (the app supports all 12 filter types from the Equalizer APO format).
+- Made a mistake? Use **Undo / Redo**; they work in every mode.
+- The graph shows **gain colours** as a warning when your EQ may be too loud.
+- You can toggle **per-band colour curves** from the top-left of the graph to see what each band does.
+
+#### 2. Preamp and Gain Protection
+**What it does:** Boosting EQ can make sound distort. A **preamp** lowers the overall volume first so boosts have room.
+
+**How to use:** If sound crackles after a big boost, lower the preamp, or use the **gain reduction** slider in Settings.
+
+#### 3. Left / Right Channel Settings
+**What it does:** Lets you EQ the left and right ears differently, or balance them.
+
+**How to use:**
+1. Tap the **split icon** at the top left of the main EQ screen.
+2. Switch between **L** and **R** to edit each side.
+3. Open the channel options to adjust each side's preamp and balance.
+4. Use the **tether** option to link both sides so they move together.
+
+#### 4. Presets (Save, Load, Import, Export)
+**What it does:** Saves your EQ so you can reuse it.
+
+**How to use:**
+1. Make an EQ you like and **save it as a custom preset**.
+2. Load any saved preset from the preset list on the main screen.
+3. **Import** presets made elsewhere. The app reads Equalizer APO `.txt` files (like the ones in this repo), plus Wavelet and Poweramp EQ presets.
+4. **Export** your preset as an Equalizer APO file to use on a PC. You can also export compressor and limiter settings.
+5. **Overwrite** an existing preset when you improve it.
+
+#### 5. Generate Custom EQ (AutoEQ)
+**What it does:** Builds a correction for **your headphones** automatically. You give it a *measurement* of your headphones and a *target sound*.
+
+**How to use:**
+1. Find your headphone measurement file (for example on squig.link).
+2. Open **Generate Custom EQ** in the app.
+3. Choose the measurement and a target curve.
+4. Generate, listen, then save the result as a preset.
+
+#### 6. Multiband Compressor (MBC)
+**What it does:** Evens out loud and quiet parts **separately in different pitch ranges**. Think of it as an automatic volume hand for bass, mids and treble. It has live meters so you can see it working.
+
+**How to use:**
+1. Open the compressor screen and turn it on.
+2. Play music and watch the meters move.
+3. Change a value by using the slider **or** by dragging your finger on the graph.
+4. If the sound gets squashed or dull, go back and use gentler settings.
+
+#### 7. Limiter
+**What it does:** Stops sudden loud peaks, so they can't blast your ears or distort.
+
+**How to use:** Turn it on and watch the waveform meter. Use it as a safety net at the end of your sound chain.
+
+#### 8. Environmental Reverb
+**What it does:** Adds a room-like echo (small room, hall, and so on).
+
+**How to use:** Turn it on and adjust the amount until it sounds natural. A little goes a long way.
+
+#### 9. Audio Effects Pipeline (Apps and Devices)
+**What it does:** Uses different sound settings for different **apps** or **output devices**.
+
+- **Channel Output (devices):** give Bluetooth, speaker or USB DAC their own preset. The app can switch automatically when you connect a device. Pick **Disable EQ** for a device that should stay untouched.
+- **Channel Input (apps):** attach a preset to a single app, and choose to skip system sounds. Use the **Filtered / Show All** chips to find your app.
+
+**How to use:**
+1. Open the **Audio Effects Pipeline** section.
+2. Pick **Channel Output** or **Channel Input**.
+3. Choose the device or app, then choose its preset.
+
+> Per-app control needs the optional ADB step above, and only works with apps that tell Android when they start playing.
+
+#### 10. Live Spectrum
+**What it does:** Shows the sound moving in real time so you can match what you see to what you hear.
+
+#### 11. Quick Settings Tile
+**What it does:** An on/off button in your phone's notification shade.
+
+**How to use:** Swipe down, edit the tiles, and add **Equalizer314**. Tap it to switch processing on or off. Long-press it to open the app.
+
+#### 12. Backup and Restore
+**What it does:** Saves all your settings and bindings to one `.json` file.
+
+**How to use:** Use the backup option in the app to export, and the restore option to import. The **Master Restore Backup** in this repo is one of these files.
+
+#### 13. Appearance and Language
+- **Settings > EQ Modes & UI:** choose Light, Dark, Black AMOLED, or Follow system.
+- **Settings > Language:** English, Russian, Ukrainian, Portuguese, Spanish, or System default.
+
+#### 14. Experimental Features
+Found under the experimental section. They include:
+- more EQ bands (up to 64)
+- notification settings and a hide-notification option
+- auto-save presets
+- **Remote / TV mode:** control the app from another device on your home network, paired with a PIN
+
+#### 15. Pixel Compatibility Mode
+**What it does:** Pixel phones and some other devices limit how many bands can be used. This mode caps the bands at 32 to fix it.
+
+**How to use:** Turn it on in Settings if the EQ does nothing or sounds wrong on a Pixel.
+
+---
+
+### Using the Presets in This Repo
+
+1. Open the [preset table](#parametric-eq-presets-79-profiles) and pick one that matches your device (earbuds, car, outdoor speakers, soundbar and so on).
+2. Download the `.txt` file (use the [Instant Download Page](https://burnomus14.github.io/Equalizer314-Setup/) for one-tap downloads).
+3. In Equalizer314, **import** the file.
+4. Play music, listen, and adjust. If it's too loud or distorted, lower the preamp.
+5. Save your edited version as a custom preset.
+
+**To restore everything at once:** download `Equalizer314-RESTORE.json` and use the app's restore option.
+
+### Virtual Surround (HRIR Files)
+
+The HRIR `.wav` files in this repo are for virtual surround, which makes stereo sound feel wider on headphones. They are meant for **headphones and earbuds only**. See the [HRIR table](#hesuvi-virtual-surround-hrirs-169-profiles) and the optional ADB commands above to copy the files to your phone.
+
+<!-- CHECK before publishing: confirm in the app exactly how HRIR files are loaded, as the official README does not describe it. -->
+
+### Troubleshooting
+
+| Problem | What to try |
+| :--- | :--- |
+| **No change in sound** | Close other EQ apps. Make sure the power button is on. Some apps and phones ignore system-wide EQ. |
+| **Short glitches or dropouts** | The app is taking audio control back from another EQ app. Close the other app. |
+| **EQ does nothing on a Pixel** | Turn on **Pixel Compatibility Mode**. |
+| **Sound is distorted or crackling** | Lower the preamp, use the gain reduction slider, and turn on the limiter. |
+| **App presets don't switch** | The app must tell Android it is playing. Allow notification access and use the Channel Input screen. |
+| **EQ is gone after restart** | Open the app once, or restore your backup `.json`. |
+
+> The app is in **beta**, so menu names may change between versions. If something looks different, check the latest release notes: https://github.com/bearinmindcat/Equalizer314/releases
 
 ## Parametric EQ Presets (79 Profiles)
 
