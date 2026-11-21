@@ -10,7 +10,7 @@ Converted Poweramp parametric EQ presets (EqualizerAPO format), a restore backup
 * **Get the Equalizer314 app (APK releases):** https://github.com/bearinmindcat/Equalizer314/releases
 * **Master Restore Backup:** [backups/Equalizer314-RESTORE.json](backups/Equalizer314-RESTORE.json)
 
-This is a full Equalizer314 backup, not just a preset pack. It contains 156 custom EQ presets along with the saved EQ settings, device bindings, and app bindings. Import it with the app's **Restore** option to restore this preset collection and configuration. To load just one EQ preset, download an individual `.txt` file instead.
+This backup contains 156 custom EQ presets only; it does not include saved EQ settings or device/app bindings. Import it with the app's **Restore** option to replace the app's current custom-preset collection with these presets while keeping your settings and bindings. The app may correct invalid or out-of-range DSP setting values during import. To load just one EQ preset, download an individual `.txt` file instead.
 
 Clicking a preset name below opens the file in GitHub. Use the portal above to download files.
 
@@ -140,7 +140,7 @@ Equalizer314 changes the sound of your **whole phone** (music, videos, games, ot
 #### 12. Backup and Restore
 **What it does:** Saves all your settings and bindings to one `.json` file.
 
-**How to use:** Use the backup option in the app to export, and the restore option to import. The **Master Restore Backup** in this repo is one of these files.
+**How to use:** Use the backup option in the app to export, and the restore option to import. The **Master Restore Backup** in this repo contains only presets and replaces the current custom-preset collection; it does not restore settings or bindings. The app may correct invalid or out-of-range DSP values during import.
 
 #### 13. Appearance and Language
 - **Settings > EQ Modes & UI:** choose Light, Dark, Black AMOLED, or Follow system.
@@ -168,11 +168,11 @@ Found under the experimental section. They include:
 4. Play music, listen, and adjust. If it's too loud or distorted, lower the preamp.
 5. Save your edited version as a custom preset.
 
-**To restore everything at once:** download `Equalizer314-RESTORE.json` and use the app's restore option.
+**To import the preset collection:** download `Equalizer314-RESTORE.json` and use the app's restore option. It replaces the custom-preset collection without restoring settings or bindings.
 
 ### Virtual Surround (HRIR Files)
 
-The HRIR `.wav` files in this repo are for virtual surround, which makes stereo sound feel wider on headphones. They are meant for **headphones and earbuds only**. See the [HRIR table](#hesuvi-virtual-surround-hrirs-169-profiles) and the optional ADB commands above to copy the files to your phone.
+The HRIR `.wav` files in this repo are for virtual surround, which makes stereo sound feel wider on headphones. They are meant for **headphones and earbuds only**. [Download all 169 files as a ZIP](hrir-surround-download.zip) and extract them from the `hrir-surround` folder, or use the [HRIR table](#hesuvi-virtual-surround-hrirs-169-profiles) to download individual files. The optional ADB commands above can copy the extracted files to your phone.
 
 <!-- CHECK before publishing: confirm in the app exactly how HRIR files are loaded, as the official README does not describe it. -->
 
